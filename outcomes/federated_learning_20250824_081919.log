@@ -1,0 +1,1256 @@
+2025-08-24 08:19:29,137 - INFO - Starting federated learning with model: lenet5, algorithm: fednolowe, clients: 50, rounds: 50
+2025-08-24 08:19:29,238 - INFO - Initial data proportions assigned to clients: [0.014433333333333333, 0.048216666666666665, 0.039683333333333334, 0.03675, 0.020883333333333334, 0.0010666666666666667, 0.0062833333333333335, 0.0148, 0.0033666666666666667, 0.026466666666666666, 0.014266666666666667, 0.023783333333333333, 0.0201, 0.012966666666666666, 0.024633333333333333, 0.0012833333333333334, 0.012816666666666667, 0.016366666666666668, 0.00765, 0.007966666666666667, 0.029916666666666668, 0.0006, 0.05553333333333333, 0.0422, 0.0104, 0.008116666666666666, 0.013116666666666667, 0.02125, 0.018933333333333333, 0.01625, 0.00065, 0.006483333333333333, 0.013016666666666666, 0.017383333333333334, 0.029416666666666667, 0.009066666666666667, 0.0082, 0.0058, 0.0499, 0.02033333333333333, 0.05361666666666667, 0.06661666666666667, 0.004383333333333334, 0.019216666666666667, 0.024483333333333333, 0.024083333333333335, 0.021583333333333333, 0.025583333333333333, 0.0005333333333333334, 0.02955]
+2025-08-24 08:19:29,397 - INFO - Starting Round 1/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:19:29,398 - INFO - Selected clients for Round 1: [40, 7, 1, 47, 17]
+2025-08-24 08:19:32,887 - INFO - Client 40 Train Loss: 0.2505
+2025-08-24 08:19:33,797 - INFO - Client 7 Train Loss: 0.6361
+2025-08-24 08:19:37,084 - INFO - Client 1 Train Loss: 0.0432
+2025-08-24 08:19:38,666 - INFO - Client 47 Train Loss: 0.2360
+2025-08-24 08:19:39,652 - INFO - Client 17 Train Loss: 0.6058
+2025-08-24 08:19:39,653 - INFO - Global Average Train Loss: 0.3543
+2025-08-24 08:19:39,653 - INFO - Clients train loss: [0.250525551502233, 0.6360941898111288, 0.04315232853867731, 0.23601676080230297, 0.6057674254379909]
+2025-08-24 08:19:39,654 - INFO - Normalized clients train loss: [0.21464612 0.16023511 0.24391039 0.21669358 0.16451479]
+2025-08-24 08:19:39,770 - INFO - Cosine similarities: [0.42483678460121155, 0.392328679561615, 1.6425127588332727e-14, 0.07123017311096191, 0.8283497095108032]
+2025-08-24 08:19:39,771 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3433
+2025-08-24 08:19:42,484 - INFO - Global Model Validation Loss: 2.6001, Top1_Accuracy: 10.10%, Top5_Accuracy: 60.89%
+2025-08-24 08:19:42,484 - INFO - Precision: 0.9092, Recall: 0.1010, F1-Score: 0.0185
+2025-08-24 08:19:42,485 - INFO - Confusion Matrix:
+[[   0    0    0  980    0    0    0    0    0    0]
+ [   0    0    0 1135    0    0    0    0    0    0]
+ [   0    0    0 1032    0    0    0    0    0    0]
+ [   0    0    0 1010    0    0    0    0    0    0]
+ [   0    0    0  982    0    0    0    0    0    0]
+ [   0    0    0  892    0    0    0    0    0    0]
+ [   0    0    0  958    0    0    0    0    0    0]
+ [   0    0    0 1028    0    0    0    0    0    0]
+ [   0    0    0  974    0    0    0    0    0    0]
+ [   0    0    0 1009    0    0    0    0    0    0]]
+2025-08-24 08:19:42,485 - INFO - Starting Round 2/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:19:42,485 - INFO - Selected clients for Round 2: [15, 14, 8, 47, 6]
+2025-08-24 08:19:42,583 - INFO - Client 15 Train Loss: 2.7939
+2025-08-24 08:19:44,128 - INFO - Client 14 Train Loss: 0.4373
+2025-08-24 08:19:44,365 - INFO - Client 8 Train Loss: 1.6997
+2025-08-24 08:19:45,978 - INFO - Client 47 Train Loss: 0.1121
+2025-08-24 08:19:46,418 - INFO - Client 6 Train Loss: 0.3415
+2025-08-24 08:19:46,418 - INFO - Global Average Train Loss: 1.0769
+2025-08-24 08:19:46,419 - INFO - Clients train loss: [2.7939147523471286, 0.437323535804817, 1.699675446689719, 0.1121216439464545, 0.3414812613703528]
+2025-08-24 08:19:46,419 - INFO - Normalized clients train loss: [0.12028015 0.22969532 0.17108505 0.24479426 0.23414522]
+2025-08-24 08:19:46,514 - INFO - Cosine similarities: [0.6474199295043945, 0.18544933199882507, 0.6881535649299622, 0.18629664182662964, 0.37901386618614197]
+2025-08-24 08:19:46,514 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.4173
+2025-08-24 08:19:49,079 - INFO - Global Model Validation Loss: 1.9395, Top1_Accuracy: 21.57%, Top5_Accuracy: 77.07%
+2025-08-24 08:19:49,079 - INFO - Precision: 0.6774, Recall: 0.2157, F1-Score: 0.1901
+2025-08-24 08:19:49,080 - INFO - Confusion Matrix:
+[[   0    0    0    0    9    0  194  777    0    0]
+ [   0    0    0    0   59    0    5 1071    0    0]
+ [   0    0    0    0  285    0   42  705    0    0]
+ [   0    0    0    0  153    0   35  821    1    0]
+ [   0    0    0    0  979    0    1    2    0    0]
+ [   0    0    0    0  313    0   71  508    0    0]
+ [   0    0    0    0  775    0  166   17    0    0]
+ [   0    0    0    0   16    0    0 1012    0    0]
+ [   0    0    0    0  255    0   69  650    0    0]
+ [   0    0    0    0  814    0    0  195    0    0]]
+2025-08-24 08:19:49,081 - INFO - Starting Round 3/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:19:49,081 - INFO - Selected clients for Round 3: [43, 47, 34, 5, 37]
+2025-08-24 08:19:50,275 - INFO - Client 43 Train Loss: 0.4899
+2025-08-24 08:19:51,897 - INFO - Client 47 Train Loss: 0.0506
+2025-08-24 08:19:53,830 - INFO - Client 34 Train Loss: 0.1276
+2025-08-24 08:19:53,905 - INFO - Client 5 Train Loss: 0.7200
+2025-08-24 08:19:54,290 - INFO - Client 37 Train Loss: 0.7210
+2025-08-24 08:19:54,290 - INFO - Global Average Train Loss: 0.4218
+2025-08-24 08:19:54,291 - INFO - Clients train loss: [0.4899245233212321, 0.050647150814390654, 0.127564441296509, 0.7199753522872925, 0.7209866442557039]
+2025-08-24 08:19:54,291 - INFO - Normalized clients train loss: [0.19192725 0.24399659 0.23487927 0.16465839 0.16453851]
+2025-08-24 08:19:54,387 - INFO - Cosine similarities: [0.4763023555278778, -0.056171152740716934, 0.56633061170578, 0.4779508709907532, 0.5731251239776611]
+2025-08-24 08:19:54,387 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.4075
+2025-08-24 08:19:57,019 - INFO - Global Model Validation Loss: 1.6684, Top1_Accuracy: 37.44%, Top5_Accuracy: 87.27%
+2025-08-24 08:19:57,019 - INFO - Precision: 0.8069, Recall: 0.3744, F1-Score: 0.2979
+2025-08-24 08:19:57,020 - INFO - Confusion Matrix:
+[[  0   0   0   0   0 589 390   1   0   0]
+ [  0  52   0   0   0 504 422 157   0   0]
+ [  0   0 280   2   0 151 477 119   3   0]
+ [  0   0   0   8   0 984   2  16   0   0]
+ [  0   0   0   0 587 163 232   0   0   0]
+ [  0   0   0   0   0 884   7   1   0   0]
+ [  0   0   0   0   1  20 937   0   0   0]
+ [  0   0   5   0   0  69   2 952   0   0]
+ [  0   0   0   0   0 898  26   6  44   0]
+ [  0   0   0   0  18 889  59  43   0   0]]
+2025-08-24 08:19:57,021 - INFO - Starting Round 4/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:19:57,021 - INFO - Selected clients for Round 4: [27, 2, 1, 5, 13]
+2025-08-24 08:19:58,360 - INFO - Client 27 Train Loss: 0.1564
+2025-08-24 08:20:00,735 - INFO - Client 2 Train Loss: 0.0162
+2025-08-24 08:20:03,803 - INFO - Client 1 Train Loss: 0.0254
+2025-08-24 08:20:03,882 - INFO - Client 5 Train Loss: 0.9564
+2025-08-24 08:20:04,704 - INFO - Client 13 Train Loss: 0.3890
+2025-08-24 08:20:04,704 - INFO - Global Average Train Loss: 0.3087
+2025-08-24 08:20:04,705 - INFO - Clients train loss: [0.15639065365434862, 0.01618324564739708, 0.025391110740072782, 0.9564463198184967, 0.3890054215961986]
+2025-08-24 08:20:04,705 - INFO - Normalized clients train loss: [0.22466811 0.24737867 0.24588719 0.09507646 0.18698957]
+2025-08-24 08:20:04,801 - INFO - Cosine similarities: [0.15850737690925598, -0.07389198243618011, -1.1071032446352547e-07, 0.806179940700531, 0.6652755737304688]
+2025-08-24 08:20:04,801 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3112
+2025-08-24 08:20:07,397 - INFO - Global Model Validation Loss: 2.7675, Top1_Accuracy: 36.82%, Top5_Accuracy: 86.48%
+2025-08-24 08:20:07,398 - INFO - Precision: 0.8461, Recall: 0.3682, F1-Score: 0.2652
+2025-08-24 08:20:07,399 - INFO - Confusion Matrix:
+[[   0    0    0  779  201    0    0    0    0    0]
+ [   0 1058    0   34   43    0    0    0    0    0]
+ [   0    0    0  653  377    0    0    2    0    0]
+ [   0    0    0  985   25    0    0    0    0    0]
+ [   0    0    0    0  982    0    0    0    0    0]
+ [   0    0    0  712  180    0    0    0    0    0]
+ [   0    2    0   42  914    0    0    0    0    0]
+ [   0   10    0  132  229    0    0  657    0    0]
+ [   0    0    0  722  252    0    0    0    0    0]
+ [   0    2    0   18  987    0    0    2    0    0]]
+2025-08-24 08:20:07,400 - INFO - Starting Round 5/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:20:07,401 - INFO - Selected clients for Round 5: [14, 32, 38, 1, 35]
+2025-08-24 08:20:08,921 - INFO - Client 14 Train Loss: 0.1844
+2025-08-24 08:20:09,689 - INFO - Client 32 Train Loss: 0.4554
+2025-08-24 08:20:12,902 - INFO - Client 38 Train Loss: 0.0687
+2025-08-24 08:20:15,918 - INFO - Client 1 Train Loss: 0.0026
+2025-08-24 08:20:16,541 - INFO - Client 35 Train Loss: 0.2126
+2025-08-24 08:20:16,541 - INFO - Global Average Train Loss: 0.1847
+2025-08-24 08:20:16,542 - INFO - Clients train loss: [0.18437736540785782, 0.45537444329927895, 0.06867631258876755, 0.0025830535157924848, 0.21256555164890253]
+2025-08-24 08:20:16,542 - INFO - Normalized clients train loss: [0.20009149 0.12673616 0.23141023 0.2493008  0.19246132]
+2025-08-24 08:20:16,650 - INFO - Cosine similarities: [0.5060403347015381, 0.742897629737854, 2.1918304844714687e-12, 0.061475396156311035, 0.48483553528785706]
+2025-08-24 08:20:16,650 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3590
+2025-08-24 08:20:19,313 - INFO - Global Model Validation Loss: 1.5687, Top1_Accuracy: 39.54%, Top5_Accuracy: 97.27%
+2025-08-24 08:20:19,313 - INFO - Precision: 0.8822, Recall: 0.3954, F1-Score: 0.3350
+2025-08-24 08:20:19,314 - INFO - Confusion Matrix:
+[[ 980    0    0    0    0    0    0    0    0    0]
+ [  10 1125    0    0    0    0    0    0    0    0]
+ [1015    9    0    0    0    0    6    2    0    0]
+ [ 969    1    0   32    0    0    0    8    0    0]
+ [ 789    7    0    0  155    0   13   18    0    0]
+ [ 891    1    0    0    0    0    0    0    0    0]
+ [ 195    3    0    0    0    0  760    0    0    0]
+ [ 107   19    0    0    0    0    0  902    0    0]
+ [ 953   12    0    0    0    0    0    9    0    0]
+ [ 731   12    0    0    0    0    0  266    0    0]]
+2025-08-24 08:20:19,314 - INFO - Starting Round 6/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:20:19,315 - INFO - Selected clients for Round 6: [12, 45, 41, 44, 34]
+2025-08-24 08:20:20,805 - INFO - Client 12 Train Loss: 0.1191
+2025-08-24 08:20:22,279 - INFO - Client 45 Train Loss: 0.0886
+2025-08-24 08:20:26,413 - INFO - Client 41 Train Loss: 0.0259
+2025-08-24 08:20:27,971 - INFO - Client 44 Train Loss: 0.1180
+2025-08-24 08:20:29,948 - INFO - Client 34 Train Loss: 0.0582
+2025-08-24 08:20:29,949 - INFO - Global Average Train Loss: 0.0819
+2025-08-24 08:20:29,949 - INFO - Clients train loss: [0.11912400253515162, 0.08858377250767561, 0.025867366602147595, 0.11798208379240578, 0.05817965559430269]
+2025-08-24 08:20:29,950 - INFO - Normalized clients train loss: [0.17731677 0.19595082 0.23421709 0.17801351 0.21450182]
+2025-08-24 08:20:30,056 - INFO - Cosine similarities: [0.260097861289978, 0.4186263680458069, 0.008767552673816681, 0.8328506946563721, 0.3761403560638428]
+2025-08-24 08:20:30,056 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3793
+2025-08-24 08:20:32,765 - INFO - Global Model Validation Loss: 1.2423, Top1_Accuracy: 66.60%, Top5_Accuracy: 88.66%
+2025-08-24 08:20:32,766 - INFO - Precision: 0.8132, Recall: 0.6660, F1-Score: 0.5847
+2025-08-24 08:20:32,767 - INFO - Confusion Matrix:
+[[   0    2  261    0    2  231  483    1    0    0]
+ [   0 1126    5    0    0    0    4    0    0    0]
+ [   0    7  975    5   17    8   14    6    0    0]
+ [   0    1   45  740    0  209    2   13    0    0]
+ [   0    1    2    0  968    0   11    0    0    0]
+ [   0    2    2    1   17  857   12    1    0    0]
+ [   0    2    2    0   15    4  935    0    0    0]
+ [   0   16   70    0   33    2    0  907    0    0]
+ [   0   36   46    7   67  575   84    7  152    0]
+ [   0    8   23    0  901   42    1   34    0    0]]
+2025-08-24 08:20:32,767 - INFO - Starting Round 7/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:20:32,767 - INFO - Selected clients for Round 7: [26, 14, 28, 37, 17]
+2025-08-24 08:20:33,614 - INFO - Client 26 Train Loss: 0.3564
+2025-08-24 08:20:35,167 - INFO - Client 14 Train Loss: 0.0898
+2025-08-24 08:20:36,407 - INFO - Client 28 Train Loss: 0.3203
+2025-08-24 08:20:36,794 - INFO - Client 37 Train Loss: 0.1350
+2025-08-24 08:20:37,811 - INFO - Client 17 Train Loss: 0.4002
+2025-08-24 08:20:37,811 - INFO - Global Average Train Loss: 0.2603
+2025-08-24 08:20:37,812 - INFO - Clients train loss: [0.356354076864986, 0.08984193665319512, 0.3203440325623247, 0.1350081406919093, 0.4001964478470886]
+2025-08-24 08:20:37,813 - INFO - Normalized clients train loss: [0.18156222 0.23274586 0.18847794 0.22407169 0.17314229]
+2025-08-24 08:20:37,910 - INFO - Cosine similarities: [0.48447325825691223, 0.31467604637145996, 0.5859479308128357, 0.5357549786567688, 0.3199329674243927]
+2025-08-24 08:20:37,910 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.4482
+2025-08-24 08:20:40,497 - INFO - Global Model Validation Loss: 0.9987, Top1_Accuracy: 63.07%, Top5_Accuracy: 97.20%
+2025-08-24 08:20:40,497 - INFO - Precision: 0.7605, Recall: 0.6307, F1-Score: 0.5538
+2025-08-24 08:20:40,498 - INFO - Confusion Matrix:
+[[   6    3  582  124    0   30  219    2   10    4]
+ [   0 1121    9    5    0    0    0    0    0    0]
+ [   0    1 1012   14    0    0    2    0    0    3]
+ [   0    0    9  997    0    0    0    4    0    0]
+ [   0   17   29    0    4    0   14    0    2  916]
+ [   0    2    5  752    0   88    1    0   41    3]
+ [   0    3   37    4    1    0  908    0    3    2]
+ [   0    5  252   31    0    0    0  635    0  105]
+ [   0   11   71  233    0    0   12    2  617   28]
+ [   0    8   21   54    0    0    0    7    0  919]]
+2025-08-24 08:20:40,498 - INFO - Starting Round 8/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:20:40,498 - INFO - Selected clients for Round 8: [0, 48, 10, 44, 27]
+2025-08-24 08:20:41,445 - INFO - Client 0 Train Loss: 0.1637
+2025-08-24 08:20:41,485 - INFO - Client 48 Train Loss: 1.1890
+2025-08-24 08:20:42,377 - INFO - Client 10 Train Loss: 0.2117
+2025-08-24 08:20:43,886 - INFO - Client 44 Train Loss: 0.0900
+2025-08-24 08:20:45,175 - INFO - Client 27 Train Loss: 0.1256
+2025-08-24 08:20:45,176 - INFO - Global Average Train Loss: 0.3560
+2025-08-24 08:20:45,176 - INFO - Clients train loss: [0.16365615933849575, 1.1890091001987457, 0.2116693350373306, 0.09000669981380247, 0.12564413990241055]
+2025-08-24 08:20:45,177 - INFO - Normalized clients train loss: [0.2270144  0.08300297 0.22027092 0.23735851 0.23235321]
+2025-08-24 08:20:45,270 - INFO - Cosine similarities: [0.30252787470817566, 0.36632052063941956, 0.6649104356765747, 0.16743989288806915, 0.1870044320821762]
+2025-08-24 08:20:45,270 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3376
+2025-08-24 08:20:47,792 - INFO - Global Model Validation Loss: 1.1742, Top1_Accuracy: 61.04%, Top5_Accuracy: 98.03%
+2025-08-24 08:20:47,792 - INFO - Precision: 0.7741, Recall: 0.6104, F1-Score: 0.5229
+2025-08-24 08:20:47,793 - INFO - Confusion Matrix:
+[[ 264    1    0    0   13  270  320   30   82    0]
+ [   0 1125    0    0    0    0    3    4    3    0]
+ [   4  101  152    0   38   15   67  472  183    0]
+ [   0    1    0   62    1  714    0   63  169    0]
+ [   0    2    0    0  961    0    8    9    2    0]
+ [   0    1    0    0    2  657    2    9  221    0]
+ [   1    2    0    0   19    5  917    0   14    0]
+ [   0    4    0    0    1    0    0 1021    2    0]
+ [   0    2    0    0    5    1    3   18  945    0]
+ [   1    3    0    0  423   11    1  550   20    0]]
+2025-08-24 08:20:47,794 - INFO - Starting Round 9/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:20:47,794 - INFO - Selected clients for Round 9: [21, 17, 9, 13, 48]
+2025-08-24 08:20:47,847 - INFO - Client 21 Train Loss: 0.9706
+2025-08-24 08:20:48,836 - INFO - Client 17 Train Loss: 0.1887
+2025-08-24 08:20:50,495 - INFO - Client 9 Train Loss: 0.0287
+2025-08-24 08:20:51,278 - INFO - Client 13 Train Loss: 0.1643
+2025-08-24 08:20:51,318 - INFO - Client 48 Train Loss: 0.4166
+2025-08-24 08:20:51,318 - INFO - Global Average Train Loss: 0.3538
+2025-08-24 08:20:51,319 - INFO - Clients train loss: [0.9706388778156705, 0.1886632863471053, 0.028662133175955753, 0.16427403472000038, 0.4165782630443573]
+2025-08-24 08:20:51,319 - INFO - Normalized clients train loss: [0.11281239 0.22333482 0.24594897 0.22678193 0.1911219 ]
+2025-08-24 08:20:51,413 - INFO - Cosine similarities: [0.7584520578384399, 0.3939351439476013, 0.04560336843132973, 0.03249470144510269, 0.7093799114227295]
+2025-08-24 08:20:51,414 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3880
+2025-08-24 08:20:53,968 - INFO - Global Model Validation Loss: 0.9452, Top1_Accuracy: 68.81%, Top5_Accuracy: 98.42%
+2025-08-24 08:20:53,968 - INFO - Precision: 0.7934, Recall: 0.6881, F1-Score: 0.6341
+2025-08-24 08:20:53,969 - INFO - Confusion Matrix:
+[[ 970    3    0    0    0    0    2    1    4    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [ 185  555   65    0    8    0   12  131   65   11]
+ [ 224   80    0  505    0    7    0   19  169    6]
+ [   2   42    0    0  616    0    7    0    2  313]
+ [ 241   22    0    0    0   42    1    2  554   30]
+ [  62   27    0    0   18    0  837    0   14    0]
+ [   3  105    0    0    0    0    0  901    1   18]
+ [  20   64    0    0    0    0    0    0  886    4]
+ [  22   35    0    0    8    0    0   10   10  924]]
+2025-08-24 08:20:53,970 - INFO - Starting Round 10/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:20:53,970 - INFO - Selected clients for Round 10: [21, 6, 5, 24, 22]
+2025-08-24 08:20:54,024 - INFO - Client 21 Train Loss: 0.1627
+2025-08-24 08:20:54,404 - INFO - Client 6 Train Loss: 0.1656
+2025-08-24 08:20:54,472 - INFO - Client 5 Train Loss: 0.3235
+2025-08-24 08:20:55,098 - INFO - Client 24 Train Loss: 0.3599
+2025-08-24 08:20:58,551 - INFO - Client 22 Train Loss: 0.0329
+2025-08-24 08:20:58,552 - INFO - Global Average Train Loss: 0.2089
+2025-08-24 08:20:58,553 - INFO - Clients train loss: [0.1627139084868961, 0.16559147776330857, 0.32353807147592306, 0.35993132599963784, 0.03287760751881975]
+2025-08-24 08:20:58,553 - INFO - Normalized clients train loss: [0.21106027 0.21037163 0.17257279 0.16386337 0.24213193]
+2025-08-24 08:20:58,663 - INFO - Cosine similarities: [0.549216091632843, 0.006387939676642418, 0.6025969982147217, 0.03178216889500618, 0.6240037083625793]
+2025-08-24 08:20:58,664 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3628
+2025-08-24 08:21:01,314 - INFO - Global Model Validation Loss: 0.9354, Top1_Accuracy: 73.17%, Top5_Accuracy: 98.09%
+2025-08-24 08:21:01,314 - INFO - Precision: 0.7444, Recall: 0.7317, F1-Score: 0.7996
+2025-08-24 08:21:01,315 - INFO - Confusion Matrix:
+[[ 813    0    3    0  108   15   23   18    0    0]
+ [   0 1106    1    0    8    0    5   15    0    0]
+ [   5    1  668    3   50    3    4  298    0    0]
+ [   4    1    4  826    5   90    2   78    0    0]
+ [   0    0    0    0  982    0    0    0    0    0]
+ [   1    1    1    1   23  853    6    6    0    0]
+ [   3    2    0    0  222    5  726    0    0    0]
+ [   0    0    2    0    7    0    0 1019    0    0]
+ [  14   15   12    1  124  263  149   70  324    2]
+ [   2    0    0    1  819    9    0  178    0    0]]
+2025-08-24 08:21:01,315 - INFO - Starting Round 11/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:21:01,315 - INFO - Selected clients for Round 11: [22, 38, 16, 2, 46]
+2025-08-24 08:21:04,783 - INFO - Client 22 Train Loss: 0.0164
+2025-08-24 08:21:07,973 - INFO - Client 38 Train Loss: 0.0146
+2025-08-24 08:21:08,729 - INFO - Client 16 Train Loss: 0.0975
+2025-08-24 08:21:11,161 - INFO - Client 2 Train Loss: 0.0020
+2025-08-24 08:21:12,524 - INFO - Client 46 Train Loss: 0.1305
+2025-08-24 08:21:12,524 - INFO - Global Average Train Loss: 0.0522
+2025-08-24 08:21:12,525 - INFO - Clients train loss: [0.016431277655314346, 0.014636781313543271, 0.09753263138328604, 0.001963937664359747, 0.13053748885953517]
+2025-08-24 08:21:12,525 - INFO - Normalized clients train loss: [0.23426738 0.23598558 0.15661448 0.24811957 0.12501299]
+2025-08-24 08:21:12,631 - INFO - Cosine similarities: [0.9807139039039612, -2.4935297915362753e-05, -0.021685123443603516, -0.19537831842899323, 0.1901748776435852]
+2025-08-24 08:21:12,634 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.1908
+2025-08-24 08:21:15,289 - INFO - Global Model Validation Loss: 0.8108, Top1_Accuracy: 74.61%, Top5_Accuracy: 98.25%
+2025-08-24 08:21:15,289 - INFO - Precision: 0.8530, Recall: 0.7461, F1-Score: 0.6990
+2025-08-24 08:21:15,290 - INFO - Confusion Matrix:
+[[ 979    0    0    0    0    0    0    1    0    0]
+ [   2 1120    3    1    2    2    4    1    0    0]
+ [ 146    1  830    0   11    0    5   39    0    0]
+ [  87    0    0  846    0   63    0   14    0    0]
+ [   7    0    0    0  969    0    6    0    0    0]
+ [  62    1    0    2    3  824    0    0    0    0]
+ [ 168    2    0    0   15    4  769    0    0    0]
+ [  14    2   12    0   23    0    0  977    0    0]
+ [ 444   14   12    3   54  236   48   16  147    0]
+ [  78    2    0    0  889   18    0   22    0    0]]
+2025-08-24 08:21:15,290 - INFO - Starting Round 12/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:21:15,290 - INFO - Selected clients for Round 12: [29, 34, 7, 24, 5]
+2025-08-24 08:21:16,284 - INFO - Client 29 Train Loss: 0.0729
+2025-08-24 08:21:18,072 - INFO - Client 34 Train Loss: 0.0490
+2025-08-24 08:21:19,012 - INFO - Client 7 Train Loss: 0.0718
+2025-08-24 08:21:19,683 - INFO - Client 24 Train Loss: 0.1226
+2025-08-24 08:21:19,758 - INFO - Client 5 Train Loss: 0.2565
+2025-08-24 08:21:19,758 - INFO - Global Average Train Loss: 0.1146
+2025-08-24 08:21:19,759 - INFO - Clients train loss: [0.07292841467481011, 0.048963794400259227, 0.07178914560810537, 0.12264666474686983, 0.2565229535102844]
+2025-08-24 08:21:19,760 - INFO - Normalized clients train loss: [0.21817304 0.22863153 0.21867023 0.19647532 0.13804987]
+2025-08-24 08:21:19,857 - INFO - Cosine similarities: [0.6203048825263977, 0.13979391753673553, 0.2576434314250946, 0.473247766494751, 0.5201349854469299]
+2025-08-24 08:21:19,857 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.4022
+2025-08-24 08:21:22,458 - INFO - Global Model Validation Loss: 0.6295, Top1_Accuracy: 81.36%, Top5_Accuracy: 99.43%
+2025-08-24 08:21:22,458 - INFO - Precision: 0.8833, Recall: 0.8136, F1-Score: 0.7784
+2025-08-24 08:21:22,459 - INFO - Confusion Matrix:
+[[ 882    0    4    0    3   12   78    1    0    0]
+ [   0 1116    2    6    3    4    3    1    0    0]
+ [  10    3  960   15    9    4   10   21    0    0]
+ [   1    0    2  956    0   42    0    9    0    0]
+ [   0    0    0    0  975    0    7    0    0    0]
+ [   1    0    0    3    0  885    2    1    0    0]
+ [   2    2    0    0   17   10  927    0    0    0]
+ [   2    1   17    9   51    4    0  944    0    0]
+ [   5   13   16    9   54  274  104   11  488    0]
+ [   8    2    0    2  918   58    0   18    0    3]]
+2025-08-24 08:21:22,459 - INFO - Starting Round 13/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:21:22,460 - INFO - Selected clients for Round 13: [35, 18, 40, 39, 23]
+2025-08-24 08:21:23,005 - INFO - Client 35 Train Loss: 0.0653
+2025-08-24 08:21:23,527 - INFO - Client 18 Train Loss: 0.1335
+2025-08-24 08:21:26,845 - INFO - Client 40 Train Loss: 0.1195
+2025-08-24 08:21:28,111 - INFO - Client 39 Train Loss: 0.0638
+2025-08-24 08:21:30,709 - INFO - Client 23 Train Loss: 0.0105
+2025-08-24 08:21:30,709 - INFO - Global Average Train Loss: 0.0785
+2025-08-24 08:21:30,710 - INFO - Clients train loss: [0.06533487260971657, 0.1334661996369463, 0.11946203735906585, 0.06379608081078317, 0.010490193992236167]
+2025-08-24 08:21:30,710 - INFO - Normalized clients train loss: [0.20839067 0.16500038 0.1739191  0.20937067 0.24331919]
+2025-08-24 08:21:30,815 - INFO - Cosine similarities: [0.22064447402954102, 0.658011794090271, 0.5200908780097961, 0.08625409752130508, 0.4109839200973511]
+2025-08-24 08:21:30,815 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3792
+2025-08-24 08:21:33,435 - INFO - Global Model Validation Loss: 0.3177, Top1_Accuracy: 90.77%, Top5_Accuracy: 99.85%
+2025-08-24 08:21:33,435 - INFO - Precision: 0.9166, Recall: 0.9077, F1-Score: 0.9044
+2025-08-24 08:21:33,436 - INFO - Confusion Matrix:
+[[ 959    3    2    0    0    0   12    1    3    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [   6  116  799   10    3    0    6   77   15    0]
+ [   1    2    2  984    0    0    1   16    4    0]
+ [   0   22    1    0  908    0   31    0    1   19]
+ [   9    8    0  119    0  531   11    1  187   26]
+ [   7    8    2    0    1    1  936    0    3    0]
+ [   1   24    2    1    0    0    0  991    1    8]
+ [   5   28    0    2    1    0   12   10  909    7]
+ [  10   11    0    9   22    1    0   29    2  925]]
+2025-08-24 08:21:33,438 - INFO - Starting Round 14/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:21:33,438 - INFO - Selected clients for Round 14: [36, 12, 45, 4, 2]
+2025-08-24 08:21:33,939 - INFO - Client 36 Train Loss: 0.1599
+2025-08-24 08:21:35,201 - INFO - Client 12 Train Loss: 0.0487
+2025-08-24 08:21:36,736 - INFO - Client 45 Train Loss: 0.0306
+2025-08-24 08:21:38,076 - INFO - Client 4 Train Loss: 0.0907
+2025-08-24 08:21:40,472 - INFO - Client 2 Train Loss: 0.0104
+2025-08-24 08:21:40,473 - INFO - Global Average Train Loss: 0.0681
+2025-08-24 08:21:40,473 - INFO - Clients train loss: [0.15994855017369097, 0.04873344655996245, 0.030615966609176374, 0.0907386240065514, 0.01044593914127905]
+2025-08-24 08:21:40,474 - INFO - Normalized clients train loss: [0.13255745 0.21421737 0.22752016 0.18337498 0.24233005]
+2025-08-24 08:21:40,573 - INFO - Cosine similarities: [0.3099384903907776, 0.057273607701063156, 0.7222303152084351, 0.6363267302513123, 0.010581240057945251]
+2025-08-24 08:21:40,574 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3473
+2025-08-24 08:21:43,193 - INFO - Global Model Validation Loss: 1.1987, Top1_Accuracy: 65.46%, Top5_Accuracy: 98.95%
+2025-08-24 08:21:43,193 - INFO - Precision: 0.7694, Recall: 0.6546, F1-Score: 0.6262
+2025-08-24 08:21:43,194 - INFO - Confusion Matrix:
+[[ 819    1    0    0   58  100    1    1    0    0]
+ [   0 1117    0    2   15    1    0    0    0    0]
+ [  12   78  733   16  120   11    1   44   16    1]
+ [   0    1    0  803   19  174    0    6    0    7]
+ [   0    0    0    0  982    0    0    0    0    0]
+ [   0    0    0    0   20  872    0    0    0    0]
+ [   3    4    0    0  754   47  150    0    0    0]
+ [   1   13    3    0  162    1    0  834    0   14]
+ [   1   22    0    4  163  538    2    4  230   10]
+ [   2    1    0    1  987    9    0    3    0    6]]
+2025-08-24 08:21:43,194 - INFO - Starting Round 15/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:21:43,194 - INFO - Selected clients for Round 15: [42, 14, 49, 18, 5]
+2025-08-24 08:21:43,485 - INFO - Client 42 Train Loss: 0.2981
+2025-08-24 08:21:45,027 - INFO - Client 14 Train Loss: 0.0865
+2025-08-24 08:21:46,794 - INFO - Client 49 Train Loss: 0.0952
+2025-08-24 08:21:47,261 - INFO - Client 18 Train Loss: 0.2043
+2025-08-24 08:21:47,323 - INFO - Client 5 Train Loss: 0.1811
+2025-08-24 08:21:47,323 - INFO - Global Average Train Loss: 0.1730
+2025-08-24 08:21:47,324 - INFO - Clients train loss: [0.29812417546386333, 0.08645045678654285, 0.0952213783943929, 0.20427933783718832, 0.18114210199564695]
+2025-08-24 08:21:47,324 - INFO - Normalized clients train loss: [0.1638586  0.2250206  0.22248629 0.19097457 0.19765995]
+2025-08-24 08:21:47,423 - INFO - Cosine similarities: [0.2929694354534149, 0.3939034342765808, 0.05672667175531387, 0.7452901601791382, 0.363496333360672]
+2025-08-24 08:21:47,423 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3705
+2025-08-24 08:21:49,957 - INFO - Global Model Validation Loss: 0.5005, Top1_Accuracy: 83.57%, Top5_Accuracy: 99.77%
+2025-08-24 08:21:49,957 - INFO - Precision: 0.8809, Recall: 0.8357, F1-Score: 0.8044
+2025-08-24 08:21:49,958 - INFO - Confusion Matrix:
+[[ 924    8    7    0    0    0   29    1   11    0]
+ [   0 1133    0    1    0    0    1    0    0    0]
+ [   0   81  870    7    4    0    7   25   38    0]
+ [   0    1    3  990    0    0    0    8    8    0]
+ [   0   21    1    0  941    0   17    0    2    0]
+ [   4    8    0  172    0   24    9    1  672    2]
+ [   6    6    1    0    1    0  935    0    9    0]
+ [   0   57   12    4    3    0    0  949    2    1]
+ [   2   12    1    2    1    0    2    1  953    0]
+ [  11   18    5   10  254    0    0   28   45  638]]
+2025-08-24 08:21:49,959 - INFO - Starting Round 16/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:21:49,959 - INFO - Selected clients for Round 16: [14, 6, 24, 17, 29]
+2025-08-24 08:21:51,484 - INFO - Client 14 Train Loss: 0.0460
+2025-08-24 08:21:51,903 - INFO - Client 6 Train Loss: 0.0808
+2025-08-24 08:21:52,528 - INFO - Client 24 Train Loss: 0.2183
+2025-08-24 08:21:53,504 - INFO - Client 17 Train Loss: 0.0935
+2025-08-24 08:21:54,477 - INFO - Client 29 Train Loss: 0.0895
+2025-08-24 08:21:54,477 - INFO - Global Average Train Loss: 0.1056
+2025-08-24 08:21:54,478 - INFO - Clients train loss: [0.04597863687170198, 0.08082943858719843, 0.2183477391805261, 0.09350546005574603, 0.08954111286367361]
+2025-08-24 08:21:54,479 - INFO - Normalized clients train loss: [0.22823815 0.21174315 0.14665527 0.20574355 0.20761988]
+2025-08-24 08:21:54,581 - INFO - Cosine similarities: [0.17745298147201538, 0.534875750541687, 0.1520111858844757, 0.6665866374969482, 0.4688117504119873]
+2025-08-24 08:21:54,581 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3999
+2025-08-24 08:21:57,120 - INFO - Global Model Validation Loss: 0.2540, Top1_Accuracy: 91.89%, Top5_Accuracy: 99.91%
+2025-08-24 08:21:57,121 - INFO - Precision: 0.9298, Recall: 0.9189, F1-Score: 0.9174
+2025-08-24 08:21:57,122 - INFO - Confusion Matrix:
+[[ 973    0    5    0    0    0    1    1    0    0]
+ [   0 1125    2    6    0    1    1    0    0    0]
+ [  11    1  972   12    7    0    3   25    1    0]
+ [   0    0    1 1002    0    0    0    6    1    0]
+ [   0    0    1    0  978    0    2    0    0    1]
+ [   8    1    1  240    1  607    1    2   27    4]
+ [  24    2    1    1   14    1  913    0    2    0]
+ [   2    3   18    9    4    0    0  989    0    3]
+ [  20    1   20   20    6    0    5    8  886    8]
+ [  13    4    0   14  203    4    0   27    0  744]]
+2025-08-24 08:21:57,122 - INFO - Starting Round 17/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:21:57,122 - INFO - Selected clients for Round 17: [40, 23, 10, 22, 13]
+2025-08-24 08:22:00,425 - INFO - Client 40 Train Loss: 0.0580
+2025-08-24 08:22:03,137 - INFO - Client 23 Train Loss: 0.0083
+2025-08-24 08:22:04,018 - INFO - Client 10 Train Loss: 0.0732
+2025-08-24 08:22:07,485 - INFO - Client 22 Train Loss: 0.0158
+2025-08-24 08:22:08,343 - INFO - Client 13 Train Loss: 0.0850
+2025-08-24 08:22:08,344 - INFO - Global Average Train Loss: 0.0480
+2025-08-24 08:22:08,344 - INFO - Clients train loss: [0.057977035383033344, 0.008261097992573555, 0.07316320380261256, 0.015782107692077354, 0.08502438697655108]
+2025-08-24 08:22:08,345 - INFO - Normalized clients train loss: [0.18965951 0.24140214 0.17385427 0.23357453 0.16150956]
+2025-08-24 08:22:08,440 - INFO - Cosine similarities: [0.09159092605113983, 0.018580621108412743, 0.4837189018726349, 0.1358569711446762, 0.8525804281234741]
+2025-08-24 08:22:08,440 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3165
+2025-08-24 08:22:11,008 - INFO - Global Model Validation Loss: 0.2323, Top1_Accuracy: 92.79%, Top5_Accuracy: 99.87%
+2025-08-24 08:22:11,008 - INFO - Precision: 0.9348, Recall: 0.9279, F1-Score: 0.9243
+2025-08-24 08:22:11,009 - INFO - Confusion Matrix:
+[[ 960    2    0    0    0    0   13    2    1    2]
+ [   0 1132    0    0    0    0    3    0    0    0]
+ [  13  234  603   16   15    1   11  103   30    6]
+ [   1    1    0  967    0   20    1    9    2    9]
+ [   0    4    0    0  959    0    9    0    2    8]
+ [   2    3    0    5    0  866    8    1    4    3]
+ [   6    4    0    0    8    1  938    0    1    0]
+ [   0   17    1    0    0    0    0  978    1   31]
+ [   5   11    0    1    1    1   24    5  914   12]
+ [   5    6    0    2   20    7    0    7    0  962]]
+2025-08-24 08:22:11,009 - INFO - Starting Round 18/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:22:11,010 - INFO - Selected clients for Round 18: [42, 17, 44, 43, 41]
+2025-08-24 08:22:11,277 - INFO - Client 42 Train Loss: 0.0943
+2025-08-24 08:22:12,315 - INFO - Client 17 Train Loss: 0.0913
+2025-08-24 08:22:13,855 - INFO - Client 44 Train Loss: 0.0359
+2025-08-24 08:22:15,072 - INFO - Client 43 Train Loss: 0.0976
+2025-08-24 08:22:19,400 - INFO - Client 41 Train Loss: 0.0206
+2025-08-24 08:22:19,400 - INFO - Global Average Train Loss: 0.0680
+2025-08-24 08:22:19,401 - INFO - Clients train loss: [0.09432304599286967, 0.09128496960107078, 0.03590030202336503, 0.09764780247750986, 0.020624897754993647]
+2025-08-24 08:22:19,401 - INFO - Normalized clients train loss: [0.18060012 0.18283544 0.22358571 0.17815387 0.23482486]
+2025-08-24 08:22:19,503 - INFO - Cosine similarities: [0.9792922735214233, 0.1966652274131775, 0.2547866106033325, 0.40550142526626587, 0.11926175653934479]
+2025-08-24 08:22:19,503 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3911
+2025-08-24 08:22:22,132 - INFO - Global Model Validation Loss: 0.2817, Top1_Accuracy: 93.69%, Top5_Accuracy: 99.71%
+2025-08-24 08:22:22,133 - INFO - Precision: 0.9431, Recall: 0.9369, F1-Score: 0.9374
+2025-08-24 08:22:22,133 - INFO - Confusion Matrix:
+[[ 922    0   37    0    0    0   13    1    7    0]
+ [   0  964   51    2    0    0   13    1  104    0]
+ [   1    0 1019    3    0    0    0    1    8    0]
+ [   1    0    5  994    0    2    1    4    3    0]
+ [   0    0   10    0  926    0   18    2    3   23]
+ [   5    0    4   40    0  783    6    1   53    0]
+ [   6    0    5    0    1    1  940    0    5    0]
+ [   0    1   74    7    0    0    0  938    3    5]
+ [   3    0   11    3    0    0    2    0  955    0]
+ [   7    0   12   11    7   10    1   22   11  928]]
+2025-08-24 08:22:22,134 - INFO - Starting Round 19/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:22:22,134 - INFO - Selected clients for Round 19: [4, 38, 40, 10, 34]
+2025-08-24 08:22:23,428 - INFO - Client 4 Train Loss: 0.0779
+2025-08-24 08:22:26,491 - INFO - Client 38 Train Loss: 0.0057
+2025-08-24 08:22:29,789 - INFO - Client 40 Train Loss: 0.0419
+2025-08-24 08:22:30,713 - INFO - Client 10 Train Loss: 0.1513
+2025-08-24 08:22:32,518 - INFO - Client 34 Train Loss: 0.0273
+2025-08-24 08:22:32,519 - INFO - Global Average Train Loss: 0.0608
+2025-08-24 08:22:32,519 - INFO - Clients train loss: [0.07786910895389004, 0.005676023067386802, 0.04186680327053806, 0.15129734334519848, 0.02733905528401283]
+2025-08-24 08:22:32,520 - INFO - Normalized clients train loss: [0.18597308 0.24533296 0.21557554 0.12559762 0.2275208 ]
+2025-08-24 08:22:32,621 - INFO - Cosine similarities: [0.4302017092704773, 0.028043949976563454, 0.07608474791049957, 0.9320181608200073, 0.11082619428634644]
+2025-08-24 08:22:32,621 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3154
+2025-08-24 08:22:35,145 - INFO - Global Model Validation Loss: 0.3053, Top1_Accuracy: 90.15%, Top5_Accuracy: 99.71%
+2025-08-24 08:22:35,145 - INFO - Precision: 0.9182, Recall: 0.9015, F1-Score: 0.9011
+2025-08-24 08:22:35,146 - INFO - Confusion Matrix:
+[[ 979    0    0    0    0    0    0    0    0    1]
+ [   0 1129    0    3    0    2    1    0    0    0]
+ [ 189   36  664   12    8    0   10   42   56   15]
+ [  19    0    0  925    0   46    0    2    2   16]
+ [   8    1    0    0  881    0   10    0    2   80]
+ [  26    0    0    2    0  859    0    0    1    4]
+ [  86    3    0    0    3    3  861    0    2    0]
+ [   3   10    3    7    0    0    0  812    3  190]
+ [  39    1    0    1    1    2    1    2  915   12]
+ [   9    1    0    1    2    5    0    1    0  990]]
+2025-08-24 08:22:35,146 - INFO - Starting Round 20/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:22:35,147 - INFO - Selected clients for Round 20: [46, 15, 10, 29, 24]
+2025-08-24 08:22:36,462 - INFO - Client 46 Train Loss: 0.1344
+2025-08-24 08:22:36,554 - INFO - Client 15 Train Loss: 0.3578
+2025-08-24 08:22:37,443 - INFO - Client 10 Train Loss: 0.0341
+2025-08-24 08:22:38,465 - INFO - Client 29 Train Loss: 0.0302
+2025-08-24 08:22:39,098 - INFO - Client 24 Train Loss: 0.1178
+2025-08-24 08:22:39,098 - INFO - Global Average Train Loss: 0.1349
+2025-08-24 08:22:39,099 - INFO - Clients train loss: [0.13438729726382204, 0.3578410240785255, 0.034084260738433, 0.030238331488978403, 0.11780745430419651]
+2025-08-24 08:22:39,100 - INFO - Normalized clients train loss: [0.20017957 0.11734019 0.23736419 0.23878996 0.20632609]
+2025-08-24 08:22:39,196 - INFO - Cosine similarities: [0.02575785294175148, 0.5082376599311829, 0.08216932415962219, 0.12485593557357788, 0.7683332562446594]
+2025-08-24 08:22:39,196 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3019
+2025-08-24 08:22:41,789 - INFO - Global Model Validation Loss: 0.1681, Top1_Accuracy: 95.18%, Top5_Accuracy: 99.93%
+2025-08-24 08:22:41,790 - INFO - Precision: 0.9557, Recall: 0.9518, F1-Score: 0.9522
+2025-08-24 08:22:41,790 - INFO - Confusion Matrix:
+[[ 908    0   68    0    0    1    1    1    1    0]
+ [   0 1129    3    1    0    2    0    0    0    0]
+ [   0    2 1026    3    0    0    0    1    0    0]
+ [   0    0    3 1000    0    2    0    4    1    0]
+ [   0    5    8    0  951    0    7    0    0   11]
+ [   1    2    1   36    0  849    1    1    1    0]
+ [  12    6   19    0    6    6  907    0    2    0]
+ [   0   14   74   11    0    0    0  907    0   22]
+ [   5    2   45   11    1    8    3    4  888    7]
+ [   4    4    3   10   21    8    0    6    0  953]]
+2025-08-24 08:22:41,791 - INFO - Starting Round 21/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:22:41,791 - INFO - Selected clients for Round 21: [17, 40, 44, 35, 14]
+2025-08-24 08:22:42,794 - INFO - Client 17 Train Loss: 0.0769
+2025-08-24 08:22:46,061 - INFO - Client 40 Train Loss: 0.0334
+2025-08-24 08:22:47,516 - INFO - Client 44 Train Loss: 0.0422
+2025-08-24 08:22:48,076 - INFO - Client 35 Train Loss: 0.0490
+2025-08-24 08:22:49,572 - INFO - Client 14 Train Loss: 0.0301
+2025-08-24 08:22:49,572 - INFO - Global Average Train Loss: 0.0463
+2025-08-24 08:22:49,573 - INFO - Clients train loss: [0.07686407512808768, 0.03338005017244712, 0.04223059198163403, 0.0490108756639529, 0.030106821434580423]
+2025-08-24 08:22:49,573 - INFO - Normalized clients train loss: [0.16702656 0.21396681 0.20441281 0.19709361 0.21750021]
+2025-08-24 08:22:49,667 - INFO - Cosine similarities: [0.3404850959777832, 0.9069671034812927, 0.36556893587112427, -0.08913776278495789, -0.0003512848634272814]
+2025-08-24 08:22:49,667 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3047
+2025-08-24 08:22:52,212 - INFO - Global Model Validation Loss: 0.1601, Top1_Accuracy: 95.10%, Top5_Accuracy: 99.96%
+2025-08-24 08:22:52,212 - INFO - Precision: 0.9539, Recall: 0.9510, F1-Score: 0.9504
+2025-08-24 08:22:52,213 - INFO - Confusion Matrix:
+[[ 934    0    3    0    1    2   28    4    6    2]
+ [   0 1131    0    1    0    2    1    0    0    0]
+ [   1   25  808    4    8    0    9  106   71    0]
+ [   0    1    0  983    0    8    0   10    6    2]
+ [   0    3    1    0  953    0    8    1    2   14]
+ [   1    2    0   13    0  829    5    1   36    5]
+ [   3    5    0    0    7    1  938    0    4    0]
+ [   0    8    1    0    0    0    0 1007    2   10]
+ [   2    1    0    0    1    0    5    7  953    5]
+ [   2    1    1    3    8    4    0   16    0  974]]
+2025-08-24 08:22:52,214 - INFO - Starting Round 22/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:22:52,214 - INFO - Selected clients for Round 22: [43, 20, 49, 3, 14]
+2025-08-24 08:22:53,382 - INFO - Client 43 Train Loss: 0.0523
+2025-08-24 08:22:55,284 - INFO - Client 20 Train Loss: 0.0339
+2025-08-24 08:22:57,136 - INFO - Client 49 Train Loss: 0.0211
+2025-08-24 08:22:59,425 - INFO - Client 3 Train Loss: 0.0606
+2025-08-24 08:23:01,081 - INFO - Client 14 Train Loss: 0.0388
+2025-08-24 08:23:01,081 - INFO - Global Average Train Loss: 0.0413
+2025-08-24 08:23:01,082 - INFO - Clients train loss: [0.0523370348247445, 0.033864020301784, 0.021102777042395507, 0.060645906043464905, 0.03878987578143327]
+2025-08-24 08:23:01,083 - INFO - Normalized clients train loss: [0.18671141 0.20904991 0.22448145 0.1766639  0.20309332]
+2025-08-24 08:23:01,189 - INFO - Cosine similarities: [0.26784247159957886, 0.010644109919667244, -0.1770218461751938, 0.9508631825447083, 0.152919739484787]
+2025-08-24 08:23:01,189 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2410
+2025-08-24 08:23:03,804 - INFO - Global Model Validation Loss: 0.1824, Top1_Accuracy: 94.78%, Top5_Accuracy: 99.94%
+2025-08-24 08:23:03,804 - INFO - Precision: 0.9508, Recall: 0.9478, F1-Score: 0.9476
+2025-08-24 08:23:03,805 - INFO - Confusion Matrix:
+[[ 899    0   15    0    0   34   27    1    4    0]
+ [   0 1129    0    3    0    3    0    0    0    0]
+ [   0    7  997    7    3    0    3    2   13    0]
+ [   0    0    1  988    0   20    0    1    0    0]
+ [   0    6    1    0  966    0    7    0    2    0]
+ [   0    0    0    6    0  884    1    0    1    0]
+ [   1    5    1    0    5   20  926    0    0    0]
+ [   0   43   44   27    5    1    0  888    5   15]
+ [   1    1    3    5    1   26    4    1  931    1]
+ [   2    9    1    7   66   48    0    4    2  870]]
+2025-08-24 08:23:03,806 - INFO - Starting Round 23/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:23:03,806 - INFO - Selected clients for Round 23: [2, 20, 25, 17, 4]
+2025-08-24 08:23:06,309 - INFO - Client 2 Train Loss: 0.0035
+2025-08-24 08:23:08,585 - INFO - Client 20 Train Loss: 0.0127
+2025-08-24 08:23:09,168 - INFO - Client 25 Train Loss: 0.0722
+2025-08-24 08:23:10,278 - INFO - Client 17 Train Loss: 0.0486
+2025-08-24 08:23:11,620 - INFO - Client 4 Train Loss: 0.0523
+2025-08-24 08:23:11,620 - INFO - Global Average Train Loss: 0.0379
+2025-08-24 08:23:11,622 - INFO - Clients train loss: [0.003479918463750483, 0.012691387153561329, 0.07222831179248922, 0.048619349166094616, 0.05225077149029128]
+2025-08-24 08:23:11,622 - INFO - Normalized clients train loss: [0.24540349 0.23323638 0.15459606 0.18578034 0.18098372]
+2025-08-24 08:23:11,724 - INFO - Cosine similarities: [0.16077102720737457, 0.6027011871337891, 0.05140303075313568, 0.7255075573921204, 0.29658281803131104]
+2025-08-24 08:23:11,726 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3674
+2025-08-24 08:23:14,505 - INFO - Global Model Validation Loss: 0.1698, Top1_Accuracy: 94.76%, Top5_Accuracy: 99.93%
+2025-08-24 08:23:14,505 - INFO - Precision: 0.9515, Recall: 0.9476, F1-Score: 0.9475
+2025-08-24 08:23:14,506 - INFO - Confusion Matrix:
+[[ 942    1    7    0    6    3    5    0    6   10]
+ [   0 1133    1    0    0    1    0    0    0    0]
+ [   0   15  978    0   15    0    3    1   19    1]
+ [   1    2    5  945    1   26    0    2    5   23]
+ [   0    1    0    0  979    0    0    0    0    2]
+ [   1    1    0    4    2  847    1    0    3   33]
+ [   8    6    2    0   32    4  900    0    6    0]
+ [   0   34   41    0    2    0    0  822    2  127]
+ [   3    2    2    0    3    0    1    1  954    8]
+ [   2    2    1    0   28    0    0    0    0  976]]
+2025-08-24 08:23:14,506 - INFO - Starting Round 24/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:23:14,507 - INFO - Selected clients for Round 24: [13, 36, 45, 20, 41]
+2025-08-24 08:23:15,342 - INFO - Client 13 Train Loss: 0.0394
+2025-08-24 08:23:15,900 - INFO - Client 36 Train Loss: 0.0598
+2025-08-24 08:23:17,493 - INFO - Client 45 Train Loss: 0.0170
+2025-08-24 08:23:19,384 - INFO - Client 20 Train Loss: 0.0215
+2025-08-24 08:23:23,578 - INFO - Client 41 Train Loss: 0.0100
+2025-08-24 08:23:23,578 - INFO - Global Average Train Loss: 0.0296
+2025-08-24 08:23:23,579 - INFO - Clients train loss: [0.03944431696743118, 0.05984905021235808, 0.01695422853000155, 0.02149874004932616, 0.010028846864558816]
+2025-08-24 08:23:23,579 - INFO - Normalized clients train loss: [0.18326972 0.14874983 0.22131753 0.21362931 0.23303361]
+2025-08-24 08:23:23,673 - INFO - Cosine similarities: [0.18631450831890106, 0.9836914539337158, 0.047368135303258896, 0.07424121350049973, 0.022258449345827103]
+2025-08-24 08:23:23,674 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2628
+2025-08-24 08:23:26,293 - INFO - Global Model Validation Loss: 0.2785, Top1_Accuracy: 91.00%, Top5_Accuracy: 99.91%
+2025-08-24 08:23:26,293 - INFO - Precision: 0.9274, Recall: 0.9100, F1-Score: 0.9110
+2025-08-24 08:23:26,294 - INFO - Confusion Matrix:
+[[ 867    0  102    0    1    5    3    1    1    0]
+ [   0 1130    3    1    0    1    0    0    0    0]
+ [   0    3 1028    0    1    0    0    0    0    0]
+ [   0    0   12  978    0   18    0    1    0    1]
+ [   0    3    3    0  976    0    0    0    0    0]
+ [   1    0    1    6    0  882    1    0    0    1]
+ [   8    6   16    0   21   28  879    0    0    0]
+ [   0   28  160    3    7    2    0  793    0   35]
+ [   8   10  167    3    9   38    4    1  729    5]
+ [   1    8   11    5  134    8    0    4    0  838]]
+2025-08-24 08:23:26,294 - INFO - Starting Round 25/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:23:26,295 - INFO - Selected clients for Round 25: [31, 25, 41, 29, 9]
+2025-08-24 08:23:26,715 - INFO - Client 31 Train Loss: 0.1869
+2025-08-24 08:23:27,250 - INFO - Client 25 Train Loss: 0.0540
+2025-08-24 08:23:31,254 - INFO - Client 41 Train Loss: 0.0020
+2025-08-24 08:23:32,288 - INFO - Client 29 Train Loss: 0.0511
+2025-08-24 08:23:33,935 - INFO - Client 9 Train Loss: 0.0099
+2025-08-24 08:23:33,935 - INFO - Global Average Train Loss: 0.0608
+2025-08-24 08:23:33,936 - INFO - Clients train loss: [0.18689797129488203, 0.05404731301318049, 0.0019856767265923002, 0.05108917650790551, 0.009898056454475794]
+2025-08-24 08:23:33,936 - INFO - Normalized clients train loss: [0.09625964 0.20554123 0.2483666  0.20797457 0.24185796]
+2025-08-24 08:23:34,035 - INFO - Cosine similarities: [0.6921166777610779, 0.7407008409500122, 0.15349049866199493, 0.06762111932039261, 0.2655769884586334]
+2025-08-24 08:23:34,035 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3839
+2025-08-24 08:23:37,134 - INFO - Global Model Validation Loss: 0.2255, Top1_Accuracy: 93.18%, Top5_Accuracy: 99.95%
+2025-08-24 08:23:37,134 - INFO - Precision: 0.9391, Recall: 0.9318, F1-Score: 0.9307
+2025-08-24 08:23:37,136 - INFO - Confusion Matrix:
+[[ 977    1    0    0    0    0    0    0    1    1]
+ [   0 1134    0    0    0    1    0    0    0    0]
+ [  17   29  981    0    1    0    2    0    2    0]
+ [   6    4    5  954    0   31    0    1    5    4]
+ [   3   25    0    0  947    0    2    0    2    3]
+ [  17    3    0    3    0  865    1    0    2    1]
+ [  77    6    0    0    9    7  857    0    2    0]
+ [   7  169   56    2    0    0    0  713    1   80]
+ [  25    7    1    0    1    0    1    0  936    3]
+ [  13   15    0    1   20    2    0    3    1  954]]
+2025-08-24 08:23:37,136 - INFO - Starting Round 26/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:23:37,136 - INFO - Selected clients for Round 26: [16, 8, 15, 47, 35]
+2025-08-24 08:23:38,182 - INFO - Client 16 Train Loss: 0.0401
+2025-08-24 08:23:38,432 - INFO - Client 8 Train Loss: 0.1537
+2025-08-24 08:23:38,531 - INFO - Client 15 Train Loss: 0.0698
+2025-08-24 08:23:40,533 - INFO - Client 47 Train Loss: 0.0434
+2025-08-24 08:23:41,270 - INFO - Client 35 Train Loss: 0.0820
+2025-08-24 08:23:41,270 - INFO - Global Average Train Loss: 0.0778
+2025-08-24 08:23:41,271 - INFO - Clients train loss: [0.04013728880870229, 0.1536812233083909, 0.06979713524848997, 0.04341497483776619, 0.08204837220289525]
+2025-08-24 08:23:41,271 - INFO - Normalized clients train loss: [0.22421006 0.1512532  0.20515234 0.22210401 0.19728039]
+2025-08-24 08:23:41,391 - INFO - Cosine similarities: [0.16194355487823486, 0.738064169883728, 0.6113330125808716, 0.0651853084564209, 0.4545387625694275]
+2025-08-24 08:23:41,391 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.4062
+2025-08-24 08:23:44,639 - INFO - Global Model Validation Loss: 0.1731, Top1_Accuracy: 94.45%, Top5_Accuracy: 99.92%
+2025-08-24 08:23:44,639 - INFO - Precision: 0.9507, Recall: 0.9445, F1-Score: 0.9445
+2025-08-24 08:23:44,640 - INFO - Confusion Matrix:
+[[ 893    0    3    0    0    0   82    1    1    0]
+ [   0 1125    3    1    0    1    4    1    0    0]
+ [   2    1  962    0    1    0   10   55    1    0]
+ [   1    0    3  977    0   11    1   14    2    1]
+ [   0    2    1    0  963    0   15    1    0    0]
+ [   1    0    0    8    0  870   10    2    1    0]
+ [   0    1    0    0    1    1  955    0    0    0]
+ [   0    3    7    0    0    0    0 1018    0    0]
+ [   3    1   10    0    2    1   36   17  901    3]
+ [   7    4    1    2   62   10    1  141    0  781]]
+2025-08-24 08:23:44,640 - INFO - Starting Round 27/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:23:44,640 - INFO - Selected clients for Round 27: [34, 16, 47, 37, 27]
+2025-08-24 08:23:46,810 - INFO - Client 34 Train Loss: 0.0180
+2025-08-24 08:23:47,765 - INFO - Client 16 Train Loss: 0.0225
+2025-08-24 08:23:49,714 - INFO - Client 47 Train Loss: 0.0087
+2025-08-24 08:23:50,119 - INFO - Client 37 Train Loss: 0.0661
+2025-08-24 08:23:52,066 - INFO - Client 27 Train Loss: 0.0259
+2025-08-24 08:23:52,066 - INFO - Global Average Train Loss: 0.0282
+2025-08-24 08:23:52,068 - INFO - Clients train loss: [0.017963109429170135, 0.022530039382082083, 0.008705556596865754, 0.06605511475033288, 0.025907826367845558]
+2025-08-24 08:23:52,069 - INFO - Normalized clients train loss: [0.21818699 0.21009887 0.23458229 0.13301512 0.20411674]
+2025-08-24 08:23:52,227 - INFO - Cosine similarities: [0.35326141119003296, 0.5909898281097412, 0.0636795163154602, 0.4388406276702881, 0.42861407995224]
+2025-08-24 08:23:52,228 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3751
+2025-08-24 08:23:55,331 - INFO - Global Model Validation Loss: 0.2820, Top1_Accuracy: 89.48%, Top5_Accuracy: 99.93%
+2025-08-24 08:23:55,331 - INFO - Precision: 0.9154, Recall: 0.8948, F1-Score: 0.8902
+2025-08-24 08:23:55,333 - INFO - Confusion Matrix:
+[[ 849    0    3    0    0    1  125    1    1    0]
+ [   0 1119    1    2    0    3    6    4    0    0]
+ [   3    2  935    2    3    0    7   80    0    0]
+ [   1    0    1  920    0   72    0   16    0    0]
+ [   0    0    0    0  976    0    6    0    0    0]
+ [   0    0    0    1    0  886    4    1    0    0]
+ [   0    1    0    0    3    7  947    0    0    0]
+ [   0    1    4    0    2    1    0 1020    0    0]
+ [   3    1   14    1   10   40   73   25  806    1]
+ [   4    1    0    1  228   30    3  252    0  490]]
+2025-08-24 08:23:55,333 - INFO - Starting Round 28/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:23:55,334 - INFO - Selected clients for Round 28: [37, 25, 23, 14, 8]
+2025-08-24 08:23:55,803 - INFO - Client 37 Train Loss: 0.0559
+2025-08-24 08:23:56,444 - INFO - Client 25 Train Loss: 0.0945
+2025-08-24 08:23:59,832 - INFO - Client 23 Train Loss: 0.0055
+2025-08-24 08:24:01,716 - INFO - Client 14 Train Loss: 0.0325
+2025-08-24 08:24:01,976 - INFO - Client 8 Train Loss: 0.2371
+2025-08-24 08:24:01,976 - INFO - Global Average Train Loss: 0.0851
+2025-08-24 08:24:01,977 - INFO - Clients train loss: [0.055887267752229394, 0.09451015113161709, 0.005475655123155602, 0.03247863198169143, 0.2370587506764891]
+2025-08-24 08:24:01,977 - INFO - Normalized clients train loss: [0.21715686 0.19445943 0.24678213 0.23091336 0.11068822]
+2025-08-24 08:24:02,093 - INFO - Cosine similarities: [0.9276553988456726, 0.0790024846792221, 0.1410180777311325, -0.0025456452276557684, 0.31770429015159607]
+2025-08-24 08:24:02,094 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2926
+2025-08-24 08:24:05,322 - INFO - Global Model Validation Loss: 0.1910, Top1_Accuracy: 93.39%, Top5_Accuracy: 99.94%
+2025-08-24 08:24:05,322 - INFO - Precision: 0.9465, Recall: 0.9339, F1-Score: 0.9346
+2025-08-24 08:24:05,323 - INFO - Confusion Matrix:
+[[ 690    0   25    0    0    0  263    1    1    0]
+ [   0 1127    3    1    0    0    4    0    0    0]
+ [   0    3 1023    0    2    0    3    1    0    0]
+ [   0    0    7  991    0    0    1    5    4    2]
+ [   0    0    2    0  962    0   16    0    0    2]
+ [   0    1    0   15    0  837   38    1    0    0]
+ [   0    2    0    0    1    1  954    0    0    0]
+ [   0    9   39    5    2    0    0  942    1   30]
+ [   0    1   21    0    2    0   82    4  861    3]
+ [   4    5    0    4   30    4    4    6    0  952]]
+2025-08-24 08:24:05,323 - INFO - Starting Round 29/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:24:05,323 - INFO - Selected clients for Round 29: [32, 31, 5, 48, 3]
+2025-08-24 08:24:06,305 - INFO - Client 32 Train Loss: 0.0503
+2025-08-24 08:24:06,941 - INFO - Client 31 Train Loss: 0.0920
+2025-08-24 08:24:07,034 - INFO - Client 5 Train Loss: 0.1995
+2025-08-24 08:24:07,082 - INFO - Client 48 Train Loss: 0.1129
+2025-08-24 08:24:09,715 - INFO - Client 3 Train Loss: 0.0603
+2025-08-24 08:24:09,715 - INFO - Global Average Train Loss: 0.1030
+2025-08-24 08:24:09,716 - INFO - Clients train loss: [0.05031717963971045, 0.09201526590241815, 0.19953316263854504, 0.11285368725657463, 0.06032211796122935]
+2025-08-24 08:24:09,717 - INFO - Normalized clients train loss: [0.22557615 0.20533599 0.15314703 0.19522106 0.22071977]
+2025-08-24 08:24:09,834 - INFO - Cosine similarities: [-0.15714628994464874, 0.0066161612048745155, 0.8030537366867065, 0.6315669417381287, 0.05128499120473862]
+2025-08-24 08:24:09,834 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2671
+2025-08-24 08:24:13,077 - INFO - Global Model Validation Loss: 0.1397, Top1_Accuracy: 95.43%, Top5_Accuracy: 99.97%
+2025-08-24 08:24:13,077 - INFO - Precision: 0.9575, Recall: 0.9543, F1-Score: 0.9543
+2025-08-24 08:24:13,078 - INFO - Confusion Matrix:
+[[ 867    0    5    0    0    5   90    0    8    5]
+ [   0 1128    1    2    0    2    2    0    0    0]
+ [   1    4  963    3    3    0    6   13   39    0]
+ [   0    0    1  975    0   20    0    2    6    6]
+ [   0    0    2    0  945    0   15    0    2   18]
+ [   0    0    0    2    0  883    5    0    1    1]
+ [   0    3    0    0    1    1  951    0    2    0]
+ [   0    7   15    3    0    1    0  875    6  121]
+ [   0    0    1    0    1    0    5    0  964    3]
+ [   1    0    0    1    4    6    2    2    1  992]]
+2025-08-24 08:24:13,078 - INFO - Starting Round 30/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:24:13,079 - INFO - Selected clients for Round 30: [7, 9, 40, 10, 43]
+2025-08-24 08:24:14,270 - INFO - Client 7 Train Loss: 0.0628
+2025-08-24 08:24:16,423 - INFO - Client 9 Train Loss: 0.0313
+2025-08-24 08:24:20,787 - INFO - Client 40 Train Loss: 0.0221
+2025-08-24 08:24:21,885 - INFO - Client 10 Train Loss: 0.0619
+2025-08-24 08:24:23,564 - INFO - Client 43 Train Loss: 0.0965
+2025-08-24 08:24:23,564 - INFO - Global Average Train Loss: 0.0549
+2025-08-24 08:24:23,565 - INFO - Clients train loss: [0.06282198265247857, 0.03126575693960317, 0.022109358038228263, 0.061869823463885636, 0.09652372248958543]
+2025-08-24 08:24:23,565 - INFO - Normalized clients train loss: [0.19280397 0.22153421 0.22987062 0.19367086 0.16212035]
+2025-08-24 08:24:23,674 - INFO - Cosine similarities: [0.13163942098617554, 0.03473223000764847, 0.10003146529197693, 0.853036642074585, 0.5461653470993042]
+2025-08-24 08:24:23,674 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3331
+2025-08-24 08:24:26,778 - INFO - Global Model Validation Loss: 0.4092, Top1_Accuracy: 87.17%, Top5_Accuracy: 99.93%
+2025-08-24 08:24:26,778 - INFO - Precision: 0.9117, Recall: 0.8717, F1-Score: 0.8741
+2025-08-24 08:24:26,779 - INFO - Confusion Matrix:
+[[ 974    4    0    0    0    0    1    1    0    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [  15  416  567    5   10    0    2   17    0    0]
+ [   2   17    0  979    0    6    0    3    1    2]
+ [   0   27    0    0  955    0    0    0    0    0]
+ [   9   16    0    4    0  860    1    1    1    0]
+ [  30   34    0    0   22    1  870    0    1    0]
+ [   2  157    2    2    7    0    0  781    0   77]
+ [  33  198    0    0   14    2    2    0  716    9]
+ [   8   19    0    1   96    2    0    3    0  880]]
+2025-08-24 08:24:26,779 - INFO - Starting Round 31/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:24:26,780 - INFO - Selected clients for Round 31: [27, 38, 4, 24, 29]
+2025-08-24 08:24:28,401 - INFO - Client 27 Train Loss: 0.0274
+2025-08-24 08:24:32,304 - INFO - Client 38 Train Loss: 0.0024
+2025-08-24 08:24:33,852 - INFO - Client 4 Train Loss: 0.0433
+2025-08-24 08:24:34,637 - INFO - Client 24 Train Loss: 0.0951
+2025-08-24 08:24:35,861 - INFO - Client 29 Train Loss: 0.0335
+2025-08-24 08:24:35,861 - INFO - Global Average Train Loss: 0.0403
+2025-08-24 08:24:35,862 - INFO - Clients train loss: [0.027397899363188795, 0.002435129628666243, 0.04331269979154348, 0.0951039802062158, 0.03347838725841706]
+2025-08-24 08:24:35,862 - INFO - Normalized clients train loss: [0.216046   0.24698216 0.19632292 0.13213841 0.20851051]
+2025-08-24 08:24:35,978 - INFO - Cosine similarities: [0.24917124211788177, 0.14214441180229187, 0.1530000865459442, 0.35606932640075684, 0.9271793365478516]
+2025-08-24 08:24:35,979 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3655
+2025-08-24 08:24:39,188 - INFO - Global Model Validation Loss: 0.1309, Top1_Accuracy: 96.07%, Top5_Accuracy: 100.00%
+2025-08-24 08:24:39,188 - INFO - Precision: 0.9630, Recall: 0.9607, F1-Score: 0.9608
+2025-08-24 08:24:39,189 - INFO - Confusion Matrix:
+[[ 977    0    0    0    0    1    0    1    1    0]
+ [   1 1128    1    2    0    3    0    0    0    0]
+ [  29    2  963    4    5    0    0   25    4    0]
+ [   3    0    0  985    0   16    0    5    1    0]
+ [   2    1    0    0  971    0    0    0    0    8]
+ [   5    0    0    5    0  880    1    0    1    0]
+ [  78    3    0    0   14   15  848    0    0    0]
+ [   4    7   11    7    0    1    0  968    2   28]
+ [  25    1    2    1    1    8    0    3  927    6]
+ [  12    2    0    1   13   16    0    5    0  960]]
+2025-08-24 08:24:39,190 - INFO - Starting Round 32/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:24:39,191 - INFO - Selected clients for Round 32: [33, 16, 35, 0, 43]
+2025-08-24 08:24:40,520 - INFO - Client 33 Train Loss: 0.0197
+2025-08-24 08:24:41,457 - INFO - Client 16 Train Loss: 0.0428
+2025-08-24 08:24:42,096 - INFO - Client 35 Train Loss: 0.0339
+2025-08-24 08:24:43,354 - INFO - Client 0 Train Loss: 0.0461
+2025-08-24 08:24:44,923 - INFO - Client 43 Train Loss: 0.0409
+2025-08-24 08:24:44,923 - INFO - Global Average Train Loss: 0.0367
+2025-08-24 08:24:44,924 - INFO - Clients train loss: [0.019677271328065415, 0.04281230580595509, 0.033868128497167214, 0.046056448533497864, 0.0409363388924466]
+2025-08-24 08:24:44,924 - INFO - Normalized clients train loss: [0.22316987 0.19162505 0.20382051 0.18720163 0.19418294]
+2025-08-24 08:24:45,037 - INFO - Cosine similarities: [0.1478332281112671, 0.4536798894405365, 0.19225750863552094, 0.8506460785865784, 0.10799591988325119]
+2025-08-24 08:24:45,039 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3505
+2025-08-24 08:24:48,106 - INFO - Global Model Validation Loss: 0.1311, Top1_Accuracy: 95.95%, Top5_Accuracy: 99.95%
+2025-08-24 08:24:48,107 - INFO - Precision: 0.9624, Recall: 0.9595, F1-Score: 0.9593
+2025-08-24 08:24:48,108 - INFO - Confusion Matrix:
+[[ 971    0    1    0    0    0    5    1    2    0]
+ [   0 1130    0    3    0    1    1    0    0    0]
+ [   8    6  898   16    3    0    4   84   13    0]
+ [   0    0    0 1002    0    0    0    7    1    0]
+ [   0    3    1    0  966    0    8    1    2    1]
+ [   2    0    0   29    0  856    3    1    1    0]
+ [   8    3    0    1    1    2  941    0    2    0]
+ [   0    6    1    3    0    0    0 1016    1    1]
+ [   4    0    0    1    1    0    3    7  957    1]
+ [   9    4    0   11   31   15    0   76    5  858]]
+2025-08-24 08:24:48,108 - INFO - Starting Round 33/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:24:48,108 - INFO - Selected clients for Round 33: [46, 7, 43, 34, 48]
+2025-08-24 08:24:49,693 - INFO - Client 46 Train Loss: 0.0567
+2025-08-24 08:24:50,916 - INFO - Client 7 Train Loss: 0.0380
+2025-08-24 08:24:52,343 - INFO - Client 43 Train Loss: 0.0417
+2025-08-24 08:24:54,540 - INFO - Client 34 Train Loss: 0.0165
+2025-08-24 08:24:54,581 - INFO - Client 48 Train Loss: 0.0928
+2025-08-24 08:24:54,582 - INFO - Global Average Train Loss: 0.0492
+2025-08-24 08:24:54,582 - INFO - Clients train loss: [0.056676683779877814, 0.03803874974491427, 0.041730983978407285, 0.016548762843416026, 0.09275662899017334]
+2025-08-24 08:24:54,583 - INFO - Normalized clients train loss: [0.19234357 0.21130369 0.20754763 0.23316517 0.15563993]
+2025-08-24 08:24:54,680 - INFO - Cosine similarities: [0.16427963972091675, 0.43299782276153564, 0.4220173954963684, 0.6060323715209961, 0.5509874820709229]
+2025-08-24 08:24:54,680 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.4353
+2025-08-24 08:24:57,770 - INFO - Global Model Validation Loss: 0.1188, Top1_Accuracy: 96.65%, Top5_Accuracy: 99.95%
+2025-08-24 08:24:57,771 - INFO - Precision: 0.9673, Recall: 0.9665, F1-Score: 0.9663
+2025-08-24 08:24:57,772 - INFO - Confusion Matrix:
+[[ 962    0    1    0    0    1   14    1    1    0]
+ [   0 1126    0    3    0    3    3    0    0    0]
+ [   8    3  985    9    3    0    4   16    4    0]
+ [   1    0    0  992    0   13    0    3    1    0]
+ [   0    1    0    0  975    0    5    0    1    0]
+ [   1    0    0    5    0  883    1    1    1    0]
+ [   2    2    0    1    1    4  948    0    0    0]
+ [   2    7   11   19    3    1    0  975    3    7]
+ [   5    1    2    2    1    8   11    3  940    1]
+ [   9    3    0    2   49   46    0   17    4  879]]
+2025-08-24 08:24:57,772 - INFO - Starting Round 34/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:24:57,772 - INFO - Selected clients for Round 34: [17, 49, 41, 21, 7]
+2025-08-24 08:24:58,943 - INFO - Client 17 Train Loss: 0.0529
+2025-08-24 08:25:01,016 - INFO - Client 49 Train Loss: 0.0248
+2025-08-24 08:25:05,632 - INFO - Client 41 Train Loss: 0.0031
+2025-08-24 08:25:05,687 - INFO - Client 21 Train Loss: 0.1889
+2025-08-24 08:25:06,655 - INFO - Client 7 Train Loss: 0.0375
+2025-08-24 08:25:06,655 - INFO - Global Average Train Loss: 0.0615
+2025-08-24 08:25:06,656 - INFO - Clients train loss: [0.05288307589043478, 0.02483583408152712, 0.0031286256959442535, 0.1889212780839039, 0.037508674941302556]
+2025-08-24 08:25:06,657 - INFO - Normalized clients train loss: [0.2069745  0.22979364 0.24745456 0.09629424 0.21948306]
+2025-08-24 08:25:06,760 - INFO - Cosine similarities: [0.8404143452644348, 0.4282577335834503, 0.043747466057538986, 0.035046424716711044, -0.007029637228697538]
+2025-08-24 08:25:06,761 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2681
+2025-08-24 08:25:09,672 - INFO - Global Model Validation Loss: 0.0877, Top1_Accuracy: 97.51%, Top5_Accuracy: 99.97%
+2025-08-24 08:25:09,672 - INFO - Precision: 0.9755, Recall: 0.9751, F1-Score: 0.9751
+2025-08-24 08:25:09,673 - INFO - Confusion Matrix:
+[[ 969    0    5    0    0    0    1    1    4    0]
+ [   0 1128    3    1    0    2    1    0    0    0]
+ [   1    1 1014    0    0    0    0    4   12    0]
+ [   1    0    4  985    0    8    0    6    5    1]
+ [   1    0    4    0  960    0    1    0    2   14]
+ [   3    0    0    6    0  868    2    1   12    0]
+ [  12    3    2    1    8    1  922    0    9    0]
+ [   1    7   30    3    0    0    0  961    5   21]
+ [   3    0    2    0    0    0    0    0  968    1]
+ [   6    0    1    1    7    4    0    4   10  976]]
+2025-08-24 08:25:09,674 - INFO - Starting Round 35/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:25:09,674 - INFO - Selected clients for Round 35: [18, 27, 10, 29, 0]
+2025-08-24 08:25:10,274 - INFO - Client 18 Train Loss: 0.0480
+2025-08-24 08:25:11,700 - INFO - Client 27 Train Loss: 0.0239
+2025-08-24 08:25:12,597 - INFO - Client 10 Train Loss: 0.0443
+2025-08-24 08:25:13,687 - INFO - Client 29 Train Loss: 0.0233
+2025-08-24 08:25:14,664 - INFO - Client 0 Train Loss: 0.0487
+2025-08-24 08:25:14,664 - INFO - Global Average Train Loss: 0.0377
+2025-08-24 08:25:14,665 - INFO - Clients train loss: [0.04800692952934486, 0.023946461009555588, 0.044318033534887676, 0.023330255278747363, 0.04866209425246956]
+2025-08-24 08:25:14,666 - INFO - Normalized clients train loss: [0.18625044 0.21820092 0.19114902 0.21901919 0.18538043]
+2025-08-24 08:25:14,784 - INFO - Cosine similarities: [0.42453160881996155, 0.15132561326026917, 0.12324739247560501, -0.18926873803138733, 0.9129202365875244]
+2025-08-24 08:25:14,784 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2846
+2025-08-24 08:25:17,672 - INFO - Global Model Validation Loss: 0.1300, Top1_Accuracy: 96.00%, Top5_Accuracy: 99.99%
+2025-08-24 08:25:17,672 - INFO - Precision: 0.9631, Recall: 0.9600, F1-Score: 0.9597
+2025-08-24 08:25:17,674 - INFO - Confusion Matrix:
+[[ 975    0    0    0    0    1    0    1    3    0]
+ [   0 1130    0    2    0    2    0    1    0    0]
+ [  14    7  844   10    8    0    2  119   28    0]
+ [   1    0    0  989    0    8    0   11    1    0]
+ [   1    0    0    0  978    0    0    0    2    1]
+ [   3    0    0    5    0  881    1    1    1    0]
+ [  28    3    0    1   15   11  896    0    4    0]
+ [   1    3    2    0    0    0    0 1019    1    2]
+ [   7    0    0    0    1    2    0    7  956    1]
+ [   9    1    0    2   17   10    0   35    3  932]]
+2025-08-24 08:25:17,674 - INFO - Starting Round 36/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:25:17,675 - INFO - Selected clients for Round 36: [46, 16, 32, 48, 11]
+2025-08-24 08:25:19,393 - INFO - Client 46 Train Loss: 0.0695
+2025-08-24 08:25:20,210 - INFO - Client 16 Train Loss: 0.0308
+2025-08-24 08:25:21,047 - INFO - Client 32 Train Loss: 0.0436
+2025-08-24 08:25:21,082 - INFO - Client 48 Train Loss: 0.0324
+2025-08-24 08:25:22,606 - INFO - Client 11 Train Loss: 0.0117
+2025-08-24 08:25:22,607 - INFO - Global Average Train Loss: 0.0376
+2025-08-24 08:25:22,607 - INFO - Clients train loss: [0.06946639885849941, 0.03075877771765428, 0.04362052035632468, 0.03240625560283661, 0.01166468001787658]
+2025-08-24 08:25:22,608 - INFO - Normalized clients train loss: [0.15758349 0.20907922 0.19196826 0.20688746 0.23448158]
+2025-08-24 08:25:22,713 - INFO - Cosine similarities: [0.2305644452571869, 0.17236386239528656, 0.8654034733772278, 0.4043087065219879, -0.09996817260980606]
+2025-08-24 08:25:22,713 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3145
+2025-08-24 08:25:25,462 - INFO - Global Model Validation Loss: 0.1178, Top1_Accuracy: 96.52%, Top5_Accuracy: 99.94%
+2025-08-24 08:25:25,462 - INFO - Precision: 0.9661, Recall: 0.9652, F1-Score: 0.9650
+2025-08-24 08:25:25,463 - INFO - Confusion Matrix:
+[[ 969    1    1    0    0    1    6    1    1    0]
+ [   0 1132    0    0    0    2    1    0    0    0]
+ [   8   21  991    3    0    0    3    5    1    0]
+ [   1    0    2  989    0   10    0    6    2    0]
+ [   0    5    3    0  957    0   16    0    1    0]
+ [   2    1    0    3    0  881    3    1    1    0]
+ [   7    5    0    0    1    2  943    0    0    0]
+ [   2   33   14    3    2    0    0  970    0    4]
+ [   9   10    8    1    1    4   10    2  927    2]
+ [  16    9    0    2   44   28    1   14    2  893]]
+2025-08-24 08:25:25,463 - INFO - Starting Round 37/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:25:25,464 - INFO - Selected clients for Round 37: [32, 6, 40, 19, 38]
+2025-08-24 08:25:26,327 - INFO - Client 32 Train Loss: 0.0260
+2025-08-24 08:25:26,749 - INFO - Client 6 Train Loss: 0.0615
+2025-08-24 08:25:30,267 - INFO - Client 40 Train Loss: 0.0350
+2025-08-24 08:25:30,771 - INFO - Client 19 Train Loss: 0.0798
+2025-08-24 08:25:34,043 - INFO - Client 38 Train Loss: 0.0028
+2025-08-24 08:25:34,043 - INFO - Global Average Train Loss: 0.0410
+2025-08-24 08:25:34,044 - INFO - Clients train loss: [0.025961531089915727, 0.06154434884149848, 0.035017881285177944, 0.07980103534743752, 0.00284113350052294]
+2025-08-24 08:25:34,044 - INFO - Normalized clients train loss: [0.2183652  0.17500662 0.2073298  0.15276037 0.24653801]
+2025-08-24 08:25:34,145 - INFO - Cosine similarities: [0.0449846088886261, 0.18699492514133453, 0.9130843877792358, 0.4045838713645935, 0.01791609823703766]
+2025-08-24 08:25:34,146 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3135
+2025-08-24 08:25:36,872 - INFO - Global Model Validation Loss: 0.0974, Top1_Accuracy: 97.07%, Top5_Accuracy: 99.99%
+2025-08-24 08:25:36,872 - INFO - Precision: 0.9714, Recall: 0.9707, F1-Score: 0.9707
+2025-08-24 08:25:36,873 - INFO - Confusion Matrix:
+[[ 977    0    0    0    0    0    1    1    1    0]
+ [   0 1133    0    0    0    2    0    0    0    0]
+ [  16   18  950    3    3    0    2   38    2    0]
+ [   3    0    0  980    0   16    0    5    1    5]
+ [   2    1    0    0  967    0    1    0    0   11]
+ [   3    0    0    3    0  883    1    1    1    0]
+ [  24    5    0    0    4    1  924    0    0    0]
+ [   1   10    4    0    0    0    0  990    1   22]
+ [  16    4    3    1    3    4    3    5  921   14]
+ [   7    0    0    1   10    5    0    4    0  982]]
+2025-08-24 08:25:36,873 - INFO - Starting Round 38/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:25:36,874 - INFO - Selected clients for Round 38: [12, 9, 23, 48, 10]
+2025-08-24 08:25:38,355 - INFO - Client 12 Train Loss: 0.0136
+2025-08-24 08:25:40,220 - INFO - Client 9 Train Loss: 0.0074
+2025-08-24 08:25:42,966 - INFO - Client 23 Train Loss: 0.0070
+2025-08-24 08:25:43,005 - INFO - Client 48 Train Loss: 0.0525
+2025-08-24 08:25:43,943 - INFO - Client 10 Train Loss: 0.0217
+2025-08-24 08:25:43,943 - INFO - Global Average Train Loss: 0.0204
+2025-08-24 08:25:43,946 - INFO - Clients train loss: [0.013565802945172428, 0.0074141201260693465, 0.007041741006010543, 0.052511800080537796, 0.021690239741890712]
+2025-08-24 08:25:43,947 - INFO - Normalized clients train loss: [0.21682325 0.2318679  0.2327786  0.12157626 0.19695399]
+2025-08-24 08:25:44,052 - INFO - Cosine similarities: [0.028319524601101875, 0.016054347157478333, -0.017354320734739304, 0.4053669571876526, 0.9347941875457764]
+2025-08-24 08:25:44,053 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2734
+2025-08-24 08:25:46,775 - INFO - Global Model Validation Loss: 0.1597, Top1_Accuracy: 94.42%, Top5_Accuracy: 99.98%
+2025-08-24 08:25:46,775 - INFO - Precision: 0.9500, Recall: 0.9442, F1-Score: 0.9438
+2025-08-24 08:25:46,776 - INFO - Confusion Matrix:
+[[ 975    1    0    0    0    0    3    1    0    0]
+ [   0 1132    0    0    0    2    1    0    0    0]
+ [  19  198  777    5    4    0    3   25    1    0]
+ [   3    2    0  965    0   31    0    7    1    1]
+ [   0    5    0    0  971    0    5    0    0    1]
+ [   3    0    0    2    0  883    3    1    0    0]
+ [  11    5    0    0    1    1  940    0    0    0]
+ [   2   43    6    0    2    0    0  944    0   31]
+ [  18   23    0    0    3    1   17    1  902    9]
+ [   6    7    0    0   32    7    0    4    0  953]]
+2025-08-24 08:25:46,776 - INFO - Starting Round 39/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:25:46,777 - INFO - Selected clients for Round 39: [34, 49, 33, 0, 38]
+2025-08-24 08:25:48,753 - INFO - Client 34 Train Loss: 0.0202
+2025-08-24 08:25:50,757 - INFO - Client 49 Train Loss: 0.0423
+2025-08-24 08:25:51,849 - INFO - Client 33 Train Loss: 0.0108
+2025-08-24 08:25:52,792 - INFO - Client 0 Train Loss: 0.0629
+2025-08-24 08:25:56,021 - INFO - Client 38 Train Loss: 0.0025
+2025-08-24 08:25:56,021 - INFO - Global Average Train Loss: 0.0277
+2025-08-24 08:25:56,022 - INFO - Clients train loss: [0.020232950493550884, 0.042274343890666095, 0.010767183368917878, 0.06292112031844004, 0.0024701838051280124]
+2025-08-24 08:25:56,023 - INFO - Normalized clients train loss: [0.21352209 0.17378375 0.23058789 0.13655976 0.24554652]
+2025-08-24 08:25:56,123 - INFO - Cosine similarities: [-0.036494676023721695, 0.048953644931316376, -0.01915903389453888, 0.9959971308708191, -0.06758861988782883]
+2025-08-24 08:25:56,124 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.1843
+2025-08-24 08:25:58,821 - INFO - Global Model Validation Loss: 0.1493, Top1_Accuracy: 95.46%, Top5_Accuracy: 99.97%
+2025-08-24 08:25:58,821 - INFO - Precision: 0.9580, Recall: 0.9546, F1-Score: 0.9544
+2025-08-24 08:25:58,822 - INFO - Confusion Matrix:
+[[ 978    0    0    0    0    0    0    1    1    0]
+ [   0 1133    0    0    0    1    1    0    0    0]
+ [  56   61  845    3    2    0    2   41   22    0]
+ [   3    0    0  984    0   13    0    8    2    0]
+ [   7    4    0    0  961    0    7    0    2    1]
+ [  13    0    0    3    0  874    1    0    1    0]
+ [  42    3    0    0    1    1  909    0    2    0]
+ [   7   16    2    2    0    0    0  993    1    7]
+ [  20    3    0    0    1    1    2    4  941    2]
+ [  29    5    0    1   19   13    0   12    2  928]]
+2025-08-24 08:25:58,822 - INFO - Starting Round 40/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:25:58,822 - INFO - Selected clients for Round 40: [20, 31, 1, 7, 23]
+2025-08-24 08:26:00,735 - INFO - Client 20 Train Loss: 0.0194
+2025-08-24 08:26:01,151 - INFO - Client 31 Train Loss: 0.0515
+2025-08-24 08:26:04,243 - INFO - Client 1 Train Loss: 0.0063
+2025-08-24 08:26:05,216 - INFO - Client 7 Train Loss: 0.0247
+2025-08-24 08:26:07,880 - INFO - Client 23 Train Loss: 0.0055
+2025-08-24 08:26:07,880 - INFO - Global Average Train Loss: 0.0215
+2025-08-24 08:26:07,881 - INFO - Clients train loss: [0.019359045981365897, 0.0515115680544132, 0.006271480038836459, 0.0246874757010389, 0.00546256121837969]
+2025-08-24 08:26:07,881 - INFO - Normalized clients train loss: [0.20489174 0.12997356 0.23538691 0.19247603 0.23727176]
+2025-08-24 08:26:07,975 - INFO - Cosine similarities: [0.09885916113853455, 0.5371226668357849, -0.01589144766330719, 0.13132184743881226, 0.849257230758667]
+2025-08-24 08:26:07,975 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3201
+2025-08-24 08:26:10,555 - INFO - Global Model Validation Loss: 0.1389, Top1_Accuracy: 96.02%, Top5_Accuracy: 99.97%
+2025-08-24 08:26:10,555 - INFO - Precision: 0.9631, Recall: 0.9602, F1-Score: 0.9605
+2025-08-24 08:26:10,556 - INFO - Confusion Matrix:
+[[ 955    0    1    2    0    1   19    1    1    0]
+ [   0 1124    0    9    0    0    2    0    0    0]
+ [   0    7  960   48    3    0    3    9    2    0]
+ [   0    0    0 1008    0    0    0    2    0    0]
+ [   0    1    0    0  974    0    5    0    0    2]
+ [   1    0    0   42    0  848    1    0    0    0]
+ [   1    2    0    1    1    7  946    0    0    0]
+ [   2   10   10   42    4    0    0  945    0   15]
+ [   1    3    4   31    4    7    7    4  907    6]
+ [   5    2    0   16   33   12    1    5    0  935]]
+2025-08-24 08:26:10,556 - INFO - Starting Round 41/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:26:10,557 - INFO - Selected clients for Round 41: [19, 15, 3, 36, 5]
+2025-08-24 08:26:11,071 - INFO - Client 19 Train Loss: 0.0508
+2025-08-24 08:26:11,157 - INFO - Client 15 Train Loss: 0.0820
+2025-08-24 08:26:13,461 - INFO - Client 3 Train Loss: 0.0557
+2025-08-24 08:26:14,044 - INFO - Client 36 Train Loss: 0.0380
+2025-08-24 08:26:14,125 - INFO - Client 5 Train Loss: 0.1636
+2025-08-24 08:26:14,125 - INFO - Global Average Train Loss: 0.0780
+2025-08-24 08:26:14,126 - INFO - Clients train loss: [0.0507935440502905, 0.08195497124310729, 0.05569742322981763, 0.03804807565512693, 0.16359420132357627]
+2025-08-24 08:26:14,127 - INFO - Normalized clients train loss: [0.2174474  0.19747664 0.2143046  0.22561572 0.14515564]
+2025-08-24 08:26:14,354 - INFO - Cosine similarities: [0.18532873690128326, 0.5808271169662476, 0.8046585917472839, 0.2094421684741974, 0.1308281123638153]
+2025-08-24 08:26:14,355 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3822
+2025-08-24 08:26:17,284 - INFO - Global Model Validation Loss: 0.1140, Top1_Accuracy: 96.40%, Top5_Accuracy: 99.97%
+2025-08-24 08:26:17,284 - INFO - Precision: 0.9657, Recall: 0.9640, F1-Score: 0.9641
+2025-08-24 08:26:17,285 - INFO - Confusion Matrix:
+[[ 921    1    2    0    2    5   38    1    4    6]
+ [   0 1129    1    1    0    3    1    0    0    0]
+ [   1    6  995    3    6    0    3   12    5    1]
+ [   0    0    1  947    0   53    0    2    1    6]
+ [   0    1    0    0  967    0    1    0    0   13]
+ [   0    0    0    1    0  889    1    0    0    1]
+ [   0    2    0    0    9   10  937    0    0    0]
+ [   0   13   14    0    0    1    0  927    1   72]
+ [   1    3    2    0    4    5    7    3  934   15]
+ [   0    0    0    0    8    6    0    1    0  994]]
+2025-08-24 08:26:17,286 - INFO - Starting Round 42/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:26:17,286 - INFO - Selected clients for Round 42: [5, 46, 31, 4, 48]
+2025-08-24 08:26:17,362 - INFO - Client 5 Train Loss: 0.1404
+2025-08-24 08:26:18,803 - INFO - Client 46 Train Loss: 0.0431
+2025-08-24 08:26:19,215 - INFO - Client 31 Train Loss: 0.0692
+2025-08-24 08:26:20,517 - INFO - Client 4 Train Loss: 0.0702
+2025-08-24 08:26:20,553 - INFO - Client 48 Train Loss: 0.1040
+2025-08-24 08:26:20,553 - INFO - Global Average Train Loss: 0.0854
+2025-08-24 08:26:20,554 - INFO - Clients train loss: [0.14037798799108714, 0.0430883845956241, 0.06916302642957933, 0.0702274056189695, 0.1039850153028965]
+2025-08-24 08:26:20,554 - INFO - Normalized clients train loss: [0.16778102 0.22476326 0.20949142 0.20886801 0.18909628]
+2025-08-24 08:26:20,654 - INFO - Cosine similarities: [-0.00016272650100290775, 0.07549415528774261, -0.12711907923221588, 0.5443973541259766, 0.7733606100082397]
+2025-08-24 08:26:20,654 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2532
+2025-08-24 08:26:23,594 - INFO - Global Model Validation Loss: 0.1178, Top1_Accuracy: 96.65%, Top5_Accuracy: 100.00%
+2025-08-24 08:26:23,594 - INFO - Precision: 0.9682, Recall: 0.9665, F1-Score: 0.9665
+2025-08-24 08:26:23,595 - INFO - Confusion Matrix:
+[[ 912    0    9    0    1    0   49    1    6    2]
+ [   0 1133    1    0    0    0    1    0    0    0]
+ [   0    6 1009    0    2    0    3    3    9    0]
+ [   0    1    3  989    0    5    0    2    4    6]
+ [   0    2    1    0  948    0    6    0    2   23]
+ [   1    0    0    5    0  865    5    0    8    8]
+ [   0    4    0    0    1    1  950    0    2    0]
+ [   0   16   26    2    0    0    0  902    1   81]
+ [   1    1    2    0    1    0    3    2  958    6]
+ [   0    2    1    1    3    1    0    2    0  999]]
+2025-08-24 08:26:23,597 - INFO - Starting Round 43/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:26:23,597 - INFO - Selected clients for Round 43: [34, 49, 8, 42, 30]
+2025-08-24 08:26:25,460 - INFO - Client 34 Train Loss: 0.0135
+2025-08-24 08:26:27,439 - INFO - Client 49 Train Loss: 0.0194
+2025-08-24 08:26:27,655 - INFO - Client 8 Train Loss: 0.1310
+2025-08-24 08:26:27,939 - INFO - Client 42 Train Loss: 0.0623
+2025-08-24 08:26:27,991 - INFO - Client 30 Train Loss: 0.0422
+2025-08-24 08:26:27,991 - INFO - Global Average Train Loss: 0.0537
+2025-08-24 08:26:27,992 - INFO - Clients train loss: [0.013453199881689895, 0.019362673201080316, 0.13096684425847954, 0.06226773752862793, 0.04220502632849205]
+2025-08-24 08:26:27,992 - INFO - Normalized clients train loss: [0.23746233 0.23195501 0.12794579 0.19196974 0.21066714]
+2025-08-24 08:26:28,082 - INFO - Cosine similarities: [-0.06769827753305435, 0.030941691249608994, 0.5747765898704529, 0.8415912985801697, 0.01922466792166233]
+2025-08-24 08:26:28,082 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2798
+2025-08-24 08:26:30,904 - INFO - Global Model Validation Loss: 0.1255, Top1_Accuracy: 96.23%, Top5_Accuracy: 99.97%
+2025-08-24 08:26:30,905 - INFO - Precision: 0.9640, Recall: 0.9623, F1-Score: 0.9623
+2025-08-24 08:26:30,906 - INFO - Confusion Matrix:
+[[ 901    0    2    0    0    1   63    1   12    0]
+ [   0 1130    0    1    0    2    2    0    0    0]
+ [   0   10  958    4    2    0    9    5   44    0]
+ [   0    0    1  971    0   26    0    3    7    2]
+ [   0    4    2    0  932    0   17    0    3   24]
+ [   0    0    0    1    0  886    4    0    1    0]
+ [   0    2    0    0    1    1  952    0    2    0]
+ [   0   17   18    4    0    2    0  945    3   39]
+ [   0    1    0    0    1    0    3    0  968    1]
+ [   1    1    0    1    2    8    3    4    9  980]]
+2025-08-24 08:26:30,906 - INFO - Starting Round 44/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:26:30,906 - INFO - Selected clients for Round 44: [35, 10, 16, 33, 38]
+2025-08-24 08:26:31,527 - INFO - Client 35 Train Loss: 0.0656
+2025-08-24 08:26:32,532 - INFO - Client 10 Train Loss: 0.0393
+2025-08-24 08:26:33,400 - INFO - Client 16 Train Loss: 0.0226
+2025-08-24 08:26:34,513 - INFO - Client 33 Train Loss: 0.0280
+2025-08-24 08:26:37,653 - INFO - Client 38 Train Loss: 0.0054
+2025-08-24 08:26:37,653 - INFO - Global Average Train Loss: 0.0322
+2025-08-24 08:26:37,654 - INFO - Clients train loss: [0.06562902056226877, 0.03927953500587876, 0.022578489109546337, 0.02797447329871956, 0.005409589368620929]
+2025-08-24 08:26:37,655 - INFO - Normalized clients train loss: [0.14800993 0.18895806 0.21491214 0.20652657 0.24159329]
+2025-08-24 08:26:37,758 - INFO - Cosine similarities: [0.4915596842765808, 0.8811491131782532, -0.006278482265770435, -0.08122942596673965, -0.042595021426677704]
+2025-08-24 08:26:37,758 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2485
+2025-08-24 08:26:40,372 - INFO - Global Model Validation Loss: 0.2330, Top1_Accuracy: 93.23%, Top5_Accuracy: 99.95%
+2025-08-24 08:26:40,372 - INFO - Precision: 0.9450, Recall: 0.9323, F1-Score: 0.9340
+2025-08-24 08:26:40,373 - INFO - Confusion Matrix:
+[[ 979    0    0    0    0    0    0    1    0    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [  52   54  891    5    1    0    0   29    0    0]
+ [   6    1    0  996    0    0    0    7    0    0]
+ [  13   21    1    0  922    0    4    2    1   18]
+ [  45    0    0   17    0  829    1    0    0    0]
+ [ 122    4    0    1    1    1  829    0    0    0]
+ [   5   19    2    2    0    0    0  998    0    2]
+ [ 126   17    8    3    1    1    5    9  800    4]
+ [  32    8    0    5    2    0    0   18    0  944]]
+2025-08-24 08:26:40,374 - INFO - Starting Round 45/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:26:40,374 - INFO - Selected clients for Round 45: [27, 13, 34, 48, 46]
+2025-08-24 08:26:41,850 - INFO - Client 27 Train Loss: 0.0300
+2025-08-24 08:26:42,717 - INFO - Client 13 Train Loss: 0.0565
+2025-08-24 08:26:44,659 - INFO - Client 34 Train Loss: 0.0171
+2025-08-24 08:26:44,697 - INFO - Client 48 Train Loss: 0.2614
+2025-08-24 08:26:46,134 - INFO - Client 46 Train Loss: 0.0558
+2025-08-24 08:26:46,134 - INFO - Global Average Train Loss: 0.0842
+2025-08-24 08:26:46,135 - INFO - Clients train loss: [0.02995746252749015, 0.056543332431600056, 0.01714059174299614, 0.26144997775554657, 0.055770131938058784]
+2025-08-24 08:26:46,136 - INFO - Normalized clients train loss: [0.23220468 0.21641215 0.23981815 0.09469357 0.21687145]
+2025-08-24 08:26:46,235 - INFO - Cosine similarities: [0.7423890233039856, 0.1068316251039505, -0.22441741824150085, 0.6527727842330933, 0.17858433723449707]
+2025-08-24 08:26:46,236 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2912
+2025-08-24 08:26:48,898 - INFO - Global Model Validation Loss: 0.1026, Top1_Accuracy: 97.06%, Top5_Accuracy: 99.99%
+2025-08-24 08:26:48,898 - INFO - Precision: 0.9713, Recall: 0.9706, F1-Score: 0.9706
+2025-08-24 08:26:48,899 - INFO - Confusion Matrix:
+[[ 931    1    3    0    0    2   40    1    2    0]
+ [   0 1131    0    1    0    2    1    0    0    0]
+ [   0   22  982    9    2    0    5   12    0    0]
+ [   0    1    0  982    0   20    0    6    1    0]
+ [   0    4    1    0  964    0    9    0    1    3]
+ [   0    0    0    2    0  888    1    1    0    0]
+ [   0    2    0    0    1    7  948    0    0    0]
+ [   0   17   13    2    0    2    0  988    1    5]
+ [   2    5    3    1    1    6    9    5  939    3]
+ [   3    5    1    2   15   18    0   11    1  953]]
+2025-08-24 08:26:48,899 - INFO - Starting Round 46/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:26:48,899 - INFO - Selected clients for Round 46: [44, 12, 45, 19, 25]
+2025-08-24 08:26:50,500 - INFO - Client 44 Train Loss: 0.0290
+2025-08-24 08:26:51,766 - INFO - Client 12 Train Loss: 0.0082
+2025-08-24 08:26:53,293 - INFO - Client 45 Train Loss: 0.0164
+2025-08-24 08:26:53,788 - INFO - Client 19 Train Loss: 0.0426
+2025-08-24 08:26:54,324 - INFO - Client 25 Train Loss: 0.0384
+2025-08-24 08:26:54,324 - INFO - Global Average Train Loss: 0.0269
+2025-08-24 08:26:54,325 - INFO - Clients train loss: [0.028979346263580598, 0.008210692710177067, 0.01638611798236594, 0.04259780980256936, 0.03839882097213703]
+2025-08-24 08:26:54,325 - INFO - Normalized clients train loss: [0.19616418 0.23474674 0.21955901 0.17086474 0.17866533]
+2025-08-24 08:26:54,417 - INFO - Cosine similarities: [0.8022801280021667, 0.09467076510190964, 0.0348084419965744, 0.5857982635498047, 0.1920401155948639]
+2025-08-24 08:26:54,417 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3419
+2025-08-24 08:26:57,184 - INFO - Global Model Validation Loss: 0.1151, Top1_Accuracy: 96.47%, Top5_Accuracy: 99.98%
+2025-08-24 08:26:57,184 - INFO - Precision: 0.9662, Recall: 0.9647, F1-Score: 0.9647
+2025-08-24 08:26:57,185 - INFO - Confusion Matrix:
+[[ 913    0    2    0    7    1   49    1    5    2]
+ [   0 1131    0    0    0    2    2    0    0    0]
+ [   1   15  960    3   15    0    7   15   15    1]
+ [   0    1    0  977    0   22    0    7    2    1]
+ [   0    0    0    0  982    0    0    0    0    0]
+ [   0    0    0    1    0  888    1    1    1    0]
+ [   0    2    0    0   11    3  942    0    0    0]
+ [   0   13   13    2    5    0    0  983    2   10]
+ [   0    2    2    0    2    0    5    3  959    1]
+ [   1    4    0    1   78    6    1    6    0  912]]
+2025-08-24 08:26:57,185 - INFO - Starting Round 47/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:26:57,185 - INFO - Selected clients for Round 47: [42, 41, 23, 28, 33]
+2025-08-24 08:26:57,476 - INFO - Client 42 Train Loss: 0.0337
+2025-08-24 08:27:01,993 - INFO - Client 41 Train Loss: 0.0070
+2025-08-24 08:27:05,100 - INFO - Client 23 Train Loss: 0.0052
+2025-08-24 08:27:06,442 - INFO - Client 28 Train Loss: 0.0392
+2025-08-24 08:27:07,631 - INFO - Client 33 Train Loss: 0.0305
+2025-08-24 08:27:07,631 - INFO - Global Average Train Loss: 0.0231
+2025-08-24 08:27:07,632 - INFO - Clients train loss: [0.033661868386926704, 0.0070498874567257435, 0.005202483138889309, 0.03920850456185216, 0.030516871285124987]
+2025-08-24 08:27:07,633 - INFO - Normalized clients train loss: [0.17722678 0.23475893 0.23875281 0.16523557 0.18402591]
+2025-08-24 08:27:07,750 - INFO - Cosine similarities: [0.7985345721244812, -0.04449695348739624, 0.06467912346124649, 0.6236240863800049, 0.0984327495098114]
+2025-08-24 08:27:07,750 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3082
+2025-08-24 08:27:10,626 - INFO - Global Model Validation Loss: 0.1242, Top1_Accuracy: 96.54%, Top5_Accuracy: 99.98%
+2025-08-24 08:27:10,626 - INFO - Precision: 0.9674, Recall: 0.9654, F1-Score: 0.9654
+2025-08-24 08:27:10,627 - INFO - Confusion Matrix:
+[[ 970    0    6    0    0    0    3    1    0    0]
+ [   0 1128    2    3    0    0    2    0    0    0]
+ [   0    1 1030    0    0    0    1    0    0    0]
+ [   0    0    4 1005    0    0    0    1    0    0]
+ [   0    1    8    0  964    0    9    0    0    0]
+ [   4    0    0   27    0  857    4    0    0    0]
+ [   8    3    1    0    1    1  944    0    0    0]
+ [   0    8   79    8    0    0    0  930    0    3]
+ [  13    1   39    4    2    0   12    3  899    1]
+ [  10    4    6    7   40    4    0   11    0  927]]
+2025-08-24 08:27:10,627 - INFO - Starting Round 48/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:27:10,627 - INFO - Selected clients for Round 48: [28, 7, 15, 14, 4]
+2025-08-24 08:27:11,904 - INFO - Client 28 Train Loss: 0.0347
+2025-08-24 08:27:12,874 - INFO - Client 7 Train Loss: 0.0222
+2025-08-24 08:27:12,964 - INFO - Client 15 Train Loss: 0.0440
+2025-08-24 08:27:14,559 - INFO - Client 14 Train Loss: 0.0229
+2025-08-24 08:27:16,127 - INFO - Client 4 Train Loss: 0.0275
+2025-08-24 08:27:16,128 - INFO - Global Average Train Loss: 0.0303
+2025-08-24 08:27:16,129 - INFO - Clients train loss: [0.03470744856249567, 0.022216887125191657, 0.043970250913135514, 0.022946778209509994, 0.027535709019264894]
+2025-08-24 08:27:16,129 - INFO - Normalized clients train loss: [0.19268047 0.2133087  0.17738291 0.21210328 0.20452464]
+2025-08-24 08:27:16,244 - INFO - Cosine similarities: [0.29719823598861694, 0.1967661827802658, 0.9172300696372986, -0.04689729958772659, 0.32755839824676514]
+2025-08-24 08:27:16,245 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.3384
+2025-08-24 08:27:19,561 - INFO - Global Model Validation Loss: 0.1059, Top1_Accuracy: 96.65%, Top5_Accuracy: 99.99%
+2025-08-24 08:27:19,561 - INFO - Precision: 0.9678, Recall: 0.9665, F1-Score: 0.9661
+2025-08-24 08:27:19,562 - INFO - Confusion Matrix:
+[[ 972    0    1    0    0    0    6    1    0    0]
+ [   0 1130    1    2    0    1    1    0    0    0]
+ [   2    3 1015    6    2    0    3    0    1    0]
+ [   0    0    1 1009    0    0    0    0    0    0]
+ [   0    1    1    0  971    0    4    0    0    5]
+ [   3    0    0   21    0  867    1    0    0    0]
+ [   6    2    0    0    2    1  947    0    0    0]
+ [   3   12   56   54    0    0    0  866    1   36]
+ [  13    2   11    9    1    1   13    1  916    7]
+ [   6    2    0    6   15    4    0    4    0  972]]
+2025-08-24 08:27:19,562 - INFO - Starting Round 49/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:27:19,562 - INFO - Selected clients for Round 49: [21, 1, 37, 35, 14]
+2025-08-24 08:27:19,617 - INFO - Client 21 Train Loss: 0.0900
+2025-08-24 08:27:23,094 - INFO - Client 1 Train Loss: 0.0026
+2025-08-24 08:27:23,449 - INFO - Client 37 Train Loss: 0.0480
+2025-08-24 08:27:24,004 - INFO - Client 35 Train Loss: 0.0558
+2025-08-24 08:27:25,509 - INFO - Client 14 Train Loss: 0.0157
+2025-08-24 08:27:25,509 - INFO - Global Average Train Loss: 0.0424
+2025-08-24 08:27:25,510 - INFO - Clients train loss: [0.08998821013503605, 0.002574404733944071, 0.047985786214824126, 0.055831920640711734, 0.015743054926246707]
+2025-08-24 08:27:25,510 - INFO - Normalized clients train loss: [0.14394355 0.24696591 0.1934459  0.18419876 0.23144587]
+2025-08-24 08:27:25,611 - INFO - Cosine similarities: [0.0910358875989914, 0.15990976989269257, 0.09521408379077911, 0.07199080288410187, 0.9966280460357666]
+2025-08-24 08:27:25,611 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.2830
+2025-08-24 08:27:28,191 - INFO - Global Model Validation Loss: 0.1226, Top1_Accuracy: 96.30%, Top5_Accuracy: 99.96%
+2025-08-24 08:27:28,192 - INFO - Precision: 0.9642, Recall: 0.9630, F1-Score: 0.9627
+2025-08-24 08:27:28,192 - INFO - Confusion Matrix:
+[[ 965    0    7    0    0    0    7    1    0    0]
+ [   0 1133    1    1    0    0    0    0    0    0]
+ [   0    6 1013    0    2    0    3    8    0    0]
+ [   0    0    0 1002    0    0    0    6    1    1]
+ [   0    1    1    0  979    0    1    0    0    0]
+ [   2    3    0   56    0  823    5    1    0    2]
+ [   5    5    0    0    2    1  945    0    0    0]
+ [   1    9   19    4    3    0    0  982    0   10]
+ [  14   11   34    9   13    0   24    7  851   11]
+ [   5    5    0    6   47    0    0    9    0  937]]
+2025-08-24 08:27:28,193 - INFO - Starting Round 50/50 with algorithm fednolowe and model lenet5
+2025-08-24 08:27:28,193 - INFO - Selected clients for Round 50: [37, 14, 0, 4, 45]
+2025-08-24 08:27:28,538 - INFO - Client 37 Train Loss: 0.0431
+2025-08-24 08:27:30,099 - INFO - Client 14 Train Loss: 0.0129
+2025-08-24 08:27:31,064 - INFO - Client 0 Train Loss: 0.0277
+2025-08-24 08:27:32,483 - INFO - Client 4 Train Loss: 0.0352
+2025-08-24 08:27:34,005 - INFO - Client 45 Train Loss: 0.0127
+2025-08-24 08:27:34,005 - INFO - Global Average Train Loss: 0.0263
+2025-08-24 08:27:34,006 - INFO - Clients train loss: [0.04305470959101429, 0.012939322081045404, 0.027719904274870474, 0.03515558062481389, 0.012742430409118469]
+2025-08-24 08:27:34,007 - INFO - Normalized clients train loss: [0.16821656 0.22542145 0.19734539 0.18322114 0.22579545]
+2025-08-24 08:27:34,115 - INFO - Cosine similarities: [0.36839601397514343, 0.3382728695869446, 0.26627808809280396, 0.26815950870513916, 0.8298950791358948]
+2025-08-24 08:27:34,115 - INFO - Round cosine similarity between mean clients gradient and global gradient: 0.4142
+2025-08-24 08:27:36,919 - INFO - Global Model Validation Loss: 0.0948, Top1_Accuracy: 97.19%, Top5_Accuracy: 99.99%
+2025-08-24 08:27:36,919 - INFO - Precision: 0.9731, Recall: 0.9719, F1-Score: 0.9718
+2025-08-24 08:27:36,921 - INFO - Confusion Matrix:
+[[ 946    0    7    0    5    1   19    1    1    0]
+ [   0 1132    1    1    0    1    0    0    0    0]
+ [   0    4 1009    3    5    0    3    8    0    0]
+ [   0    0    0 1004    0    1    0    3    1    1]
+ [   0    0    0    0  982    0    0    0    0    0]
+ [   1    0    0   12    0  877    2    0    0    0]
+ [   1    4    0    0    7    1  945    0    0    0]
+ [   0    7   15    5    4    1    0  993    0    3]
+ [   3    3    6    2    9    0    9    4  935    3]
+ [   4    5    0    5   81    8    0   10    0  896]]
+2025-08-24 08:27:36,926 - INFO - Average Cosine Similarity: 0.3331 ± 0.0596
+2025-08-24 08:27:37,011 - INFO - Metrics saved to outcomes/metrics_lenet5_fednolowe_dong_clients50_rounds50_clientsperround5.csv
+2025-08-24 08:27:37,607 - INFO - Loss plot saved to outcomes/Loss_lenet5_fednolowe_clients50_rounds50_clientsperround5.png
+2025-08-24 08:27:37,780 - INFO - Accuracy plot saved to outcomes/Accuracy_lenet5_fednolowe_clients50_rounds50_clientsperround5.png

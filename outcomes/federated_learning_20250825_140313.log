@@ -1,0 +1,2205 @@
+2025-08-25 14:03:33,857 - INFO - Starting federated learning with model: cnn, algorithm: fedavg, clients: 50, rounds: 100
+2025-08-25 14:03:34,001 - INFO - Initial data proportions assigned to clients: [0.028533333333333334, 0.006733333333333333, 0.0085, 0.02745, 0.021, 0.007816666666666666, 0.006716666666666667, 0.030483333333333335, 0.01355, 0.021916666666666668, 0.013016666666666666, 0.023466666666666667, 0.020033333333333334, 0.029883333333333335, 0.0294, 0.0051333333333333335, 0.0183, 0.029066666666666668, 0.016366666666666668, 0.02036666666666667, 0.022383333333333335, 0.041716666666666666, 0.00655, 0.00775, 0.011366666666666667, 0.0341, 0.007783333333333333, 0.023133333333333332, 0.01721666666666667, 0.010583333333333333, 0.020316666666666667, 0.0444, 0.00425, 0.020183333333333334, 0.0167, 0.010183333333333334, 0.05045, 0.02351666666666667, 0.015183333333333333, 0.022066666666666665, 0.01725, 0.017516666666666666, 0.0225, 0.016783333333333334, 0.027816666666666667, 0.0108, 0.025283333333333335, 0.0233, 0.021566666666666668, 0.029616666666666666]
+2025-08-25 14:03:34,260 - INFO - Starting Round 1/100 with algorithm fedavg and model cnn
+2025-08-25 14:03:34,260 - INFO - Selected clients for Round 1: [40, 7, 1, 47, 17]
+2025-08-25 14:03:36,093 - INFO - Client 40 Train Loss: 0.7268
+2025-08-25 14:03:38,990 - INFO - Client 7 Train Loss: 0.2772
+2025-08-25 14:03:39,659 - INFO - Client 1 Train Loss: 0.7523
+2025-08-25 14:03:41,891 - INFO - Client 47 Train Loss: 0.7869
+2025-08-25 14:03:44,826 - INFO - Client 17 Train Loss: 0.4096
+2025-08-25 14:03:44,826 - INFO - Global Average Train Loss: 0.5906
+2025-08-25 14:03:44,848 - INFO - Aggregated using FedAvg
+2025-08-25 14:03:48,687 - INFO - Global Model Validation Loss: 1.9400, Top1_Accuracy: 31.74%, Top5_Accuracy: 67.35%
+2025-08-25 14:03:48,687 - INFO - Precision: 0.6872, Recall: 0.3174, F1-Score: 0.2051
+2025-08-25 14:03:48,688 - INFO - Confusion Matrix:
+[[744 115 100   0   0   0  37   0   4   0]
+ [  0 989  11   0   0   0   0   0   0   0]
+ [  6  19 972   0   0   0   3   0   0   0]
+ [ 45 848  84   0   0   0  22   0   1   0]
+ [  1 101 891   0   0   0   7   0   0   0]
+ [  0  91  87   0   0   0  28   0 794   0]
+ [197  85 668   0   0   0  47   0   3   0]
+ [  0   3  24   0   0   0   2   0 971   0]
+ [  8  15 553   0   0   0   2   0 422   0]
+ [  0  82 326   0   0   0  12   0 580   0]]
+2025-08-25 14:03:48,688 - INFO - Starting Round 2/100 with algorithm fedavg and model cnn
+2025-08-25 14:03:48,688 - INFO - Selected clients for Round 2: [15, 14, 8, 47, 6]
+2025-08-25 14:03:49,219 - INFO - Client 15 Train Loss: 1.1186
+2025-08-25 14:03:52,078 - INFO - Client 14 Train Loss: 0.4783
+2025-08-25 14:03:53,397 - INFO - Client 8 Train Loss: 0.6962
+2025-08-25 14:03:55,675 - INFO - Client 47 Train Loss: 0.7023
+2025-08-25 14:03:56,326 - INFO - Client 6 Train Loss: 0.8848
+2025-08-25 14:03:56,326 - INFO - Global Average Train Loss: 0.7760
+2025-08-25 14:03:56,350 - INFO - Aggregated using FedAvg
+2025-08-25 14:04:00,126 - INFO - Global Model Validation Loss: 1.6827, Top1_Accuracy: 40.55%, Top5_Accuracy: 81.84%
+2025-08-25 14:04:00,127 - INFO - Precision: 0.7260, Recall: 0.4055, F1-Score: 0.3344
+2025-08-25 14:04:00,127 - INFO - Confusion Matrix:
+[[  0   0   5 156   1   0 837   0   1   0]
+ [  0 948   4  38   3   0   7   0   0   0]
+ [  0   1 573  19 117   0 290   0   0   0]
+ [  0   9   0 895   4   0  92   0   0   0]
+ [  0   1  90 103 529   0 277   0   0   0]
+ [  0   0   0 437   0   0 155   0 408   0]
+ [  0   2  60  85  36   0 817   0   0   0]
+ [  0   0   0 277   0   0  10   0 713   0]
+ [  0   0   5  89  35   0 578   0 293   0]
+ [  0   0   0 361   7   0 207   0 425   0]]
+2025-08-25 14:04:00,130 - INFO - Starting Round 3/100 with algorithm fedavg and model cnn
+2025-08-25 14:04:00,130 - INFO - Selected clients for Round 3: [43, 47, 34, 5, 37]
+2025-08-25 14:04:01,751 - INFO - Client 43 Train Loss: 0.4160
+2025-08-25 14:04:04,068 - INFO - Client 47 Train Loss: 0.5404
+2025-08-25 14:04:05,770 - INFO - Client 34 Train Loss: 0.2948
+2025-08-25 14:04:06,533 - INFO - Client 5 Train Loss: 0.5324
+2025-08-25 14:04:08,871 - INFO - Client 37 Train Loss: 0.0953
+2025-08-25 14:04:08,871 - INFO - Global Average Train Loss: 0.3758
+2025-08-25 14:04:08,894 - INFO - Aggregated using FedAvg
+2025-08-25 14:04:12,712 - INFO - Global Model Validation Loss: 1.4995, Top1_Accuracy: 50.66%, Top5_Accuracy: 90.04%
+2025-08-25 14:04:12,712 - INFO - Precision: 0.7115, Recall: 0.5066, F1-Score: 0.4094
+2025-08-25 14:04:12,713 - INFO - Confusion Matrix:
+[[952  35   2   1   1   2   0   0   7   0]
+ [  5 991   0   0   2   1   0   0   1   0]
+ [288  66 464   0 157   4  14   0   7   0]
+ [362 587   0  44   5   0   0   0   2   0]
+ [139 109  73   3 646   3  14   0  13   0]
+ [ 44  38   0   0   0 893   0   0  25   0]
+ [592  57  59   0  95   2 172   0  23   0]
+ [  1   0   0   0   0 805   0   0 194   0]
+ [ 72  15   0   0   1   8   0   0 904   0]
+ [172  31   0   0   0 138   0   0 659   0]]
+2025-08-25 14:04:12,713 - INFO - Starting Round 4/100 with algorithm fedavg and model cnn
+2025-08-25 14:04:12,713 - INFO - Selected clients for Round 4: [27, 2, 1, 5, 13]
+2025-08-25 14:04:15,069 - INFO - Client 27 Train Loss: 0.2183
+2025-08-25 14:04:15,869 - INFO - Client 2 Train Loss: 0.5359
+2025-08-25 14:04:16,513 - INFO - Client 1 Train Loss: 0.5689
+2025-08-25 14:04:17,269 - INFO - Client 5 Train Loss: 0.4229
+2025-08-25 14:04:20,366 - INFO - Client 13 Train Loss: 0.1086
+2025-08-25 14:04:20,366 - INFO - Global Average Train Loss: 0.3709
+2025-08-25 14:04:20,387 - INFO - Aggregated using FedAvg
+2025-08-25 14:04:24,241 - INFO - Global Model Validation Loss: 1.5992, Top1_Accuracy: 40.47%, Top5_Accuracy: 98.76%
+2025-08-25 14:04:24,241 - INFO - Precision: 0.7777, Recall: 0.4047, F1-Score: 0.3795
+2025-08-25 14:04:24,243 - INFO - Confusion Matrix:
+[[ 697    0    3  292    0    1    4    0    3    0]
+ [   0  924    2   72    0    0    1    0    1    0]
+ [  77    8  479  283   12    0  141    0    0    0]
+ [   6    2    0  992    0    0    0    0    0    0]
+ [   4   10  140  583  117    0  145    0    1    0]
+ [   4    0    0  942    0   54    0    0    0    0]
+ [ 254    6   55  387    9    0  285    0    4    0]
+ [   0    0    0 1000    0    0    0    0    0    0]
+ [  63    0    0  434    0    0    4    0  499    0]
+ [   1    0    0  999    0    0    0    0    0    0]]
+2025-08-25 14:04:24,244 - INFO - Starting Round 5/100 with algorithm fedavg and model cnn
+2025-08-25 14:04:24,244 - INFO - Selected clients for Round 5: [14, 32, 38, 1, 35]
+2025-08-25 14:04:27,187 - INFO - Client 14 Train Loss: 0.3685
+2025-08-25 14:04:27,592 - INFO - Client 32 Train Loss: 0.5672
+2025-08-25 14:04:29,048 - INFO - Client 38 Train Loss: 0.3871
+2025-08-25 14:04:29,717 - INFO - Client 1 Train Loss: 0.4831
+2025-08-25 14:04:30,694 - INFO - Client 35 Train Loss: 0.4733
+2025-08-25 14:04:30,694 - INFO - Global Average Train Loss: 0.4558
+2025-08-25 14:04:30,714 - INFO - Aggregated using FedAvg
+2025-08-25 14:04:34,626 - INFO - Global Model Validation Loss: 1.0912, Top1_Accuracy: 62.27%, Top5_Accuracy: 97.85%
+2025-08-25 14:04:34,626 - INFO - Precision: 0.7561, Recall: 0.6227, F1-Score: 0.5891
+2025-08-25 14:04:34,626 - INFO - Confusion Matrix:
+[[  0  25  26  21   4  11 912   1   0   0]
+ [  0 985   4   3   2   1   5   0   0   0]
+ [  0  10 890   0  23   4  73   0   0   0]
+ [  0 345  20 454  63   5 113   0   0   0]
+ [  0  30 460   8 320   1 181   0   0   0]
+ [  0   1   0   0   0 951   9  36   0   3]
+ [  0  22 157   3  23   8 787   0   0   0]
+ [  0   0   0   0   0 259   0 706   0  35]
+ [  0   7  70  12   2  26 405  63 351  64]
+ [  0  12   2   0   1  51  45 106   0 783]]
+2025-08-25 14:04:34,629 - INFO - Starting Round 6/100 with algorithm fedavg and model cnn
+2025-08-25 14:04:34,629 - INFO - Selected clients for Round 6: [12, 45, 41, 44, 34]
+2025-08-25 14:04:37,086 - INFO - Client 12 Train Loss: 0.0789
+2025-08-25 14:04:38,161 - INFO - Client 45 Train Loss: 0.2575
+2025-08-25 14:04:39,935 - INFO - Client 41 Train Loss: 0.4874
+2025-08-25 14:04:42,801 - INFO - Client 44 Train Loss: 0.2005
+2025-08-25 14:04:44,407 - INFO - Client 34 Train Loss: 0.2058
+2025-08-25 14:04:44,407 - INFO - Global Average Train Loss: 0.2460
+2025-08-25 14:04:44,427 - INFO - Aggregated using FedAvg
+2025-08-25 14:04:48,541 - INFO - Global Model Validation Loss: 1.9771, Top1_Accuracy: 41.17%, Top5_Accuracy: 98.80%
+2025-08-25 14:04:48,541 - INFO - Precision: 0.7942, Recall: 0.4117, F1-Score: 0.3177
+2025-08-25 14:04:48,542 - INFO - Confusion Matrix:
+[[982   0   0   4   0   0   0   0  14   0]
+ [ 39 913   0  40   4   0   0   0   4   0]
+ [465   1  45   2 421   0   0   0  66   0]
+ [446   2   0 546   3   0   0   0   3   0]
+ [243   0   1  21 674   0   0   0  61   0]
+ [263   0   0   0   0   9   0   0 728   0]
+ [793   0   0   3 144   0   0   0  60   0]
+ [  5   0   0   0   0   0   0   0 995   0]
+ [ 50   0   0   1   1   0   0   0 948   0]
+ [ 81   0   0   0   0   0   0   0 919   0]]
+2025-08-25 14:04:48,542 - INFO - Starting Round 7/100 with algorithm fedavg and model cnn
+2025-08-25 14:04:48,542 - INFO - Selected clients for Round 7: [26, 14, 28, 37, 17]
+2025-08-25 14:04:49,292 - INFO - Client 26 Train Loss: 0.2133
+2025-08-25 14:04:52,188 - INFO - Client 14 Train Loss: 0.3867
+2025-08-25 14:04:53,840 - INFO - Client 28 Train Loss: 0.1979
+2025-08-25 14:04:56,095 - INFO - Client 37 Train Loss: 0.0363
+2025-08-25 14:04:58,897 - INFO - Client 17 Train Loss: 0.2358
+2025-08-25 14:04:58,897 - INFO - Global Average Train Loss: 0.2140
+2025-08-25 14:04:58,917 - INFO - Aggregated using FedAvg
+2025-08-25 14:05:02,725 - INFO - Global Model Validation Loss: 1.0950, Top1_Accuracy: 57.72%, Top5_Accuracy: 99.37%
+2025-08-25 14:05:02,725 - INFO - Precision: 0.7422, Recall: 0.5772, F1-Score: 0.5062
+2025-08-25 14:05:02,726 - INFO - Confusion Matrix:
+[[373  29  33  65   0   4 488   0   8   0]
+ [  0 996   1   2   0   0   0   0   1   0]
+ [  0  15 935   6   0   0  43   0   1   0]
+ [  1 266  14 654   0   0  65   0   0   0]
+ [  0  96 728  43   9   0 122   0   2   0]
+ [  0  15   0   1   0 905   0   0  76   3]
+ [ 28  35 229  28   0   1 674   0   5   0]
+ [  0   0   0   0   0 376   0   0 622   2]
+ [  0   9  27  10   0   3  26   0 925   0]
+ [  0  55   0   3   0  28   1   0 612 301]]
+2025-08-25 14:05:02,726 - INFO - Starting Round 8/100 with algorithm fedavg and model cnn
+2025-08-25 14:05:02,726 - INFO - Selected clients for Round 8: [0, 48, 10, 44, 27]
+2025-08-25 14:05:05,425 - INFO - Client 0 Train Loss: 0.2036
+2025-08-25 14:05:07,445 - INFO - Client 48 Train Loss: 0.1334
+2025-08-25 14:05:08,681 - INFO - Client 10 Train Loss: 0.3333
+2025-08-25 14:05:11,331 - INFO - Client 44 Train Loss: 0.1603
+2025-08-25 14:05:13,636 - INFO - Client 27 Train Loss: 0.2069
+2025-08-25 14:05:13,637 - INFO - Global Average Train Loss: 0.2075
+2025-08-25 14:05:13,658 - INFO - Aggregated using FedAvg
+2025-08-25 14:05:17,463 - INFO - Global Model Validation Loss: 1.3645, Top1_Accuracy: 56.97%, Top5_Accuracy: 99.39%
+2025-08-25 14:05:17,463 - INFO - Precision: 0.7440, Recall: 0.5697, F1-Score: 0.4660
+2025-08-25 14:05:17,464 - INFO - Confusion Matrix:
+[[790   1   0 147  44   7   0   0  11   0]
+ [  0 952   0  36   9   1   0   0   2   0]
+ [ 33   1   2  13 948   0   0   0   3   0]
+ [  9   4   0 910  77   0   0   0   0   0]
+ [  1   0   0  41 956   0   0   0   2   0]
+ [  0   0   0   6   0 978   0   0  16   0]
+ [253   0   1 119 608   3   0   0  16   0]
+ [  0   0   0   0   0 822   0   0 178   0]
+ [  8   0   0  20  33   8   0   0 931   0]
+ [  0   0   0  64   2 220   0   0 536 178]]
+2025-08-25 14:05:17,464 - INFO - Starting Round 9/100 with algorithm fedavg and model cnn
+2025-08-25 14:05:17,464 - INFO - Selected clients for Round 9: [21, 17, 9, 13, 48]
+2025-08-25 14:05:21,533 - INFO - Client 21 Train Loss: 0.5202
+2025-08-25 14:05:24,427 - INFO - Client 17 Train Loss: 0.2068
+2025-08-25 14:05:26,630 - INFO - Client 9 Train Loss: 0.1386
+2025-08-25 14:05:29,509 - INFO - Client 13 Train Loss: 0.0430
+2025-08-25 14:05:31,735 - INFO - Client 48 Train Loss: 0.0764
+2025-08-25 14:05:31,736 - INFO - Global Average Train Loss: 0.1970
+2025-08-25 14:05:31,756 - INFO - Aggregated using FedAvg
+2025-08-25 14:05:35,859 - INFO - Global Model Validation Loss: 1.0432, Top1_Accuracy: 61.47%, Top5_Accuracy: 99.46%
+2025-08-25 14:05:35,859 - INFO - Precision: 0.7400, Recall: 0.6147, F1-Score: 0.5277
+2025-08-25 14:05:35,860 - INFO - Confusion Matrix:
+[[815   0  10 120   0   6  36   0  13   0]
+ [  0 955   1  41   0   1   0   0   2   0]
+ [ 18   1 837  40   1   0  98   0   5   0]
+ [ 13   3   1 965   0   0  17   0   1   0]
+ [  1   5 395 237  11   0 340   0  11   0]
+ [  0   0   0  12   0 953   0   0  35   0]
+ [242   2 100  99   0   2 531   0  24   0]
+ [  0   0   0   0   0 647   0   0 353   0]
+ [  1   1   1  19   0   3  10   0 965   0]
+ [  0   0   0  80   0 102   0   0 703 115]]
+2025-08-25 14:05:35,860 - INFO - Starting Round 10/100 with algorithm fedavg and model cnn
+2025-08-25 14:05:35,860 - INFO - Selected clients for Round 10: [21, 6, 5, 24, 22]
+2025-08-25 14:05:40,002 - INFO - Client 21 Train Loss: 0.4305
+2025-08-25 14:05:40,662 - INFO - Client 6 Train Loss: 0.5264
+2025-08-25 14:05:41,431 - INFO - Client 5 Train Loss: 0.2435
+2025-08-25 14:05:42,479 - INFO - Client 24 Train Loss: 0.2381
+2025-08-25 14:05:43,080 - INFO - Client 22 Train Loss: 0.5763
+2025-08-25 14:05:43,081 - INFO - Global Average Train Loss: 0.4029
+2025-08-25 14:05:43,102 - INFO - Aggregated using FedAvg
+2025-08-25 14:05:46,863 - INFO - Global Model Validation Loss: 0.7569, Top1_Accuracy: 69.15%, Top5_Accuracy: 99.01%
+2025-08-25 14:05:46,863 - INFO - Precision: 0.7617, Recall: 0.6915, F1-Score: 0.6573
+2025-08-25 14:05:46,863 - INFO - Confusion Matrix:
+[[677   2  50  62   4   4 199   1   0   1]
+ [  0 959   6  27   4   0   4   0   0   0]
+ [  5   0 934   8  24   0  29   0   0   0]
+ [  7   5  25 912   8   0  43   0   0   0]
+ [  1   1 418  63 456   0  61   0   0   0]
+ [  0   0   0  10   0 958   1   2   0  29]
+ [ 89   0 187  35  89   0 600   0   0   0]
+ [  0   0   0   0   0 684   0  79   0 237]
+ [  0   2 109  39  22  21 197   2 367 241]
+ [  0   0   1   9   0  16   0   1   0 973]]
+2025-08-25 14:05:46,863 - INFO - Starting Round 11/100 with algorithm fedavg and model cnn
+2025-08-25 14:05:46,863 - INFO - Selected clients for Round 11: [22, 38, 16, 2, 46]
+2025-08-25 14:05:47,533 - INFO - Client 22 Train Loss: 0.3603
+2025-08-25 14:05:48,990 - INFO - Client 38 Train Loss: 0.2013
+2025-08-25 14:05:50,820 - INFO - Client 16 Train Loss: 0.0868
+2025-08-25 14:05:51,622 - INFO - Client 2 Train Loss: 0.2205
+2025-08-25 14:05:54,089 - INFO - Client 46 Train Loss: 0.2866
+2025-08-25 14:05:54,090 - INFO - Global Average Train Loss: 0.2311
+2025-08-25 14:05:54,109 - INFO - Aggregated using FedAvg
+2025-08-25 14:05:57,815 - INFO - Global Model Validation Loss: 0.7087, Top1_Accuracy: 74.65%, Top5_Accuracy: 99.28%
+2025-08-25 14:05:57,815 - INFO - Precision: 0.7882, Recall: 0.7465, F1-Score: 0.7319
+2025-08-25 14:05:57,816 - INFO - Confusion Matrix:
+[[670   2  63  40  34   2 167   3  17   2]
+ [  0 966   3  15  14   0   0   0   1   1]
+ [  5   2 704   1 278   0   9   0   1   0]
+ [ 13  13  21 783 139   0  23   0   2   6]
+ [  1   0  52  10 933   0   1   0   3   0]
+ [  0   0   1   2   0 299   0 619   0  79]
+ [ 92   1 156  16 415   0 295   0  25   0]
+ [  0   0   0   0   0   0   0 899   0 101]
+ [  0   2  16   3   9   1   0  12 941  16]
+ [  0   0   0   0   0   0   0  24   1 975]]
+2025-08-25 14:05:57,816 - INFO - Starting Round 12/100 with algorithm fedavg and model cnn
+2025-08-25 14:05:57,816 - INFO - Selected clients for Round 12: [29, 34, 7, 24, 5]
+2025-08-25 14:05:58,861 - INFO - Client 29 Train Loss: 0.4354
+2025-08-25 14:06:00,511 - INFO - Client 34 Train Loss: 0.0862
+2025-08-25 14:06:03,526 - INFO - Client 7 Train Loss: 0.1131
+2025-08-25 14:06:04,683 - INFO - Client 24 Train Loss: 0.1626
+2025-08-25 14:06:05,457 - INFO - Client 5 Train Loss: 0.1642
+2025-08-25 14:06:05,457 - INFO - Global Average Train Loss: 0.1923
+2025-08-25 14:06:05,477 - INFO - Aggregated using FedAvg
+2025-08-25 14:06:09,330 - INFO - Global Model Validation Loss: 0.9710, Top1_Accuracy: 65.24%, Top5_Accuracy: 99.52%
+2025-08-25 14:06:09,331 - INFO - Precision: 0.7422, Recall: 0.6524, F1-Score: 0.5700
+2025-08-25 14:06:09,331 - INFO - Confusion Matrix:
+[[942   2  42   4   0   4   0   0   6   0]
+ [ 10 978   6   5   0   0   0   0   1   0]
+ [ 21   2 975   0   1   0   0   0   1   0]
+ [209  67  84 630   3   0   3   0   2   2]
+ [ 16  12 922  31   4   0  13   0   2   0]
+ [  2   0   0   1   0 980   0   0   4  13]
+ [372   3 520   8   0   1  77   0  19   0]
+ [  0   0   0   0   0 821   0  15   9 155]
+ [  9   1  27   1   0   9   0   0 950   3]
+ [  0   0   1   0   0  25   0   1   0 973]]
+2025-08-25 14:06:09,331 - INFO - Starting Round 13/100 with algorithm fedavg and model cnn
+2025-08-25 14:06:09,332 - INFO - Selected clients for Round 13: [35, 18, 40, 39, 23]
+2025-08-25 14:06:10,296 - INFO - Client 35 Train Loss: 0.3342
+2025-08-25 14:06:11,856 - INFO - Client 18 Train Loss: 0.2039
+2025-08-25 14:06:13,616 - INFO - Client 40 Train Loss: 0.3381
+2025-08-25 14:06:15,810 - INFO - Client 39 Train Loss: 0.1829
+2025-08-25 14:06:16,577 - INFO - Client 23 Train Loss: 0.0391
+2025-08-25 14:06:16,577 - INFO - Global Average Train Loss: 0.2196
+2025-08-25 14:06:16,596 - INFO - Aggregated using FedAvg
+2025-08-25 14:06:20,469 - INFO - Global Model Validation Loss: 0.8981, Top1_Accuracy: 67.04%, Top5_Accuracy: 99.21%
+2025-08-25 14:06:20,470 - INFO - Precision: 0.8397, Recall: 0.6704, F1-Score: 0.6287
+2025-08-25 14:06:20,470 - INFO - Confusion Matrix:
+[[  0   1   0  44   0   9 936   0   9   1]
+ [  0 970   0  17   0   1  10   0   2   0]
+ [  0   2  14   7 123   0 851   0   3   0]
+ [  0  10   0 863   2   0 121   0   0   4]
+ [  0   5   0  59 296   0 636   0   3   1]
+ [  0   0   0   1   0 909   1  66   0  23]
+ [  0   1   0  19   3   1 957   0  18   1]
+ [  0   0   0   0   0  83   0 770   0 147]
+ [  0   1   0   3   0   7  26   6 947  10]
+ [  0   0   0   0   0   9   0  12   1 978]]
+2025-08-25 14:06:20,472 - INFO - Starting Round 14/100 with algorithm fedavg and model cnn
+2025-08-25 14:06:20,472 - INFO - Selected clients for Round 14: [36, 12, 45, 4, 2]
+2025-08-25 14:06:25,651 - INFO - Client 36 Train Loss: 0.1402
+2025-08-25 14:06:27,568 - INFO - Client 12 Train Loss: 0.0967
+2025-08-25 14:06:28,632 - INFO - Client 45 Train Loss: 0.1312
+2025-08-25 14:06:30,802 - INFO - Client 4 Train Loss: 0.2526
+2025-08-25 14:06:31,679 - INFO - Client 2 Train Loss: 0.1527
+2025-08-25 14:06:31,680 - INFO - Global Average Train Loss: 0.1547
+2025-08-25 14:06:31,700 - INFO - Aggregated using FedAvg
+2025-08-25 14:06:35,510 - INFO - Global Model Validation Loss: 1.1927, Top1_Accuracy: 61.02%, Top5_Accuracy: 99.61%
+2025-08-25 14:06:35,510 - INFO - Precision: 0.7819, Recall: 0.6102, F1-Score: 0.6006
+2025-08-25 14:06:35,510 - INFO - Confusion Matrix:
+[[ 993    1    0    2    0    1    0    3    0    0]
+ [  21  973    0    4    0    0    0    0    2    0]
+ [ 308    3  626    1   29    0   33    0    0    0]
+ [ 546   20    1  433    0    0    0    0    0    0]
+ [ 300    6  182   19  288    0  205    0    0    0]
+ [  20    0    0    0    0  596    0  384    0    0]
+ [ 661    0   41    3    9    0  285    0    1    0]
+ [   0    0    0    0    0    0    0 1000    0    0]
+ [ 145    2    0    0    1    2    0   83  767    0]
+ [  13    0    0    0    0    1    0  845    0  141]]
+2025-08-25 14:06:35,511 - INFO - Starting Round 15/100 with algorithm fedavg and model cnn
+2025-08-25 14:06:35,511 - INFO - Selected clients for Round 15: [42, 14, 49, 18, 5]
+2025-08-25 14:06:37,883 - INFO - Client 42 Train Loss: 0.1779
+2025-08-25 14:06:40,816 - INFO - Client 14 Train Loss: 0.2840
+2025-08-25 14:06:43,787 - INFO - Client 49 Train Loss: 0.1141
+2025-08-25 14:06:45,441 - INFO - Client 18 Train Loss: 0.1804
+2025-08-25 14:06:46,204 - INFO - Client 5 Train Loss: 0.2601
+2025-08-25 14:06:46,204 - INFO - Global Average Train Loss: 0.2033
+2025-08-25 14:06:46,224 - INFO - Aggregated using FedAvg
+2025-08-25 14:06:49,950 - INFO - Global Model Validation Loss: 0.8509, Top1_Accuracy: 65.50%, Top5_Accuracy: 99.08%
+2025-08-25 14:06:49,950 - INFO - Precision: 0.7766, Recall: 0.6550, F1-Score: 0.5940
+2025-08-25 14:06:49,951 - INFO - Confusion Matrix:
+[[318   2 113 389   0   5 169   0   4   0]
+ [  0 969   4  26   0   0   0   0   1   0]
+ [  0   1 964  26   0   0   9   0   0   0]
+ [  0   4  21 970   0   0   5   0   0   0]
+ [  0   4 785 134  35   0  42   0   0   0]
+ [  0   0   0   9   0 980   0   0   0  11]
+ [ 25   2 354 203   5   1 402   0   8   0]
+ [  0   0   0   0   0 847   0  54   0  99]
+ [  0   1  45  22   0  15   9   0 905   3]
+ [  0   0   1   4   0  41   0   1   0 953]]
+2025-08-25 14:06:49,951 - INFO - Starting Round 16/100 with algorithm fedavg and model cnn
+2025-08-25 14:06:49,951 - INFO - Selected clients for Round 16: [14, 6, 24, 17, 29]
+2025-08-25 14:06:52,895 - INFO - Client 14 Train Loss: 0.2266
+2025-08-25 14:06:53,638 - INFO - Client 6 Train Loss: 0.3653
+2025-08-25 14:06:54,759 - INFO - Client 24 Train Loss: 0.1239
+2025-08-25 14:06:57,713 - INFO - Client 17 Train Loss: 0.1648
+2025-08-25 14:06:58,791 - INFO - Client 29 Train Loss: 0.3107
+2025-08-25 14:06:58,791 - INFO - Global Average Train Loss: 0.2382
+2025-08-25 14:06:58,811 - INFO - Aggregated using FedAvg
+2025-08-25 14:07:02,571 - INFO - Global Model Validation Loss: 0.6839, Top1_Accuracy: 75.38%, Top5_Accuracy: 99.69%
+2025-08-25 14:07:02,572 - INFO - Precision: 0.8310, Recall: 0.7538, F1-Score: 0.7224
+2025-08-25 14:07:02,572 - INFO - Confusion Matrix:
+[[379   4  33  19   0   3 553   0   9   0]
+ [  0 986   2   5   0   0   5   0   2   0]
+ [  0   2 910   4   0   0  84   0   0   0]
+ [  3  43  32 801   1   0 118   0   1   1]
+ [  0   9 614  40  10   0 326   0   1   0]
+ [  0   0   0   1   0 935   3  24  18  19]
+ [ 15   5 129  11   0   0 828   0  12   0]
+ [  0   0   0   0   0 108   0 748  17 127]
+ [  0   1  14   2   0   2  16   0 964   1]
+ [  0   0   0   0   0   9   0  11   3 977]]
+2025-08-25 14:07:02,574 - INFO - Starting Round 17/100 with algorithm fedavg and model cnn
+2025-08-25 14:07:02,574 - INFO - Selected clients for Round 17: [40, 23, 10, 22, 13]
+2025-08-25 14:07:04,298 - INFO - Client 40 Train Loss: 0.1857
+2025-08-25 14:07:05,073 - INFO - Client 23 Train Loss: 0.0277
+2025-08-25 14:07:06,384 - INFO - Client 10 Train Loss: 0.2005
+2025-08-25 14:07:07,072 - INFO - Client 22 Train Loss: 0.3764
+2025-08-25 14:07:10,000 - INFO - Client 13 Train Loss: 0.0961
+2025-08-25 14:07:10,000 - INFO - Global Average Train Loss: 0.1773
+2025-08-25 14:07:10,035 - INFO - Aggregated using FedAvg
+2025-08-25 14:07:13,846 - INFO - Global Model Validation Loss: 0.8875, Top1_Accuracy: 68.97%, Top5_Accuracy: 99.58%
+2025-08-25 14:07:13,846 - INFO - Precision: 0.8130, Recall: 0.6897, F1-Score: 0.6367
+2025-08-25 14:07:13,847 - INFO - Confusion Matrix:
+[[  1   1  14 920   0   1  54   0   9   0]
+ [  0 960   0  38   0   0   0   0   1   1]
+ [  0   2 888  95   0   0  15   0   0   0]
+ [  0   2   1 997   0   0   0   0   0   0]
+ [  0   6 512 330  14   0 137   0   1   0]
+ [  0   0   0  24   0 864   0  76   1  35]
+ [  0   4 148 427   2   1 401   0  17   0]
+ [  0   0   0   0   0  16   0 878   0 106]
+ [  0   2   4  44   0   1   2   4 938   5]
+ [  0   0   0  12   0   2   0  28   2 956]]
+2025-08-25 14:07:13,847 - INFO - Starting Round 18/100 with algorithm fedavg and model cnn
+2025-08-25 14:07:13,847 - INFO - Selected clients for Round 18: [42, 17, 44, 43, 41]
+2025-08-25 14:07:16,001 - INFO - Client 42 Train Loss: 0.1294
+2025-08-25 14:07:18,929 - INFO - Client 17 Train Loss: 0.1561
+2025-08-25 14:07:21,688 - INFO - Client 44 Train Loss: 0.1625
+2025-08-25 14:07:23,288 - INFO - Client 43 Train Loss: 0.1717
+2025-08-25 14:07:24,984 - INFO - Client 41 Train Loss: 0.3558
+2025-08-25 14:07:24,984 - INFO - Global Average Train Loss: 0.1951
+2025-08-25 14:07:25,005 - INFO - Aggregated using FedAvg
+2025-08-25 14:07:28,707 - INFO - Global Model Validation Loss: 0.5510, Top1_Accuracy: 79.49%, Top5_Accuracy: 99.59%
+2025-08-25 14:07:28,708 - INFO - Precision: 0.8177, Recall: 0.7949, F1-Score: 0.7916
+2025-08-25 14:07:28,708 - INFO - Confusion Matrix:
+[[918   2   8  20   1   1  23   0  27   0]
+ [  1 985   0  11   1   0   0   0   2   0]
+ [ 30   4 803  10  57   0  81   0  15   0]
+ [ 52  24   3 876   8   0  19   0  17   1]
+ [  2   5 145  69 475   0 284   0  20   0]
+ [  2   0   0   1   0 812   0  19 152  14]
+ [284   4  65  19  25   1 551   0  51   0]
+ [  0   0   0   0   0  43   0 643 255  59]
+ [  1   2   0   2   1   0   1   0 993   0]
+ [  0   0   0   0   0   3   0   4 100 893]]
+2025-08-25 14:07:28,708 - INFO - Starting Round 19/100 with algorithm fedavg and model cnn
+2025-08-25 14:07:28,708 - INFO - Selected clients for Round 19: [4, 38, 40, 10, 34]
+2025-08-25 14:07:30,796 - INFO - Client 4 Train Loss: 0.2074
+2025-08-25 14:07:32,309 - INFO - Client 38 Train Loss: 0.1490
+2025-08-25 14:07:33,947 - INFO - Client 40 Train Loss: 0.1607
+2025-08-25 14:07:35,269 - INFO - Client 10 Train Loss: 0.2485
+2025-08-25 14:07:36,869 - INFO - Client 34 Train Loss: 0.0570
+2025-08-25 14:07:36,870 - INFO - Global Average Train Loss: 0.1645
+2025-08-25 14:07:36,890 - INFO - Aggregated using FedAvg
+2025-08-25 14:07:40,673 - INFO - Global Model Validation Loss: 0.5093, Top1_Accuracy: 80.12%, Top5_Accuracy: 99.72%
+2025-08-25 14:07:40,673 - INFO - Precision: 0.8541, Recall: 0.8012, F1-Score: 0.8044
+2025-08-25 14:07:40,673 - INFO - Confusion Matrix:
+[[453   1   8  42   3   5 478   0  10   0]
+ [  0 973   0  17   6   0   2   0   2   0]
+ [  1   1 633   8 109   0 244   0   4   0]
+ [  2   7   3 873  20   0  93   0   1   1]
+ [  0   2  41  42 502   0 410   0   3   0]
+ [  0   0   0   2   0 942   1  35   0  20]
+ [ 20   0  20  23  18   1 894   0  24   0]
+ [  0   0   0   0   0 110   0 794   0  96]
+ [  0   1   1   3   2   3   7   3 977   3]
+ [  0   0   0   0   0  10   0  18   1 971]]
+2025-08-25 14:07:40,676 - INFO - Starting Round 20/100 with algorithm fedavg and model cnn
+2025-08-25 14:07:40,676 - INFO - Selected clients for Round 20: [46, 15, 10, 29, 24]
+2025-08-25 14:07:43,299 - INFO - Client 46 Train Loss: 0.1570
+2025-08-25 14:07:43,825 - INFO - Client 15 Train Loss: 0.4106
+2025-08-25 14:07:45,114 - INFO - Client 10 Train Loss: 0.1672
+2025-08-25 14:07:46,194 - INFO - Client 29 Train Loss: 0.2633
+2025-08-25 14:07:47,320 - INFO - Client 24 Train Loss: 0.1063
+2025-08-25 14:07:47,320 - INFO - Global Average Train Loss: 0.2209
+2025-08-25 14:07:47,343 - INFO - Aggregated using FedAvg
+2025-08-25 14:07:51,266 - INFO - Global Model Validation Loss: 0.4959, Top1_Accuracy: 81.14%, Top5_Accuracy: 99.66%
+2025-08-25 14:07:51,267 - INFO - Precision: 0.8396, Recall: 0.8114, F1-Score: 0.8100
+2025-08-25 14:07:51,267 - INFO - Confusion Matrix:
+[[529   1  74  30   4   2 345   1  14   0]
+ [  0 971   4  17   5   0   1   0   1   1]
+ [  2   1 956   4  18   0  18   0   1   0]
+ [  6   6  39 838  50   0  52   0   3   6]
+ [  0   1 460  17 470   0  49   0   3   0]
+ [  0   0   0   0   0 911   1  63   0  25]
+ [ 34   0 241  17  67   1 615   0  25   0]
+ [  0   0   0   0   0  21   0 874   0 105]
+ [  0   1  13   2   3   1   2   3 973   2]
+ [  0   0   1   0   0   4   0  18   0 977]]
+2025-08-25 14:07:51,268 - INFO - Starting Round 21/100 with algorithm fedavg and model cnn
+2025-08-25 14:07:51,268 - INFO - Selected clients for Round 21: [17, 40, 44, 35, 14]
+2025-08-25 14:07:54,164 - INFO - Client 17 Train Loss: 0.1295
+2025-08-25 14:07:55,979 - INFO - Client 40 Train Loss: 0.1697
+2025-08-25 14:07:58,613 - INFO - Client 44 Train Loss: 0.1101
+2025-08-25 14:07:59,628 - INFO - Client 35 Train Loss: 0.2451
+2025-08-25 14:08:02,533 - INFO - Client 14 Train Loss: 0.2204
+2025-08-25 14:08:02,533 - INFO - Global Average Train Loss: 0.1750
+2025-08-25 14:08:02,551 - INFO - Aggregated using FedAvg
+2025-08-25 14:08:06,291 - INFO - Global Model Validation Loss: 0.5024, Top1_Accuracy: 80.65%, Top5_Accuracy: 99.70%
+2025-08-25 14:08:06,291 - INFO - Precision: 0.8382, Recall: 0.8065, F1-Score: 0.7996
+2025-08-25 14:08:06,292 - INFO - Confusion Matrix:
+[[630   0  23  64   0   1 266   0  16   0]
+ [  0 983   0  15   0   0   0   0   2   0]
+ [  4   3 880  14  14   0  80   0   5   0]
+ [  5  10   9 927   7   0  39   0   3   0]
+ [  0   4 281  72 342   0 295   0   6   0]
+ [  0   0   0   7   0 762   1  54 154  22]
+ [ 56   1  93  34  14   0 779   0  23   0]
+ [  0   0   0   0   0   8   0 805  83 104]
+ [  0   2   2   3   1   0   2   0 990   0]
+ [  0   0   0   0   0   0   0   8  25 967]]
+2025-08-25 14:08:06,293 - INFO - Starting Round 22/100 with algorithm fedavg and model cnn
+2025-08-25 14:08:06,293 - INFO - Selected clients for Round 22: [43, 20, 49, 3, 14]
+2025-08-25 14:08:07,870 - INFO - Client 43 Train Loss: 0.1263
+2025-08-25 14:08:09,937 - INFO - Client 20 Train Loss: 0.1980
+2025-08-25 14:08:12,853 - INFO - Client 49 Train Loss: 0.0805
+2025-08-25 14:08:15,447 - INFO - Client 3 Train Loss: 0.1518
+2025-08-25 14:08:18,346 - INFO - Client 14 Train Loss: 0.1868
+2025-08-25 14:08:18,346 - INFO - Global Average Train Loss: 0.1487
+2025-08-25 14:08:18,368 - INFO - Aggregated using FedAvg
+2025-08-25 14:08:22,152 - INFO - Global Model Validation Loss: 0.6828, Top1_Accuracy: 74.98%, Top5_Accuracy: 99.66%
+2025-08-25 14:08:22,152 - INFO - Precision: 0.8208, Recall: 0.7498, F1-Score: 0.7297
+2025-08-25 14:08:22,152 - INFO - Confusion Matrix:
+[[854   0  91  41   0   2  10   2   0   0]
+ [  0 975   8  16   1   0   0   0   0   0]
+ [ 11   1 980   4   2   0   2   0   0   0]
+ [ 26   6  58 900   6   0   4   0   0   0]
+ [  1   2 786  57 133   0  21   0   0   0]
+ [  1   0   0   3   0 945   0  49   0   2]
+ [254   0 383  27  27   1 308   0   0   0]
+ [  0   0   0   0   0  44   0 953   0   3]
+ [  1   2  86   6   0  38   6  55 806   0]
+ [  0   0   0   1   0 143   0 212   0 644]]
+2025-08-25 14:08:22,153 - INFO - Starting Round 23/100 with algorithm fedavg and model cnn
+2025-08-25 14:08:22,153 - INFO - Selected clients for Round 23: [2, 20, 25, 17, 4]
+2025-08-25 14:08:22,943 - INFO - Client 2 Train Loss: 0.1819
+2025-08-25 14:08:25,129 - INFO - Client 20 Train Loss: 0.1774
+2025-08-25 14:08:28,523 - INFO - Client 25 Train Loss: 0.1510
+2025-08-25 14:08:31,428 - INFO - Client 17 Train Loss: 0.1199
+2025-08-25 14:08:33,514 - INFO - Client 4 Train Loss: 0.2169
+2025-08-25 14:08:33,514 - INFO - Global Average Train Loss: 0.1694
+2025-08-25 14:08:33,534 - INFO - Aggregated using FedAvg
+2025-08-25 14:08:37,482 - INFO - Global Model Validation Loss: 0.9942, Top1_Accuracy: 66.69%, Top5_Accuracy: 99.78%
+2025-08-25 14:08:37,483 - INFO - Precision: 0.8508, Recall: 0.6669, F1-Score: 0.6560
+2025-08-25 14:08:37,484 - INFO - Confusion Matrix:
+[[382   1   0   4   0   1 606   1   5   0]
+ [  0 982   0   2   1   0  14   0   1   0]
+ [  1   2 155   0   9   0 833   0   0   0]
+ [  9  44   0 694   3   0 250   0   0   0]
+ [  0   2  11   9  57   0 920   0   1   0]
+ [  0   0   0   1   0 728   9 252   4   6]
+ [  9   2   0   5   0   0 980   0   4   0]
+ [  0   0   0   0   0   1   0 995   1   3]
+ [  0   2   0   0   0   1  30   5 962   0]
+ [  0   0   0   0   0   3   2 258   3 734]]
+2025-08-25 14:08:37,484 - INFO - Starting Round 24/100 with algorithm fedavg and model cnn
+2025-08-25 14:08:37,484 - INFO - Selected clients for Round 24: [13, 36, 45, 20, 41]
+2025-08-25 14:08:40,468 - INFO - Client 13 Train Loss: 0.0659
+2025-08-25 14:08:45,240 - INFO - Client 36 Train Loss: 0.0968
+2025-08-25 14:08:46,333 - INFO - Client 45 Train Loss: 0.1722
+2025-08-25 14:08:48,474 - INFO - Client 20 Train Loss: 0.1788
+2025-08-25 14:08:50,243 - INFO - Client 41 Train Loss: 0.2857
+2025-08-25 14:08:50,244 - INFO - Global Average Train Loss: 0.1599
+2025-08-25 14:08:50,263 - INFO - Aggregated using FedAvg
+2025-08-25 14:08:54,037 - INFO - Global Model Validation Loss: 0.5913, Top1_Accuracy: 78.38%, Top5_Accuracy: 99.70%
+2025-08-25 14:08:54,037 - INFO - Precision: 0.8248, Recall: 0.7838, F1-Score: 0.7750
+2025-08-25 14:08:54,038 - INFO - Confusion Matrix:
+[[789   0  19 171   1   1  15   3   1   0]
+ [  0 969   0  29   0   0   0   0   2   0]
+ [ 12   1 912  36  21   0  18   0   0   0]
+ [  8   3   7 980   1   0   1   0   0   0]
+ [  2   3 298 165 434   0  98   0   0   0]
+ [  0   0   0  11   0 831   0 153   0   5]
+ [220   1 130 177  40   1 424   0   7   0]
+ [  0   0   0   0   0   2   0 998   0   0]
+ [  1   1  10  19   3   1   6  13 946   0]
+ [  0   0   0   5   0   4   0 436   0 555]]
+2025-08-25 14:08:54,038 - INFO - Starting Round 25/100 with algorithm fedavg and model cnn
+2025-08-25 14:08:54,038 - INFO - Selected clients for Round 25: [31, 25, 41, 29, 9]
+2025-08-25 14:08:58,385 - INFO - Client 31 Train Loss: 0.0975
+2025-08-25 14:09:01,756 - INFO - Client 25 Train Loss: 0.1106
+2025-08-25 14:09:03,489 - INFO - Client 41 Train Loss: 0.2538
+2025-08-25 14:09:04,585 - INFO - Client 29 Train Loss: 0.2631
+2025-08-25 14:09:06,812 - INFO - Client 9 Train Loss: 0.0769
+2025-08-25 14:09:06,812 - INFO - Global Average Train Loss: 0.1603
+2025-08-25 14:09:06,831 - INFO - Aggregated using FedAvg
+2025-08-25 14:09:10,654 - INFO - Global Model Validation Loss: 0.5417, Top1_Accuracy: 79.13%, Top5_Accuracy: 99.83%
+2025-08-25 14:09:10,654 - INFO - Precision: 0.8272, Recall: 0.7913, F1-Score: 0.7763
+2025-08-25 14:09:10,655 - INFO - Confusion Matrix:
+[[838   0  16  35   0   8  94   0   9   0]
+ [  1 956   1  33   2   1   4   0   2   0]
+ [  7   1 818   9  21   0 142   0   2   0]
+ [ 21   1   6 922   2   2  43   0   1   2]
+ [  0   2 190  71 339   2 394   0   2   0]
+ [  0   0   0   0   0 992   0   2   0   6]
+ [164   0  56  28   7   3 725   0  17   0]
+ [  0   0   0   0   0 372   0 372   0 256]
+ [  0   1   1   3   0  14   7   0 971   3]
+ [  0   0   0   0   0  19   0   1   0 980]]
+2025-08-25 14:09:10,655 - INFO - Starting Round 26/100 with algorithm fedavg and model cnn
+2025-08-25 14:09:10,655 - INFO - Selected clients for Round 26: [16, 8, 15, 47, 35]
+2025-08-25 14:09:12,579 - INFO - Client 16 Train Loss: 0.0943
+2025-08-25 14:09:13,934 - INFO - Client 8 Train Loss: 0.2125
+2025-08-25 14:09:14,436 - INFO - Client 15 Train Loss: 0.4973
+2025-08-25 14:09:16,828 - INFO - Client 47 Train Loss: 0.3822
+2025-08-25 14:09:17,885 - INFO - Client 35 Train Loss: 0.1964
+2025-08-25 14:09:17,885 - INFO - Global Average Train Loss: 0.2765
+2025-08-25 14:09:17,905 - INFO - Aggregated using FedAvg
+2025-08-25 14:09:21,741 - INFO - Global Model Validation Loss: 0.4969, Top1_Accuracy: 81.02%, Top5_Accuracy: 99.60%
+2025-08-25 14:09:21,741 - INFO - Precision: 0.8365, Recall: 0.8102, F1-Score: 0.8023
+2025-08-25 14:09:21,742 - INFO - Confusion Matrix:
+[[332   1  76  73  17   5 492   0   3   1]
+ [  0 967   1  20  10   0   0   0   1   1]
+ [  0   1 890   5  86   0  18   0   0   0]
+ [  1   3  28 868  69   0  30   0   1   0]
+ [  0   0 137  12 840   0  11   0   0   0]
+ [  0   0   0   3   0 963   0  18   0  16]
+ [  6   0 155  33 226   0 575   0   5   0]
+ [  0   0   0   0   0 105   0 725   0 170]
+ [  0   1  12   5  11   6   3   1 956   5]
+ [  0   0   0   0   0   8   0   6   0 986]]
+2025-08-25 14:09:21,742 - INFO - Starting Round 27/100 with algorithm fedavg and model cnn
+2025-08-25 14:09:21,742 - INFO - Selected clients for Round 27: [34, 16, 47, 37, 27]
+2025-08-25 14:09:23,351 - INFO - Client 34 Train Loss: 0.0461
+2025-08-25 14:09:25,279 - INFO - Client 16 Train Loss: 0.0695
+2025-08-25 14:09:27,613 - INFO - Client 47 Train Loss: 0.3354
+2025-08-25 14:09:29,971 - INFO - Client 37 Train Loss: 0.0501
+2025-08-25 14:09:32,334 - INFO - Client 27 Train Loss: 0.1747
+2025-08-25 14:09:32,334 - INFO - Global Average Train Loss: 0.1352
+2025-08-25 14:09:32,357 - INFO - Aggregated using FedAvg
+2025-08-25 14:09:36,213 - INFO - Global Model Validation Loss: 0.6221, Top1_Accuracy: 79.62%, Top5_Accuracy: 99.55%
+2025-08-25 14:09:36,213 - INFO - Precision: 0.8415, Recall: 0.7962, F1-Score: 0.7766
+2025-08-25 14:09:36,213 - INFO - Confusion Matrix:
+[[980   2   8   6   0   2   0   0   2   0]
+ [  3 991   0   5   0   0   0   0   1   0]
+ [ 66   2 908   7  16   0   1   0   0   0]
+ [115  31  12 831   8   0   0   0   1   2]
+ [ 29  12 411  57 483   0   6   0   2   0]
+ [  3   0   0   1   0 969   0  15   0  12]
+ [464   5 221  12 100   1 191   0   6   0]
+ [  0   0   0   0   0 141   0 678   0 181]
+ [ 33   2   2   2   2   5   0   1 951   2]
+ [  2   0   0   0   0  13   0   5   0 980]]
+2025-08-25 14:09:36,213 - INFO - Starting Round 28/100 with algorithm fedavg and model cnn
+2025-08-25 14:09:36,214 - INFO - Selected clients for Round 28: [37, 25, 23, 14, 8]
+2025-08-25 14:09:38,530 - INFO - Client 37 Train Loss: 0.0149
+2025-08-25 14:09:41,850 - INFO - Client 25 Train Loss: 0.1295
+2025-08-25 14:09:42,654 - INFO - Client 23 Train Loss: 0.0319
+2025-08-25 14:09:45,671 - INFO - Client 14 Train Loss: 0.2126
+2025-08-25 14:09:47,038 - INFO - Client 8 Train Loss: 0.2275
+2025-08-25 14:09:47,038 - INFO - Global Average Train Loss: 0.1233
+2025-08-25 14:09:47,059 - INFO - Aggregated using FedAvg
+2025-08-25 14:09:51,097 - INFO - Global Model Validation Loss: 0.6891, Top1_Accuracy: 73.95%, Top5_Accuracy: 99.72%
+2025-08-25 14:09:51,097 - INFO - Precision: 0.8668, Recall: 0.7395, F1-Score: 0.7173
+2025-08-25 14:09:51,098 - INFO - Confusion Matrix:
+[[  0   8   3  18   0   2 967   1   1   0]
+ [  0 991   0   5   0   0   4   0   0   0]
+ [  0   3 628   7  19   0 343   0   0   0]
+ [  0  36   5 855   3   0 101   0   0   0]
+ [  0   8 130  52 273   0 537   0   0   0]
+ [  0   0   0   2   0 969   2  24   0   3]
+ [  0   5  16  17   1   0 961   0   0   0]
+ [  0   0   0   0   0  26   0 966   0   8]
+ [  0   3   1   7   0   4  79   6 900   0]
+ [  0   0   0   0   0  27   2 119   0 852]]
+2025-08-25 14:09:51,098 - INFO - Starting Round 29/100 with algorithm fedavg and model cnn
+2025-08-25 14:09:51,098 - INFO - Selected clients for Round 29: [32, 31, 5, 48, 3]
+2025-08-25 14:09:51,512 - INFO - Client 32 Train Loss: 0.4488
+2025-08-25 14:09:55,786 - INFO - Client 31 Train Loss: 0.0678
+2025-08-25 14:09:56,584 - INFO - Client 5 Train Loss: 0.2309
+2025-08-25 14:09:58,689 - INFO - Client 48 Train Loss: 0.1037
+2025-08-25 14:10:01,316 - INFO - Client 3 Train Loss: 0.1702
+2025-08-25 14:10:01,316 - INFO - Global Average Train Loss: 0.2043
+2025-08-25 14:10:01,340 - INFO - Aggregated using FedAvg
+2025-08-25 14:10:05,454 - INFO - Global Model Validation Loss: 0.5764, Top1_Accuracy: 82.16%, Top5_Accuracy: 99.62%
+2025-08-25 14:10:05,454 - INFO - Precision: 0.7588, Recall: 0.8216, F1-Score: 0.8847
+2025-08-25 14:10:05,455 - INFO - Confusion Matrix:
+[[906   2  43  31  12   3   0   1   1   1]
+ [  1 960   2  29   7   0   0   0   1   0]
+ [ 16   1 874   5 104   0   0   0   0   0]
+ [ 32   3  24 896  41   0   1   0   1   2]
+ [  2   1 107  35 854   0   0   0   1   0]
+ [  0   0   0   1   0 936   0  42   0  21]
+ [335   0 196  30 425   1   0   0  13   0]
+ [  0   0   0   0   0  16   0 852   0 132]
+ [  2   1   9   5  11   7   0   3 954   8]
+ [  0   0   1   0   0   4   0  11   0 984]]
+2025-08-25 14:10:05,455 - INFO - Starting Round 30/100 with algorithm fedavg and model cnn
+2025-08-25 14:10:05,455 - INFO - Selected clients for Round 30: [7, 9, 40, 10, 43]
+2025-08-25 14:10:08,586 - INFO - Client 7 Train Loss: 0.0979
+2025-08-25 14:10:10,832 - INFO - Client 9 Train Loss: 0.0574
+2025-08-25 14:10:12,473 - INFO - Client 40 Train Loss: 0.2647
+2025-08-25 14:10:13,769 - INFO - Client 10 Train Loss: 0.3604
+2025-08-25 14:10:15,415 - INFO - Client 43 Train Loss: 0.1201
+2025-08-25 14:10:15,415 - INFO - Global Average Train Loss: 0.1801
+2025-08-25 14:10:15,434 - INFO - Aggregated using FedAvg
+2025-08-25 14:10:19,183 - INFO - Global Model Validation Loss: 0.6147, Top1_Accuracy: 79.43%, Top5_Accuracy: 99.56%
+2025-08-25 14:10:19,183 - INFO - Precision: 0.8411, Recall: 0.7943, F1-Score: 0.7572
+2025-08-25 14:10:19,184 - INFO - Confusion Matrix:
+[[850   2  47  36   0   3  33   0  29   0]
+ [  1 977   1  17   0   0   1   0   3   0]
+ [  9   1 962  11   0   0   9   0   8   0]
+ [ 22   7  27 920   0   0  15   0   8   1]
+ [  1   2 679 105   8   0 138   0  67   0]
+ [  0   0   0   1   0 969   0  15   5  10]
+ [189   1 226  30   0   1 498   0  55   0]
+ [  0   0   0   0   0  83   0 792   4 121]
+ [  0   1   2   3   0   2   0   1 991   0]
+ [  0   0   0   0   0  12   0  10   2 976]]
+2025-08-25 14:10:19,184 - INFO - Starting Round 31/100 with algorithm fedavg and model cnn
+2025-08-25 14:10:19,184 - INFO - Selected clients for Round 31: [27, 38, 4, 24, 29]
+2025-08-25 14:10:21,470 - INFO - Client 27 Train Loss: 0.1283
+2025-08-25 14:10:22,939 - INFO - Client 38 Train Loss: 0.1626
+2025-08-25 14:10:24,971 - INFO - Client 4 Train Loss: 0.1709
+2025-08-25 14:10:26,113 - INFO - Client 24 Train Loss: 0.0870
+2025-08-25 14:10:27,104 - INFO - Client 29 Train Loss: 0.2090
+2025-08-25 14:10:27,105 - INFO - Global Average Train Loss: 0.1516
+2025-08-25 14:10:27,128 - INFO - Aggregated using FedAvg
+2025-08-25 14:10:30,871 - INFO - Global Model Validation Loss: 0.4312, Top1_Accuracy: 84.51%, Top5_Accuracy: 99.79%
+2025-08-25 14:10:30,871 - INFO - Precision: 0.8528, Recall: 0.8451, F1-Score: 0.8425
+2025-08-25 14:10:30,872 - INFO - Confusion Matrix:
+[[954   1   5  11   2   2  22   0   1   2]
+ [  0 991   0   7   0   0   0   0   2   0]
+ [ 59   2 763  10  70   0  95   0   1   0]
+ [ 53  38   3 877   6   0  20   0   1   2]
+ [  3   6  89  61 649   0 191   0   1   0]
+ [  0   0   0   1   0 960   0  17   0  22]
+ [336   4  41  18  38   1 553   0   9   0]
+ [  0   0   0   0   0  67   0 748   0 185]
+ [ 10   1   0   4   1   4   9   1 964   6]
+ [  0   0   0   0   0   3   0   5   0 992]]
+2025-08-25 14:10:30,872 - INFO - Starting Round 32/100 with algorithm fedavg and model cnn
+2025-08-25 14:10:30,872 - INFO - Selected clients for Round 32: [33, 16, 35, 0, 43]
+2025-08-25 14:10:32,891 - INFO - Client 33 Train Loss: 0.1409
+2025-08-25 14:10:34,706 - INFO - Client 16 Train Loss: 0.0897
+2025-08-25 14:10:35,763 - INFO - Client 35 Train Loss: 0.1993
+2025-08-25 14:10:38,618 - INFO - Client 0 Train Loss: 0.1216
+2025-08-25 14:10:40,372 - INFO - Client 43 Train Loss: 0.0833
+2025-08-25 14:10:40,373 - INFO - Global Average Train Loss: 0.1270
+2025-08-25 14:10:40,397 - INFO - Aggregated using FedAvg
+2025-08-25 14:10:44,293 - INFO - Global Model Validation Loss: 0.5626, Top1_Accuracy: 80.77%, Top5_Accuracy: 99.64%
+2025-08-25 14:10:44,294 - INFO - Precision: 0.8427, Recall: 0.8077, F1-Score: 0.7807
+2025-08-25 14:10:44,294 - INFO - Confusion Matrix:
+[[808   2  70  66  38   6   6   0   3   1]
+ [  0 971   1  17   9   0   0   0   2   0]
+ [  7   1 864   5 123   0   0   0   0   0]
+ [  9   7  25 883  74   0   2   0   0   0]
+ [  1   0  72  16 910   0   0   0   1   0]
+ [  0   0   0   0   0 997   0   2   0   1]
+ [201   2 169  63 471   2  85   0   7   0]
+ [  0   0   0   0   0 261   0 647   0  92]
+ [  1   1  16   5  13  11   0   2 949   2]
+ [  0   0   0   0   0  25   0  12   0 963]]
+2025-08-25 14:10:44,294 - INFO - Starting Round 33/100 with algorithm fedavg and model cnn
+2025-08-25 14:10:44,295 - INFO - Selected clients for Round 33: [46, 7, 43, 34, 48]
+2025-08-25 14:10:46,799 - INFO - Client 46 Train Loss: 0.1424
+2025-08-25 14:10:49,764 - INFO - Client 7 Train Loss: 0.0839
+2025-08-25 14:10:51,422 - INFO - Client 43 Train Loss: 0.0938
+2025-08-25 14:10:53,068 - INFO - Client 34 Train Loss: 0.0387
+2025-08-25 14:10:55,249 - INFO - Client 48 Train Loss: 0.0551
+2025-08-25 14:10:55,249 - INFO - Global Average Train Loss: 0.0828
+2025-08-25 14:10:55,268 - INFO - Aggregated using FedAvg
+2025-08-25 14:10:59,039 - INFO - Global Model Validation Loss: 0.4558, Top1_Accuracy: 82.91%, Top5_Accuracy: 99.71%
+2025-08-25 14:10:59,039 - INFO - Precision: 0.8537, Recall: 0.8291, F1-Score: 0.8075
+2025-08-25 14:10:59,040 - INFO - Confusion Matrix:
+[[907   1  49  20   4   3   4   1  11   0]
+ [  1 972   0  20   5   0   0   0   2   0]
+ [ 11   2 948   7  30   0   1   0   1   0]
+ [ 45   3  32 880  32   0   5   0   2   1]
+ [  1   1 288  32 675   0   0   0   3   0]
+ [  0   0   0   0   0 976   0  16   0   8]
+ [305   1 215  26 276   1 150   0  26   0]
+ [  0   0   0   0   0  82   0 833   0  85]
+ [  1   1   4   3   2   3   0   1 983   2]
+ [  0   0   0   0   0  15   0  18   0 967]]
+2025-08-25 14:10:59,040 - INFO - Starting Round 34/100 with algorithm fedavg and model cnn
+2025-08-25 14:10:59,040 - INFO - Selected clients for Round 34: [17, 49, 41, 21, 7]
+2025-08-25 14:11:01,957 - INFO - Client 17 Train Loss: 0.1103
+2025-08-25 14:11:04,825 - INFO - Client 49 Train Loss: 0.0639
+2025-08-25 14:11:06,575 - INFO - Client 41 Train Loss: 0.2523
+2025-08-25 14:11:10,613 - INFO - Client 21 Train Loss: 0.3882
+2025-08-25 14:11:13,665 - INFO - Client 7 Train Loss: 0.0705
+2025-08-25 14:11:13,665 - INFO - Global Average Train Loss: 0.1770
+2025-08-25 14:11:13,688 - INFO - Aggregated using FedAvg
+2025-08-25 14:11:17,495 - INFO - Global Model Validation Loss: 0.5598, Top1_Accuracy: 79.42%, Top5_Accuracy: 99.82%
+2025-08-25 14:11:17,495 - INFO - Precision: 0.8387, Recall: 0.7942, F1-Score: 0.7674
+2025-08-25 14:11:17,496 - INFO - Confusion Matrix:
+[[898   0  48  20   0   2  31   0   1   0]
+ [  1 972   3  23   0   0   0   0   1   0]
+ [  9   1 968   9   0   0  13   0   0   0]
+ [ 31   3  29 920   1   0  16   0   0   0]
+ [  2   2 663  82  87   0 164   0   0   0]
+ [  0   0   0   1   0 995   0   3   0   1]
+ [217   1 194  28   6   0 549   0   5   0]
+ [  0   0   0   0   0 278   0 631   0  91]
+ [  2   1  14   6   0   7   5   1 963   1]
+ [  0   0   0   0   0  31   0  10   0 959]]
+2025-08-25 14:11:17,496 - INFO - Starting Round 35/100 with algorithm fedavg and model cnn
+2025-08-25 14:11:17,496 - INFO - Selected clients for Round 35: [18, 27, 10, 29, 0]
+2025-08-25 14:11:19,151 - INFO - Client 18 Train Loss: 0.1218
+2025-08-25 14:11:21,480 - INFO - Client 27 Train Loss: 0.1079
+2025-08-25 14:11:22,735 - INFO - Client 10 Train Loss: 0.2139
+2025-08-25 14:11:23,791 - INFO - Client 29 Train Loss: 0.1890
+2025-08-25 14:11:26,596 - INFO - Client 0 Train Loss: 0.1396
+2025-08-25 14:11:26,597 - INFO - Global Average Train Loss: 0.1545
+2025-08-25 14:11:26,618 - INFO - Aggregated using FedAvg
+2025-08-25 14:11:30,712 - INFO - Global Model Validation Loss: 0.4519, Top1_Accuracy: 83.05%, Top5_Accuracy: 99.72%
+2025-08-25 14:11:30,715 - INFO - Precision: 0.8497, Recall: 0.8305, F1-Score: 0.8183
+2025-08-25 14:11:30,715 - INFO - Confusion Matrix:
+[[908   3   8  57   6   3  14   0   1   0]
+ [  0 976   0  22   0   0   0   0   2   0]
+ [ 29   1 859  18  78   1  14   0   0   0]
+ [ 18   3   7 964   4   0   4   0   0   0]
+ [  2   3 110  82 793   0  10   0   0   0]
+ [  0   0   0   2   0 996   0   1   0   1]
+ [286   2 103  59 218   1 321   0  10   0]
+ [  0   0   0   0   0 337   0 608   0  55]
+ [  6   1   2   7   3  17   2   0 961   1]
+ [  0   0   0   0   0  62   0  19   0 919]]
+2025-08-25 14:11:30,715 - INFO - Starting Round 36/100 with algorithm fedavg and model cnn
+2025-08-25 14:11:30,715 - INFO - Selected clients for Round 36: [46, 16, 32, 48, 11]
+2025-08-25 14:11:33,465 - INFO - Client 46 Train Loss: 0.1346
+2025-08-25 14:11:36,207 - INFO - Client 16 Train Loss: 0.0717
+2025-08-25 14:11:36,828 - INFO - Client 32 Train Loss: 0.2365
+2025-08-25 14:11:39,653 - INFO - Client 48 Train Loss: 0.0676
+2025-08-25 14:11:42,077 - INFO - Client 11 Train Loss: 0.1664
+2025-08-25 14:11:42,077 - INFO - Global Average Train Loss: 0.1353
+2025-08-25 14:11:42,098 - INFO - Aggregated using FedAvg
+2025-08-25 14:11:45,978 - INFO - Global Model Validation Loss: 0.5279, Top1_Accuracy: 82.29%, Top5_Accuracy: 99.64%
+2025-08-25 14:11:45,978 - INFO - Precision: 0.8505, Recall: 0.8229, F1-Score: 0.7997
+2025-08-25 14:11:45,979 - INFO - Confusion Matrix:
+[[780   0  75  90  33   1  14   0   6   1]
+ [  0 959   0  31   8   0   0   0   1   1]
+ [  6   0 851  10 133   0   0   0   0   0]
+ [  4   1  23 907  63   0   0   0   1   1]
+ [  1   1  58  14 925   0   0   0   1   0]
+ [  0   0   0   4   0 869   0  88   0  39]
+ [146   2 162  77 487   0 107   0  19   0]
+ [  0   0   0   0   0   4   0 875   0 121]
+ [  0   0   5   6  11   1   0   3 966   8]
+ [  0   0   0   0   0   0   0  10   0 990]]
+2025-08-25 14:11:45,979 - INFO - Starting Round 37/100 with algorithm fedavg and model cnn
+2025-08-25 14:11:45,979 - INFO - Selected clients for Round 37: [32, 6, 40, 19, 38]
+2025-08-25 14:11:46,439 - INFO - Client 32 Train Loss: 0.2702
+2025-08-25 14:11:47,142 - INFO - Client 6 Train Loss: 0.1298
+2025-08-25 14:11:48,836 - INFO - Client 40 Train Loss: 0.1916
+2025-08-25 14:11:50,916 - INFO - Client 19 Train Loss: 0.1220
+2025-08-25 14:11:52,400 - INFO - Client 38 Train Loss: 0.0883
+2025-08-25 14:11:52,400 - INFO - Global Average Train Loss: 0.1604
+2025-08-25 14:11:52,422 - INFO - Aggregated using FedAvg
+2025-08-25 14:11:56,204 - INFO - Global Model Validation Loss: 0.3965, Top1_Accuracy: 85.22%, Top5_Accuracy: 99.77%
+2025-08-25 14:11:56,204 - INFO - Precision: 0.8647, Recall: 0.8522, F1-Score: 0.8453
+2025-08-25 14:11:56,205 - INFO - Confusion Matrix:
+[[866   2  39  51   1   1  32   2   6   0]
+ [  0 979   0  19   0   0   0   0   2   0]
+ [  8   1 945  15  12   0  18   0   1   0]
+ [ 13   6  13 953   2   0  10   0   1   2]
+ [  1   3 330  91 456   0 117   0   2   0]
+ [  0   0   0   4   0 892   0  84   2  18]
+ [183   2 165  54  37   0 542   0  17   0]
+ [  0   0   0   0   0   4   0 953   0  43]
+ [  1   1   3   6   1   1   2   5 977   3]
+ [  0   0   0   0   0   4   0  37   0 959]]
+2025-08-25 14:11:56,206 - INFO - Starting Round 38/100 with algorithm fedavg and model cnn
+2025-08-25 14:11:56,206 - INFO - Selected clients for Round 38: [12, 9, 23, 48, 10]
+2025-08-25 14:11:58,264 - INFO - Client 12 Train Loss: 0.0225
+2025-08-25 14:12:00,519 - INFO - Client 9 Train Loss: 0.0391
+2025-08-25 14:12:01,394 - INFO - Client 23 Train Loss: 0.0314
+2025-08-25 14:12:03,872 - INFO - Client 48 Train Loss: 0.0849
+2025-08-25 14:12:05,476 - INFO - Client 10 Train Loss: 0.1906
+2025-08-25 14:12:05,476 - INFO - Global Average Train Loss: 0.0737
+2025-08-25 14:12:05,498 - INFO - Aggregated using FedAvg
+2025-08-25 14:12:09,878 - INFO - Global Model Validation Loss: 0.4162, Top1_Accuracy: 84.26%, Top5_Accuracy: 99.75%
+2025-08-25 14:12:09,879 - INFO - Precision: 0.8627, Recall: 0.8426, F1-Score: 0.8339
+2025-08-25 14:12:09,879 - INFO - Confusion Matrix:
+[[940   1   5  15   7   1  19   1  10   1]
+ [  0 978   0  16   3   0   1   0   2   0]
+ [ 41   2 561  13 333   0  43   0   6   1]
+ [ 47   7   0 913  19   0  10   0   2   2]
+ [  1   1   6  56 914   0  13   0   9   0]
+ [  0   0   0   0   0 965   0  18   1  16]
+ [296   2  28  22 247   1 377   0  27   0]
+ [  0   0   0   0   0  62   0 810   0 128]
+ [  2   1   0   3   1   5   0   1 985   2]
+ [  0   0   0   0   0   7   0  10   0 983]]
+2025-08-25 14:12:09,880 - INFO - Starting Round 39/100 with algorithm fedavg and model cnn
+2025-08-25 14:12:09,880 - INFO - Selected clients for Round 39: [34, 49, 33, 0, 38]
+2025-08-25 14:12:11,610 - INFO - Client 34 Train Loss: 0.0341
+2025-08-25 14:12:14,662 - INFO - Client 49 Train Loss: 0.0759
+2025-08-25 14:12:16,751 - INFO - Client 33 Train Loss: 0.0819
+2025-08-25 14:12:20,187 - INFO - Client 0 Train Loss: 0.0890
+2025-08-25 14:12:21,877 - INFO - Client 38 Train Loss: 0.0750
+2025-08-25 14:12:21,878 - INFO - Global Average Train Loss: 0.0712
+2025-08-25 14:12:21,902 - INFO - Aggregated using FedAvg
+2025-08-25 14:12:25,943 - INFO - Global Model Validation Loss: 0.7803, Top1_Accuracy: 74.15%, Top5_Accuracy: 99.57%
+2025-08-25 14:12:25,943 - INFO - Precision: 0.8233, Recall: 0.7415, F1-Score: 0.7007
+2025-08-25 14:12:25,944 - INFO - Confusion Matrix:
+[[ 771    0   58  118   36    6    8    0    3    0]
+ [   0  970    0   21    7    0    0    0    2    0]
+ [   7    1  798   10  184    0    0    0    0    0]
+ [   3    2   12  927   56    0    0    0    0    0]
+ [   1    0   27   19  953    0    0    0    0    0]
+ [   0    0    0    0    0 1000    0    0    0    0]
+ [ 156    2  129  108  510    2   82    0   11    0]
+ [   0    0    0    0    0  823    0  144    0   33]
+ [   0    1    7    5   13   31    0    0  943    0]
+ [   0    0    0    0    0  171    0    2    0  827]]
+2025-08-25 14:12:25,944 - INFO - Starting Round 40/100 with algorithm fedavg and model cnn
+2025-08-25 14:12:25,944 - INFO - Selected clients for Round 40: [20, 31, 1, 7, 23]
+2025-08-25 14:12:28,953 - INFO - Client 20 Train Loss: 0.2187
+2025-08-25 14:12:34,459 - INFO - Client 31 Train Loss: 0.0557
+2025-08-25 14:12:35,190 - INFO - Client 1 Train Loss: 0.2501
+2025-08-25 14:12:38,777 - INFO - Client 7 Train Loss: 0.0855
+2025-08-25 14:12:39,616 - INFO - Client 23 Train Loss: 0.0407
+2025-08-25 14:12:39,616 - INFO - Global Average Train Loss: 0.1301
+2025-08-25 14:12:39,640 - INFO - Aggregated using FedAvg
+2025-08-25 14:12:43,661 - INFO - Global Model Validation Loss: 0.9575, Top1_Accuracy: 71.23%, Top5_Accuracy: 99.73%
+2025-08-25 14:12:43,661 - INFO - Precision: 0.8123, Recall: 0.7123, F1-Score: 0.6664
+2025-08-25 14:12:43,662 - INFO - Confusion Matrix:
+[[934   1  55   3   0   1   3   1   2   0]
+ [  7 987   4   1   0   0   0   0   1   0]
+ [ 11   1 987   1   0   0   0   0   0   0]
+ [187  52 136 619   0   0   4   1   0   1]
+ [  7   7 963  13   3   0   6   0   1   0]
+ [  4   0   1   0   0 668   0 309   0  18]
+ [349   5 558   3   1   0  77   0   7   0]
+ [  0   0   0   0   0   0   0 949   0  51]
+ [  6   3  35   1   0   2   0  10 940   3]
+ [  0   0   1   0   0   1   0  39   0 959]]
+2025-08-25 14:12:43,666 - INFO - Starting Round 41/100 with algorithm fedavg and model cnn
+2025-08-25 14:12:43,666 - INFO - Selected clients for Round 41: [19, 15, 3, 36, 5]
+2025-08-25 14:12:45,764 - INFO - Client 19 Train Loss: 0.0958
+2025-08-25 14:12:46,274 - INFO - Client 15 Train Loss: 0.6390
+2025-08-25 14:12:49,064 - INFO - Client 3 Train Loss: 0.1262
+2025-08-25 14:12:54,407 - INFO - Client 36 Train Loss: 0.0722
+2025-08-25 14:12:55,239 - INFO - Client 5 Train Loss: 0.1331
+2025-08-25 14:12:55,240 - INFO - Global Average Train Loss: 0.2132
+2025-08-25 14:12:55,263 - INFO - Aggregated using FedAvg
+2025-08-25 14:12:59,296 - INFO - Global Model Validation Loss: 0.7205, Top1_Accuracy: 76.81%, Top5_Accuracy: 99.69%
+2025-08-25 14:12:59,302 - INFO - Precision: 0.8377, Recall: 0.7681, F1-Score: 0.7558
+2025-08-25 14:12:59,304 - INFO - Confusion Matrix:
+[[ 960    1   14   18    1    1    1    4    0    0]
+ [   2  980    0   15    1    0    0    0    2    0]
+ [  31    1  924   10   29    0    4    1    0    0]
+ [  49    6   11  920   12    0    2    0    0    0]
+ [   5    2  245   58  673    0   17    0    0    0]
+ [   1    0    0    3    0  665    0  331    0    0]
+ [ 387    2  179   22  124    0  284    0    2    0]
+ [   0    0    0    0    0    0    0 1000    0    0]
+ [  30    3    8    6    2    4    2   62  882    1]
+ [   0    0    0    1    0    5    0  601    0  393]]
+2025-08-25 14:12:59,305 - INFO - Starting Round 42/100 with algorithm fedavg and model cnn
+2025-08-25 14:12:59,305 - INFO - Selected clients for Round 42: [5, 46, 31, 4, 48]
+2025-08-25 14:13:00,249 - INFO - Client 5 Train Loss: 0.1699
+2025-08-25 14:13:03,172 - INFO - Client 46 Train Loss: 0.1306
+2025-08-25 14:13:08,943 - INFO - Client 31 Train Loss: 0.0667
+2025-08-25 14:13:11,736 - INFO - Client 4 Train Loss: 0.2092
+2025-08-25 14:13:14,470 - INFO - Client 48 Train Loss: 0.0715
+2025-08-25 14:13:14,470 - INFO - Global Average Train Loss: 0.1296
+2025-08-25 14:13:14,501 - INFO - Aggregated using FedAvg
+2025-08-25 14:13:18,748 - INFO - Global Model Validation Loss: 0.4341, Top1_Accuracy: 84.47%, Top5_Accuracy: 99.78%
+2025-08-25 14:13:18,748 - INFO - Precision: 0.8583, Recall: 0.8447, F1-Score: 0.8386
+2025-08-25 14:13:18,749 - INFO - Confusion Matrix:
+[[914   1  15  18   9   4  29   0   9   1]
+ [  1 971   0  20   5   0   1   0   2   0]
+ [ 15   1 732   6 207   0  38   0   1   0]
+ [ 35   3  10 890  39   0  20   0   1   2]
+ [  1   1  25  25 908   0  36   0   2   2]
+ [  0   0   0   0   0 966   0   8   0  26]
+ [256   1  68  21 138   1 495   0  20   0]
+ [  0   0   0   0   0 114   0 598   0 288]
+ [  1   1   0   3   4   3   2   1 977   8]
+ [  0   0   0   0   0   3   0   1   0 996]]
+2025-08-25 14:13:18,749 - INFO - Starting Round 43/100 with algorithm fedavg and model cnn
+2025-08-25 14:13:18,749 - INFO - Selected clients for Round 43: [34, 49, 8, 42, 30]
+2025-08-25 14:13:20,469 - INFO - Client 34 Train Loss: 0.0332
+2025-08-25 14:13:23,514 - INFO - Client 49 Train Loss: 0.0637
+2025-08-25 14:13:24,871 - INFO - Client 8 Train Loss: 0.1792
+2025-08-25 14:13:27,033 - INFO - Client 42 Train Loss: 0.0978
+2025-08-25 14:13:28,987 - INFO - Client 30 Train Loss: 0.0223
+2025-08-25 14:13:28,987 - INFO - Global Average Train Loss: 0.0792
+2025-08-25 14:13:29,007 - INFO - Aggregated using FedAvg
+2025-08-25 14:13:32,753 - INFO - Global Model Validation Loss: 0.4876, Top1_Accuracy: 82.44%, Top5_Accuracy: 99.64%
+2025-08-25 14:13:32,753 - INFO - Precision: 0.8504, Recall: 0.8244, F1-Score: 0.8109
+2025-08-25 14:13:32,755 - INFO - Confusion Matrix:
+[[840   1  46  86   3   5  10   0   8   1]
+ [  0 976   0  21   1   0   0   0   2   0]
+ [  9   1 916  16  55   0   3   0   0   0]
+ [  7   2  16 967   4   0   4   0   0   0]
+ [  2   1 144  93 752   0   8   0   0   0]
+ [  0   0   0   1   0 997   0   1   0   1]
+ [199   2 193  88 162   2 340   0  14   0]
+ [  0   0   0   0   0 372   0 527   0 101]
+ [  0   2   6   4   2  14   1   0 971   0]
+ [  0   0   0   0   0  40   0   2   0 958]]
+2025-08-25 14:13:32,756 - INFO - Starting Round 44/100 with algorithm fedavg and model cnn
+2025-08-25 14:13:32,757 - INFO - Selected clients for Round 44: [35, 10, 16, 33, 38]
+2025-08-25 14:13:33,772 - INFO - Client 35 Train Loss: 0.1554
+2025-08-25 14:13:35,148 - INFO - Client 10 Train Loss: 0.2750
+2025-08-25 14:13:36,983 - INFO - Client 16 Train Loss: 0.0577
+2025-08-25 14:13:39,032 - INFO - Client 33 Train Loss: 0.1058
+2025-08-25 14:13:40,537 - INFO - Client 38 Train Loss: 0.1054
+2025-08-25 14:13:40,537 - INFO - Global Average Train Loss: 0.1399
+2025-08-25 14:13:40,557 - INFO - Aggregated using FedAvg
+2025-08-25 14:13:44,845 - INFO - Global Model Validation Loss: 0.4016, Top1_Accuracy: 84.92%, Top5_Accuracy: 99.69%
+2025-08-25 14:13:44,845 - INFO - Precision: 0.8596, Recall: 0.8492, F1-Score: 0.8467
+2025-08-25 14:13:44,845 - INFO - Confusion Matrix:
+[[614   6  74  46  20   4 231   0   4   1]
+ [  0 983   0  10   5   0   0   0   2   0]
+ [  4   1 846   4 130   0  15   0   0   0]
+ [  2  19  24 849  81   0  24   0   0   1]
+ [  0   0  55   4 933   0   7   0   1   0]
+ [  0   0   0   0   0 967   0  19   0  14]
+ [ 43   2 130  29 246   2 538   0  10   0]
+ [  0   0   0   0   0  62   0 807   0 131]
+ [  0   1   5   3  11   4   1   2 970   3]
+ [  0   0   0   0   0   8   0   7   0 985]]
+2025-08-25 14:13:44,846 - INFO - Starting Round 45/100 with algorithm fedavg and model cnn
+2025-08-25 14:13:44,846 - INFO - Selected clients for Round 45: [27, 13, 34, 48, 46]
+2025-08-25 14:13:47,240 - INFO - Client 27 Train Loss: 0.1186
+2025-08-25 14:13:50,259 - INFO - Client 13 Train Loss: 0.0358
+2025-08-25 14:13:51,974 - INFO - Client 34 Train Loss: 0.0321
+2025-08-25 14:13:54,135 - INFO - Client 48 Train Loss: 0.0496
+2025-08-25 14:13:56,742 - INFO - Client 46 Train Loss: 0.0974
+2025-08-25 14:13:56,742 - INFO - Global Average Train Loss: 0.0667
+2025-08-25 14:13:56,763 - INFO - Aggregated using FedAvg
+2025-08-25 14:14:00,587 - INFO - Global Model Validation Loss: 0.4395, Top1_Accuracy: 84.29%, Top5_Accuracy: 99.69%
+2025-08-25 14:14:00,587 - INFO - Precision: 0.8667, Recall: 0.8429, F1-Score: 0.8238
+2025-08-25 14:14:00,589 - INFO - Confusion Matrix:
+[[881   0  14  86   5   1   5   0   7   1]
+ [  0 975   0  22   1   0   0   0   2   0]
+ [ 25   3 759  35 175   0   2   0   1   0]
+ [  6   2   3 986   3   0   0   0   0   0]
+ [  2   2  23 114 857   0   1   0   1   0]
+ [  0   0   0   6   0 959   0  22   1  12]
+ [274   3  89 121 300   1 188   0  24   0]
+ [  0   0   0   0   0  44   0 863   0  93]
+ [  1   1   0   9   2   2   0   2 981   2]
+ [  0   0   0   1   0   5   0  13   1 980]]
+2025-08-25 14:14:00,589 - INFO - Starting Round 46/100 with algorithm fedavg and model cnn
+2025-08-25 14:14:00,589 - INFO - Selected clients for Round 46: [44, 12, 45, 19, 25]
+2025-08-25 14:14:03,610 - INFO - Client 44 Train Loss: 0.0792
+2025-08-25 14:14:05,789 - INFO - Client 12 Train Loss: 0.0188
+2025-08-25 14:14:07,451 - INFO - Client 45 Train Loss: 0.0941
+2025-08-25 14:14:10,227 - INFO - Client 19 Train Loss: 0.0889
+2025-08-25 14:14:15,051 - INFO - Client 25 Train Loss: 0.1012
+2025-08-25 14:14:15,057 - INFO - Global Average Train Loss: 0.0764
+2025-08-25 14:14:15,101 - INFO - Aggregated using FedAvg
+2025-08-25 14:14:19,767 - INFO - Global Model Validation Loss: 0.4047, Top1_Accuracy: 84.83%, Top5_Accuracy: 99.86%
+2025-08-25 14:14:19,767 - INFO - Precision: 0.8656, Recall: 0.8483, F1-Score: 0.8500
+2025-08-25 14:14:19,769 - INFO - Confusion Matrix:
+[[960   1   3   7   1   1  24   1   2   0]
+ [  8 977   0   8   3   0   2   0   2   0]
+ [ 63   1 675   4 119   0 138   0   0   0]
+ [131   6   2 775  27   0  58   0   1   0]
+ [  5   3  30  24 678   0 259   0   1   0]
+ [  1   0   0   0   0 947   0  50   0   2]
+ [287   1  25   9  25   0 643   0  10   0]
+ [  0   0   0   0   0  10   0 981   0   9]
+ [ 10   1   0   1   1   4   7   4 972   0]
+ [  1   0   0   0   0  16   0 108   0 875]]
+2025-08-25 14:14:19,772 - INFO - Starting Round 47/100 with algorithm fedavg and model cnn
+2025-08-25 14:14:19,772 - INFO - Selected clients for Round 47: [42, 41, 23, 28, 33]
+2025-08-25 14:14:22,345 - INFO - Client 42 Train Loss: 0.0745
+2025-08-25 14:14:24,188 - INFO - Client 41 Train Loss: 0.2033
+2025-08-25 14:14:25,018 - INFO - Client 23 Train Loss: 0.0372
+2025-08-25 14:14:26,914 - INFO - Client 28 Train Loss: 0.0963
+2025-08-25 14:14:29,175 - INFO - Client 33 Train Loss: 0.0977
+2025-08-25 14:14:29,176 - INFO - Global Average Train Loss: 0.1018
+2025-08-25 14:14:29,208 - INFO - Aggregated using FedAvg
+2025-08-25 14:14:33,401 - INFO - Global Model Validation Loss: 0.6100, Top1_Accuracy: 80.86%, Top5_Accuracy: 99.56%
+2025-08-25 14:14:33,401 - INFO - Precision: 0.8551, Recall: 0.8086, F1-Score: 0.7751
+2025-08-25 14:14:33,402 - INFO - Confusion Matrix:
+[[899   6  15  37  21   1   1   0  19   1]
+ [  0 991   0   5   2   0   0   0   2   0]
+ [ 19   5 582  13 380   0   0   0   1   0]
+ [ 21  22   5 895  55   0   0   0   1   1]
+ [  1   2   7  19 969   0   0   0   2   0]
+ [  0   1   0   1   0 915   0  45   5  33]
+ [303   6  48  47 557   1   9   0  29   0]
+ [  0   0   0   0   0  11   0 854   1 134]
+ [  0   2   0   3  11   2   0   1 979   2]
+ [  0   0   0   0   0   1   0   5   1 993]]
+2025-08-25 14:14:33,403 - INFO - Starting Round 48/100 with algorithm fedavg and model cnn
+2025-08-25 14:14:33,403 - INFO - Selected clients for Round 48: [28, 7, 15, 14, 4]
+2025-08-25 14:14:35,308 - INFO - Client 28 Train Loss: 0.0559
+2025-08-25 14:14:38,847 - INFO - Client 7 Train Loss: 0.0829
+2025-08-25 14:14:39,369 - INFO - Client 15 Train Loss: 0.3334
+2025-08-25 14:14:42,472 - INFO - Client 14 Train Loss: 0.2200
+2025-08-25 14:14:44,690 - INFO - Client 4 Train Loss: 0.1804
+2025-08-25 14:14:44,690 - INFO - Global Average Train Loss: 0.1745
+2025-08-25 14:14:44,714 - INFO - Aggregated using FedAvg
+2025-08-25 14:14:48,647 - INFO - Global Model Validation Loss: 0.6805, Top1_Accuracy: 79.60%, Top5_Accuracy: 99.55%
+2025-08-25 14:14:48,647 - INFO - Precision: 0.8530, Recall: 0.7960, F1-Score: 0.7639
+2025-08-25 14:14:48,648 - INFO - Confusion Matrix:
+[[873   1  47   6   0   1  67   1   3   1]
+ [  1 993   0   2   0   0   2   0   2   0]
+ [ 10   1 971   4   0   0  14   0   0   0]
+ [ 69  47  52 781   0   0  49   0   1   1]
+ [  3   5 777  51   1   0 161   0   2   0]
+ [  0   0   0   0   0 941   1  37   1  20]
+ [160   5 216  12   0   0 599   0   8   0]
+ [  0   0   0   0   0  17   0 835   0 148]
+ [  2   2  11   1   0   2   3   1 976   2]
+ [  0   0   0   0   0   3   0   6   1 990]]
+2025-08-25 14:14:48,648 - INFO - Starting Round 49/100 with algorithm fedavg and model cnn
+2025-08-25 14:14:48,648 - INFO - Selected clients for Round 49: [21, 1, 37, 35, 14]
+2025-08-25 14:14:53,207 - INFO - Client 21 Train Loss: 0.3226
+2025-08-25 14:14:53,977 - INFO - Client 1 Train Loss: 0.0819
+2025-08-25 14:14:56,627 - INFO - Client 37 Train Loss: 0.0214
+2025-08-25 14:14:57,706 - INFO - Client 35 Train Loss: 0.2723
+2025-08-25 14:15:00,689 - INFO - Client 14 Train Loss: 0.1456
+2025-08-25 14:15:00,689 - INFO - Global Average Train Loss: 0.1688
+2025-08-25 14:15:00,710 - INFO - Aggregated using FedAvg
+2025-08-25 14:15:04,707 - INFO - Global Model Validation Loss: 0.5275, Top1_Accuracy: 81.38%, Top5_Accuracy: 99.74%
+2025-08-25 14:15:04,707 - INFO - Precision: 0.8650, Recall: 0.8138, F1-Score: 0.7885
+2025-08-25 14:15:04,707 - INFO - Confusion Matrix:
+[[726   0  14  29   0   2 229   0   0   0]
+ [  0 988   1  10   0   0   1   0   0   0]
+ [  7   1 893  12   0   1  86   0   0   0]
+ [  7  10  10 931   0   0  42   0   0   0]
+ [  0   4 428  96  58   1 413   0   0   0]
+ [  0   0   0   2   0 970   2  15   0  11]
+ [ 51   2  67  32   0   0 848   0   0   0]
+ [  0   0   0   0   0  58   0 855   0  87]
+ [  2   2   5   9   0   8  74   1 895   4]
+ [  0   0   0   0   0   8   0  18   0 974]]
+2025-08-25 14:15:04,710 - INFO - Starting Round 50/100 with algorithm fedavg and model cnn
+2025-08-25 14:15:04,710 - INFO - Selected clients for Round 50: [37, 14, 0, 4, 45]
+2025-08-25 14:15:07,242 - INFO - Client 37 Train Loss: 0.0233
+2025-08-25 14:15:10,203 - INFO - Client 14 Train Loss: 0.1211
+2025-08-25 14:15:13,460 - INFO - Client 0 Train Loss: 0.1286
+2025-08-25 14:15:15,737 - INFO - Client 4 Train Loss: 0.1419
+2025-08-25 14:15:16,857 - INFO - Client 45 Train Loss: 0.0632
+2025-08-25 14:15:16,858 - INFO - Global Average Train Loss: 0.0956
+2025-08-25 14:15:16,877 - INFO - Aggregated using FedAvg
+2025-08-25 14:15:20,734 - INFO - Global Model Validation Loss: 0.3958, Top1_Accuracy: 85.46%, Top5_Accuracy: 99.80%
+2025-08-25 14:15:20,734 - INFO - Precision: 0.8637, Recall: 0.8546, F1-Score: 0.8484
+2025-08-25 14:15:20,735 - INFO - Confusion Matrix:
+[[922   3  10  18   1   3  41   0   1   1]
+ [  0 994   0   4   0   0   0   0   2   0]
+ [ 26   3 906  12  15   1  37   0   0   0]
+ [ 28  23   9 918   1   0  21   0   0   0]
+ [  1   8 276  79 468   1 167   0   0   0]
+ [  0   0   0   2   0 985   0   6   0   7]
+ [212   3  70  30  30   1 650   0   4   0]
+ [  0   0   0   0   0 120   0 779   0 101]
+ [  9   5   3   6   1  12  11   1 949   3]
+ [  0   0   0   0   0  12   0  13   0 975]]
+2025-08-25 14:15:20,736 - INFO - Starting Round 51/100 with algorithm fedavg and model cnn
+2025-08-25 14:15:20,736 - INFO - Selected clients for Round 51: [40, 3, 14, 4, 2]
+2025-08-25 14:15:22,507 - INFO - Client 40 Train Loss: 0.1350
+2025-08-25 14:15:25,969 - INFO - Client 3 Train Loss: 0.1098
+2025-08-25 14:15:29,427 - INFO - Client 14 Train Loss: 0.1279
+2025-08-25 14:15:31,905 - INFO - Client 4 Train Loss: 0.1347
+2025-08-25 14:15:32,803 - INFO - Client 2 Train Loss: 0.1412
+2025-08-25 14:15:32,803 - INFO - Global Average Train Loss: 0.1297
+2025-08-25 14:15:32,827 - INFO - Aggregated using FedAvg
+2025-08-25 14:15:36,898 - INFO - Global Model Validation Loss: 0.5347, Top1_Accuracy: 80.26%, Top5_Accuracy: 99.88%
+2025-08-25 14:15:36,898 - INFO - Precision: 0.8586, Recall: 0.8026, F1-Score: 0.7890
+2025-08-25 14:15:36,898 - INFO - Confusion Matrix:
+[[660   1  44   8   0   1 282   2   2   0]
+ [  0 986   0   8   1   0   3   0   2   0]
+ [  6   1 917   5   1   0  70   0   0   0]
+ [  9  10  30 854   6   0  90   0   1   0]
+ [  0   2 374  35 159   0 429   0   1   0]
+ [  0   0   0   3   0 737   9 240   0  11]
+ [ 42   2  85  14   1   0 850   0   6   0]
+ [  0   0   0   0   0   0   0 989   0  11]
+ [  1   1  10   2   0   2  14   7 962   1]
+ [  0   0   0   0   0   2   2  82   2 912]]
+2025-08-25 14:15:36,899 - INFO - Starting Round 52/100 with algorithm fedavg and model cnn
+2025-08-25 14:15:36,899 - INFO - Selected clients for Round 52: [21, 4, 32, 15, 17]
+2025-08-25 14:15:40,981 - INFO - Client 21 Train Loss: 0.2981
+2025-08-25 14:15:43,107 - INFO - Client 4 Train Loss: 0.1243
+2025-08-25 14:15:43,558 - INFO - Client 32 Train Loss: 0.3074
+2025-08-25 14:15:44,095 - INFO - Client 15 Train Loss: 0.4167
+2025-08-25 14:15:47,389 - INFO - Client 17 Train Loss: 0.0955
+2025-08-25 14:15:47,389 - INFO - Global Average Train Loss: 0.2484
+2025-08-25 14:15:47,410 - INFO - Aggregated using FedAvg
+2025-08-25 14:15:52,036 - INFO - Global Model Validation Loss: 0.4425, Top1_Accuracy: 83.90%, Top5_Accuracy: 99.84%
+2025-08-25 14:15:52,036 - INFO - Precision: 0.8744, Recall: 0.8390, F1-Score: 0.8301
+2025-08-25 14:15:52,038 - INFO - Confusion Matrix:
+[[842   1   6   7   0   1 138   1   4   0]
+ [  3 982   0   9   0   0   3   0   3   0]
+ [ 19   1 837   6   4   0 132   0   1   0]
+ [ 46   9   7 857   0   0  80   0   1   0]
+ [  1   2 222  51 243   1 479   0   1   0]
+ [  0   0   0   1   0 923   5  52   5  14]
+ [113   2  36  12   3   0 829   0   5   0]
+ [  0   0   0   0   0  11   0 942   1  46]
+ [  4   1   0   1   0   2  15   2 974   1]
+ [  0   0   0   0   0   3   2  31   3 961]]
+2025-08-25 14:15:52,039 - INFO - Starting Round 53/100 with algorithm fedavg and model cnn
+2025-08-25 14:15:52,039 - INFO - Selected clients for Round 53: [42, 31, 13, 34, 8]
+2025-08-25 14:15:55,081 - INFO - Client 42 Train Loss: 0.0762
+2025-08-25 14:16:00,853 - INFO - Client 31 Train Loss: 0.0561
+2025-08-25 14:16:04,415 - INFO - Client 13 Train Loss: 0.0423
+2025-08-25 14:16:06,386 - INFO - Client 34 Train Loss: 0.0402
+2025-08-25 14:16:07,851 - INFO - Client 8 Train Loss: 0.1522
+2025-08-25 14:16:07,852 - INFO - Global Average Train Loss: 0.0734
+2025-08-25 14:16:07,877 - INFO - Aggregated using FedAvg
+2025-08-25 14:16:12,135 - INFO - Global Model Validation Loss: 0.4900, Top1_Accuracy: 82.50%, Top5_Accuracy: 99.75%
+2025-08-25 14:16:12,135 - INFO - Precision: 0.8539, Recall: 0.8250, F1-Score: 0.8143
+2025-08-25 14:16:12,136 - INFO - Confusion Matrix:
+[[846   0  23 105   1   1  15   0   8   1]
+ [  0 976   0  22   0   0   0   0   2   0]
+ [ 17   1 941  30   5   0   6   0   0   0]
+ [  5   1   8 985   1   0   0   0   0   0]
+ [  1   3 403 147 394   0  51   0   1   0]
+ [  0   0   0  11   0 913   0  33   2  41]
+ [201   1 174 131  34   1 443   0  15   0]
+ [  0   0   0   0   0  17   0 784   0 199]
+ [  1   2   4  13   0   1   2   2 972   3]
+ [  0   0   0   0   0   0   0   3   1 996]]
+2025-08-25 14:16:12,136 - INFO - Starting Round 54/100 with algorithm fedavg and model cnn
+2025-08-25 14:16:12,137 - INFO - Selected clients for Round 54: [46, 36, 30, 15, 26]
+2025-08-25 14:16:15,290 - INFO - Client 46 Train Loss: 0.1033
+2025-08-25 14:16:21,345 - INFO - Client 36 Train Loss: 0.0702
+2025-08-25 14:16:23,471 - INFO - Client 30 Train Loss: 0.0254
+2025-08-25 14:16:24,097 - INFO - Client 15 Train Loss: 0.3784
+2025-08-25 14:16:25,004 - INFO - Client 26 Train Loss: 0.0612
+2025-08-25 14:16:25,004 - INFO - Global Average Train Loss: 0.1277
+2025-08-25 14:16:25,031 - INFO - Aggregated using FedAvg
+2025-08-25 14:16:29,348 - INFO - Global Model Validation Loss: 0.4543, Top1_Accuracy: 83.79%, Top5_Accuracy: 99.76%
+2025-08-25 14:16:29,348 - INFO - Precision: 0.8580, Recall: 0.8379, F1-Score: 0.8284
+2025-08-25 14:16:29,349 - INFO - Confusion Matrix:
+[[901   0  22  47   8   3  15   2   2   0]
+ [  0 970   1  22   6   0   0   0   1   0]
+ [ 25   1 860  12  93   0   9   0   0   0]
+ [ 14   1   7 946  26   0   6   0   0   0]
+ [  2   1  85  47 844   0  20   0   1   0]
+ [  0   0   0   0   0 981   0  19   0   0]
+ [252   2 115  49 155   2 417   0   8   0]
+ [  0   0   0   0   0  29   0 971   0   0]
+ [  1   0   4   7   9  14   2  11 952   0]
+ [  0   0   0   0   0  59   0 404   0 537]]
+2025-08-25 14:16:29,354 - INFO - Starting Round 55/100 with algorithm fedavg and model cnn
+2025-08-25 14:16:29,354 - INFO - Selected clients for Round 55: [12, 6, 42, 27, 22]
+2025-08-25 14:16:31,665 - INFO - Client 12 Train Loss: 0.0140
+2025-08-25 14:16:32,508 - INFO - Client 6 Train Loss: 0.1342
+2025-08-25 14:16:35,500 - INFO - Client 42 Train Loss: 0.1023
+2025-08-25 14:16:38,659 - INFO - Client 27 Train Loss: 0.0957
+2025-08-25 14:16:39,588 - INFO - Client 22 Train Loss: 0.2356
+2025-08-25 14:16:39,588 - INFO - Global Average Train Loss: 0.1164
+2025-08-25 14:16:39,613 - INFO - Aggregated using FedAvg
+2025-08-25 14:16:43,982 - INFO - Global Model Validation Loss: 0.7821, Top1_Accuracy: 77.82%, Top5_Accuracy: 99.66%
+2025-08-25 14:16:43,983 - INFO - Precision: 0.8533, Recall: 0.7782, F1-Score: 0.7688
+2025-08-25 14:16:43,983 - INFO - Confusion Matrix:
+[[990   0   2   5   0   1   0   0   2   0]
+ [ 14 975   0  11   0   0   0   0   0   0]
+ [294   2 680   8  16   0   0   0   0   0]
+ [161   4   0 835   0   0   0   0   0   0]
+ [169   3 240  87 485   0  16   0   0   0]
+ [ 11   0   0   2   0 885   0  91   0  11]
+ [732   2  56  17  51   0 141   0   1   0]
+ [  0   0   0   0   0   1   0 986   0  13]
+ [ 95   1   0   3   0   1   0   7 892   1]
+ [  3   0   0   0   0   2   0  82   0 913]]
+2025-08-25 14:16:43,984 - INFO - Starting Round 56/100 with algorithm fedavg and model cnn
+2025-08-25 14:16:43,984 - INFO - Selected clients for Round 56: [27, 26, 29, 46, 3]
+2025-08-25 14:16:46,663 - INFO - Client 27 Train Loss: 0.0774
+2025-08-25 14:16:47,707 - INFO - Client 26 Train Loss: 0.0598
+2025-08-25 14:16:48,988 - INFO - Client 29 Train Loss: 0.2526
+2025-08-25 14:16:52,698 - INFO - Client 46 Train Loss: 0.0957
+2025-08-25 14:16:56,191 - INFO - Client 3 Train Loss: 0.1010
+2025-08-25 14:16:56,191 - INFO - Global Average Train Loss: 0.1173
+2025-08-25 14:16:56,217 - INFO - Aggregated using FedAvg
+2025-08-25 14:17:00,736 - INFO - Global Model Validation Loss: 0.4623, Top1_Accuracy: 84.81%, Top5_Accuracy: 99.73%
+2025-08-25 14:17:00,736 - INFO - Precision: 0.8738, Recall: 0.8481, F1-Score: 0.8325
+2025-08-25 14:17:00,738 - INFO - Confusion Matrix:
+[[959   1  22   7   3   2   3   2   1   0]
+ [  6 973   0  16   3   0   0   0   2   0]
+ [ 28   1 929   7  34   0   1   0   0   0]
+ [ 60   1  19 888  29   0   2   0   1   0]
+ [  4   1 205  32 752   0   5   0   1   0]
+ [  0   0   0   0   0 921   0  68   0  11]
+ [370   2 183  15 202   0 220   0   8   0]
+ [  0   0   0   0   0   4   0 990   0   6]
+ [ 11   0  10   2   2   4   0  13 958   0]
+ [  0   0   1   0   0   4   0 104   0 891]]
+2025-08-25 14:17:00,738 - INFO - Starting Round 57/100 with algorithm fedavg and model cnn
+2025-08-25 14:17:00,738 - INFO - Selected clients for Round 57: [43, 41, 6, 3, 25]
+2025-08-25 14:17:02,723 - INFO - Client 43 Train Loss: 0.0890
+2025-08-25 14:17:04,693 - INFO - Client 41 Train Loss: 0.2065
+2025-08-25 14:17:05,479 - INFO - Client 6 Train Loss: 0.1901
+2025-08-25 14:17:08,923 - INFO - Client 3 Train Loss: 0.0727
+2025-08-25 14:17:12,554 - INFO - Client 25 Train Loss: 0.0872
+2025-08-25 14:17:12,554 - INFO - Global Average Train Loss: 0.1291
+2025-08-25 14:17:12,577 - INFO - Aggregated using FedAvg
+2025-08-25 14:17:16,896 - INFO - Global Model Validation Loss: 0.5477, Top1_Accuracy: 77.92%, Top5_Accuracy: 99.86%
+2025-08-25 14:17:16,896 - INFO - Precision: 0.8636, Recall: 0.7792, F1-Score: 0.7808
+2025-08-25 14:17:16,898 - INFO - Confusion Matrix:
+[[563   1   2  12   1   2 416   2   1   0]
+ [  1 969   0  18   2   2   6   0   2   0]
+ [  4   1 279   9 156   0 551   0   0   0]
+ [  6   2   0 887  29   0  75   0   1   0]
+ [  0   1   0  26 541   0 431   0   1   0]
+ [  0   0   0   0   0 977   0  22   0   1]
+ [ 28   1   2  19  15   0 931   0   4   0]
+ [  0   0   0   0   0  19   0 979   0   2]
+ [  1   0   0   3   2  10  36   7 941   0]
+ [  0   0   0   0   0  32   1 242   0 725]]
+2025-08-25 14:17:16,898 - INFO - Starting Round 58/100 with algorithm fedavg and model cnn
+2025-08-25 14:17:16,899 - INFO - Selected clients for Round 58: [46, 21, 6, 15, 12]
+2025-08-25 14:17:19,696 - INFO - Client 46 Train Loss: 0.0970
+2025-08-25 14:17:25,069 - INFO - Client 21 Train Loss: 0.2827
+2025-08-25 14:17:25,789 - INFO - Client 6 Train Loss: 0.1292
+2025-08-25 14:17:26,409 - INFO - Client 15 Train Loss: 0.2981
+2025-08-25 14:17:28,862 - INFO - Client 12 Train Loss: 0.0268
+2025-08-25 14:17:28,862 - INFO - Global Average Train Loss: 0.1667
+2025-08-25 14:17:28,895 - INFO - Aggregated using FedAvg
+2025-08-25 14:17:33,795 - INFO - Global Model Validation Loss: 0.3716, Top1_Accuracy: 86.66%, Top5_Accuracy: 99.84%
+2025-08-25 14:17:33,795 - INFO - Precision: 0.8785, Recall: 0.8666, F1-Score: 0.8607
+2025-08-25 14:17:33,797 - INFO - Confusion Matrix:
+[[961   0   8   9   4   2  13   2   1   0]
+ [  6 969   0  20   3   0   0   0   2   0]
+ [ 35   1 900   7  38   0  19   0   0   0]
+ [ 55   1  11 908  15   0   9   0   1   0]
+ [  5   1 169  50 740   1  33   0   1   0]
+ [  1   0   0   0   0 936   0  54   0   9]
+ [368   1 100  17  98   0 410   0   6   0]
+ [  0   0   0   0   0   7   0 988   0   5]
+ [ 14   0   3   3   1   4   2   9 962   2]
+ [  0   0   0   0   0   5   0 103   0 892]]
+2025-08-25 14:17:33,798 - INFO - Starting Round 59/100 with algorithm fedavg and model cnn
+2025-08-25 14:17:33,799 - INFO - Selected clients for Round 59: [12, 34, 28, 8, 27]
+2025-08-25 14:17:36,506 - INFO - Client 12 Train Loss: 0.0067
+2025-08-25 14:17:38,682 - INFO - Client 34 Train Loss: 0.0379
+2025-08-25 14:17:40,853 - INFO - Client 28 Train Loss: 0.0969
+2025-08-25 14:17:42,741 - INFO - Client 8 Train Loss: 0.1534
+2025-08-25 14:17:45,596 - INFO - Client 27 Train Loss: 0.0736
+2025-08-25 14:17:45,597 - INFO - Global Average Train Loss: 0.0737
+2025-08-25 14:17:45,620 - INFO - Aggregated using FedAvg
+2025-08-25 14:17:50,378 - INFO - Global Model Validation Loss: 0.4684, Top1_Accuracy: 85.08%, Top5_Accuracy: 99.86%
+2025-08-25 14:17:50,379 - INFO - Precision: 0.8836, Recall: 0.8508, F1-Score: 0.8436
+2025-08-25 14:17:50,380 - INFO - Confusion Matrix:
+[[987   0   3   6   0   1   1   0   2   0]
+ [ 14 971   0  11   2   0   0   0   2   0]
+ [ 99   2 734   7 143   0  13   0   2   0]
+ [165   3   2 804  21   0   4   0   1   0]
+ [ 31   1  33  31 893   0   8   0   3   0]
+ [ 12   0   0   0   0 958   0  13   6  11]
+ [432   1  49   9 187   0 307   0  15   0]
+ [  7   0   0   0   0  27   0 910   4  52]
+ [ 17   0   0   1   1   1   0   0 979   1]
+ [  4   0   0   0   0   4   0  25   2 965]]
+2025-08-25 14:17:50,380 - INFO - Starting Round 60/100 with algorithm fedavg and model cnn
+2025-08-25 14:17:50,380 - INFO - Selected clients for Round 60: [11, 17, 29, 15, 4]
+2025-08-25 14:17:53,251 - INFO - Client 11 Train Loss: 0.1465
+2025-08-25 14:17:56,501 - INFO - Client 17 Train Loss: 0.0972
+2025-08-25 14:17:57,736 - INFO - Client 29 Train Loss: 0.2215
+2025-08-25 14:17:58,281 - INFO - Client 15 Train Loss: 0.2963
+2025-08-25 14:18:00,524 - INFO - Client 4 Train Loss: 0.1471
+2025-08-25 14:18:00,524 - INFO - Global Average Train Loss: 0.1817
+2025-08-25 14:18:00,545 - INFO - Aggregated using FedAvg
+2025-08-25 14:18:04,637 - INFO - Global Model Validation Loss: 0.3896, Top1_Accuracy: 85.50%, Top5_Accuracy: 99.85%
+2025-08-25 14:18:04,637 - INFO - Precision: 0.8652, Recall: 0.8550, F1-Score: 0.8511
+2025-08-25 14:18:04,638 - INFO - Confusion Matrix:
+[[878   1  25  11   0   1  64   0  20   0]
+ [  0 988   0   8   0   0   1   0   3   0]
+ [ 13   1 903   6  20   0  52   0   5   0]
+ [ 24  11  18 899  14   0  26   0   7   1]
+ [  1   1 197  42 512   0 238   0   9   0]
+ [  0   0   0   0   0 928   0   9  32  31]
+ [151   1  81  19  24   0 693   0  31   0]
+ [  0   0   0   0   0  30   0 761  23 186]
+ [  0   1   1   2   1   1   1   0 992   1]
+ [  0   0   0   0   0   1   0   0   3 996]]
+2025-08-25 14:18:04,638 - INFO - Starting Round 61/100 with algorithm fedavg and model cnn
+2025-08-25 14:18:04,639 - INFO - Selected clients for Round 61: [28, 35, 6, 3, 41]
+2025-08-25 14:18:06,588 - INFO - Client 28 Train Loss: 0.0891
+2025-08-25 14:18:07,731 - INFO - Client 35 Train Loss: 0.1727
+2025-08-25 14:18:08,488 - INFO - Client 6 Train Loss: 0.2128
+2025-08-25 14:18:11,604 - INFO - Client 3 Train Loss: 0.0903
+2025-08-25 14:18:13,611 - INFO - Client 41 Train Loss: 0.1902
+2025-08-25 14:18:13,611 - INFO - Global Average Train Loss: 0.1510
+2025-08-25 14:18:13,638 - INFO - Aggregated using FedAvg
+2025-08-25 14:18:17,720 - INFO - Global Model Validation Loss: 0.5331, Top1_Accuracy: 82.14%, Top5_Accuracy: 99.81%
+2025-08-25 14:18:17,720 - INFO - Precision: 0.8655, Recall: 0.8214, F1-Score: 0.7943
+2025-08-25 14:18:17,721 - INFO - Confusion Matrix:
+[[963   1   7   6  13   2   5   2   1   0]
+ [  2 986   0   6   5   0   0   0   1   0]
+ [ 29   1 636   5 326   0   3   0   0   0]
+ [ 56  10   8 843  81   0   1   0   1   0]
+ [  3   1   8   8 979   0   0   0   1   0]
+ [  0   0   0   0   0 917   0  75   0   8]
+ [369   2  43  14 522   1  45   0   4   0]
+ [  0   0   0   0   0   3   0 990   0   7]
+ [ 11   1   1   2  15   5   0   9 956   0]
+ [  0   0   0   0   0   5   0  96   0 899]]
+2025-08-25 14:18:17,723 - INFO - Starting Round 62/100 with algorithm fedavg and model cnn
+2025-08-25 14:18:17,723 - INFO - Selected clients for Round 62: [34, 0, 5, 48, 15]
+2025-08-25 14:18:19,524 - INFO - Client 34 Train Loss: 0.0352
+2025-08-25 14:18:22,745 - INFO - Client 0 Train Loss: 0.0906
+2025-08-25 14:18:23,578 - INFO - Client 5 Train Loss: 0.1111
+2025-08-25 14:18:25,891 - INFO - Client 48 Train Loss: 0.0486
+2025-08-25 14:18:26,454 - INFO - Client 15 Train Loss: 0.2635
+2025-08-25 14:18:26,454 - INFO - Global Average Train Loss: 0.1098
+2025-08-25 14:18:26,480 - INFO - Aggregated using FedAvg
+2025-08-25 14:18:30,611 - INFO - Global Model Validation Loss: 0.5635, Top1_Accuracy: 80.38%, Top5_Accuracy: 99.82%
+2025-08-25 14:18:30,612 - INFO - Precision: 0.8508, Recall: 0.8038, F1-Score: 0.7819
+2025-08-25 14:18:30,613 - INFO - Confusion Matrix:
+[[841   0  10  99  28   6  11   0   4   1]
+ [  0 962   0  31   5   0   0   0   2   0]
+ [ 17   1 577  15 386   0   4   0   0   0]
+ [  3   1   4 946  46   0   0   0   0   0]
+ [  1   1   4  21 972   0   0   0   1   0]
+ [  0   0   0   2   0 987   0   4   0   7]
+ [204   1  42  95 534   2 110   0  12   0]
+ [  0   0   0   0   0 225   0 718   0  57]
+ [  1   0   0   7  12  14   0   0 965   1]
+ [  0   0   0   0   0  19   0  21   0 960]]
+2025-08-25 14:18:30,613 - INFO - Starting Round 63/100 with algorithm fedavg and model cnn
+2025-08-25 14:18:30,613 - INFO - Selected clients for Round 63: [10, 26, 31, 30, 13]
+2025-08-25 14:18:32,105 - INFO - Client 10 Train Loss: 0.2599
+2025-08-25 14:18:32,954 - INFO - Client 26 Train Loss: 0.0287
+2025-08-25 14:18:37,646 - INFO - Client 31 Train Loss: 0.0396
+2025-08-25 14:18:40,167 - INFO - Client 30 Train Loss: 0.0171
+2025-08-25 14:18:43,449 - INFO - Client 13 Train Loss: 0.0250
+2025-08-25 14:18:43,449 - INFO - Global Average Train Loss: 0.0740
+2025-08-25 14:18:43,470 - INFO - Aggregated using FedAvg
+2025-08-25 14:18:47,527 - INFO - Global Model Validation Loss: 0.5822, Top1_Accuracy: 79.92%, Top5_Accuracy: 99.78%
+2025-08-25 14:18:47,528 - INFO - Precision: 0.8430, Recall: 0.7992, F1-Score: 0.7796
+2025-08-25 14:18:47,529 - INFO - Confusion Matrix:
+[[912   0  30  47   0   6   2   0   2   1]
+ [  2 973   0  23   0   0   0   0   2   0]
+ [ 18   1 957  18   5   0   1   0   0   0]
+ [ 16   1   9 972   0   1   0   0   1   0]
+ [  4   3 440 140 389   1  21   0   2   0]
+ [  0   0   0   1   0 995   0   1   0   3]
+ [299   3 267  72  48   2 298   0  11   0]
+ [  0   0   0   0   0 335   0 555   0 110]
+ [  3   1   4  10   0  14   1   0 966   1]
+ [  0   0   0   0   0  21   0   4   0 975]]
+2025-08-25 14:18:47,530 - INFO - Starting Round 64/100 with algorithm fedavg and model cnn
+2025-08-25 14:18:47,530 - INFO - Selected clients for Round 64: [25, 3, 10, 24, 0]
+2025-08-25 14:18:51,025 - INFO - Client 25 Train Loss: 0.1148
+2025-08-25 14:18:53,744 - INFO - Client 3 Train Loss: 0.1000
+2025-08-25 14:18:55,059 - INFO - Client 10 Train Loss: 0.2209
+2025-08-25 14:18:56,209 - INFO - Client 24 Train Loss: 0.0938
+2025-08-25 14:18:59,125 - INFO - Client 0 Train Loss: 0.0947
+2025-08-25 14:18:59,125 - INFO - Global Average Train Loss: 0.1248
+2025-08-25 14:18:59,147 - INFO - Aggregated using FedAvg
+2025-08-25 14:19:03,085 - INFO - Global Model Validation Loss: 0.4343, Top1_Accuracy: 84.04%, Top5_Accuracy: 99.90%
+2025-08-25 14:19:03,085 - INFO - Precision: 0.8697, Recall: 0.8404, F1-Score: 0.8437
+2025-08-25 14:19:03,088 - INFO - Confusion Matrix:
+[[760   1  17   9   4   1 204   3   1   0]
+ [  1 981   0  10   3   0   3   0   2   0]
+ [ 12   1 797   4 116   0  70   0   0   0]
+ [ 13   9   9 846  64   0  59   0   0   0]
+ [  0   1  37   6 893   0  62   0   1   0]
+ [  0   0   0   0   0 773   0 225   0   2]
+ [ 68   2  44  17 103   0 763   0   3   0]
+ [  0   0   0   0   0   0   0 999   0   1]
+ [  2   2   4   3   4   4  20  18 943   0]
+ [  0   0   0   0   0   4   1 346   0 649]]
+2025-08-25 14:19:03,088 - INFO - Starting Round 65/100 with algorithm fedavg and model cnn
+2025-08-25 14:19:03,088 - INFO - Selected clients for Round 65: [24, 16, 29, 18, 27]
+2025-08-25 14:19:04,465 - INFO - Client 24 Train Loss: 0.1211
+2025-08-25 14:19:06,408 - INFO - Client 16 Train Loss: 0.0853
+2025-08-25 14:19:07,529 - INFO - Client 29 Train Loss: 0.1932
+2025-08-25 14:19:09,273 - INFO - Client 18 Train Loss: 0.0971
+2025-08-25 14:19:11,657 - INFO - Client 27 Train Loss: 0.1006
+2025-08-25 14:19:11,657 - INFO - Global Average Train Loss: 0.1195
+2025-08-25 14:19:11,680 - INFO - Aggregated using FedAvg
+2025-08-25 14:19:15,912 - INFO - Global Model Validation Loss: 0.5134, Top1_Accuracy: 82.77%, Top5_Accuracy: 99.67%
+2025-08-25 14:19:15,912 - INFO - Precision: 0.8661, Recall: 0.8277, F1-Score: 0.8051
+2025-08-25 14:19:15,915 - INFO - Confusion Matrix:
+[[938   1  34  23   1   2   0   0   1   0]
+ [  0 988   1  11   0   0   0   0   0   0]
+ [ 16   1 966  11   6   0   0   0   0   0]
+ [ 29   9  20 933   8   0   0   0   1   0]
+ [  3   4 425  64 502   0   0   0   2   0]
+ [  0   0   0   0   0 963   0  26   0  11]
+ [353   2 307  38 141   1 151   0   7   0]
+ [  0   0   0   0   0  28   0 902   0  70]
+ [ 10   3  10   3   2   6   0   3 961   2]
+ [  0   0   1   0   0   4   0  22   0 973]]
+2025-08-25 14:19:15,915 - INFO - Starting Round 66/100 with algorithm fedavg and model cnn
+2025-08-25 14:19:15,915 - INFO - Selected clients for Round 66: [44, 46, 35, 42, 45]
+2025-08-25 14:19:18,991 - INFO - Client 44 Train Loss: 0.0815
+2025-08-25 14:19:21,607 - INFO - Client 46 Train Loss: 0.0764
+2025-08-25 14:19:22,653 - INFO - Client 35 Train Loss: 0.2145
+2025-08-25 14:19:24,968 - INFO - Client 42 Train Loss: 0.0590
+2025-08-25 14:19:26,127 - INFO - Client 45 Train Loss: 0.1187
+2025-08-25 14:19:26,128 - INFO - Global Average Train Loss: 0.1100
+2025-08-25 14:19:26,147 - INFO - Aggregated using FedAvg
+2025-08-25 14:19:30,213 - INFO - Global Model Validation Loss: 0.3579, Top1_Accuracy: 86.88%, Top5_Accuracy: 99.80%
+2025-08-25 14:19:30,213 - INFO - Precision: 0.8812, Recall: 0.8688, F1-Score: 0.8638
+2025-08-25 14:19:30,214 - INFO - Confusion Matrix:
+[[851   0  11  64   8   2  38   1  25   0]
+ [  0 977   0  17   3   0   0   0   3   0]
+ [ 15   1 669  16 263   0  33   0   3   0]
+ [  6   1   3 950  30   0   7   0   3   0]
+ [  1   1   8  33 945   0   7   0   4   1]
+ [  0   0   0   0   0 922   0  56   6  16]
+ [169   1  44  52 240   1 462   0  31   0]
+ [  0   0   0   0   0   5   0 955   0  40]
+ [  0   1   0   3   1   1   0   2 992   0]
+ [  0   0   0   0   0   1   0  32   2 965]]
+2025-08-25 14:19:30,214 - INFO - Starting Round 67/100 with algorithm fedavg and model cnn
+2025-08-25 14:19:30,214 - INFO - Selected clients for Round 67: [31, 9, 12, 18, 13]
+2025-08-25 14:19:34,726 - INFO - Client 31 Train Loss: 0.0410
+2025-08-25 14:19:36,905 - INFO - Client 9 Train Loss: 0.0426
+2025-08-25 14:19:38,934 - INFO - Client 12 Train Loss: 0.0217
+2025-08-25 14:19:40,587 - INFO - Client 18 Train Loss: 0.0706
+2025-08-25 14:19:43,559 - INFO - Client 13 Train Loss: 0.0201
+2025-08-25 14:19:43,559 - INFO - Global Average Train Loss: 0.0392
+2025-08-25 14:19:43,579 - INFO - Aggregated using FedAvg
+2025-08-25 14:19:47,350 - INFO - Global Model Validation Loss: 0.5424, Top1_Accuracy: 83.61%, Top5_Accuracy: 99.74%
+2025-08-25 14:19:47,351 - INFO - Precision: 0.8648, Recall: 0.8361, F1-Score: 0.8226
+2025-08-25 14:19:47,352 - INFO - Confusion Matrix:
+[[983   0   6   8   0   2   0   0   1   0]
+ [  4 976   0  18   0   0   0   0   2   0]
+ [ 48   2 917  13  17   0   2   0   1   0]
+ [ 81   1   8 909   0   0   0   0   1   0]
+ [ 20   2 302 118 535   2  19   0   2   0]
+ [  0   0   0   1   0 973   0  13   0  13]
+ [416   1 169  28  70   1 298   0  16   1]
+ [  0   0   0   0   0  52   0 804   0 144]
+ [ 11   1   1   3   0   4   0   2 976   2]
+ [  0   0   0   0   0   5   0   5   0 990]]
+2025-08-25 14:19:47,353 - INFO - Starting Round 68/100 with algorithm fedavg and model cnn
+2025-08-25 14:19:47,353 - INFO - Selected clients for Round 68: [3, 37, 47, 34, 20]
+2025-08-25 14:19:50,429 - INFO - Client 3 Train Loss: 0.0773
+2025-08-25 14:19:52,870 - INFO - Client 37 Train Loss: 0.0162
+2025-08-25 14:19:55,209 - INFO - Client 47 Train Loss: 0.3467
+2025-08-25 14:19:56,909 - INFO - Client 34 Train Loss: 0.0286
+2025-08-25 14:19:59,131 - INFO - Client 20 Train Loss: 0.1831
+2025-08-25 14:19:59,131 - INFO - Global Average Train Loss: 0.1304
+2025-08-25 14:19:59,155 - INFO - Aggregated using FedAvg
+2025-08-25 14:20:03,040 - INFO - Global Model Validation Loss: 0.4118, Top1_Accuracy: 84.97%, Top5_Accuracy: 99.90%
+2025-08-25 14:20:03,041 - INFO - Precision: 0.8685, Recall: 0.8497, F1-Score: 0.8475
+2025-08-25 14:20:03,041 - INFO - Confusion Matrix:
+[[944   1  12   5   3   2  30   2   1   0]
+ [  3 993   0   2   0   0   0   0   2   0]
+ [ 22   2 863   3  77   0  33   0   0   0]
+ [ 86  33  15 760  63   0  42   0   1   0]
+ [  4   2  73   4 887   0  29   0   1   0]
+ [  0   0   0   0   0 837   0 159   0   4]
+ [270   3  74   8 134   0 506   0   5   0]
+ [  0   0   0   0   0   0   0 999   0   1]
+ [  8   2   4   0   1   3   5  14 963   0]
+ [  0   0   0   0   0   4   0 251   0 745]]
+2025-08-25 14:20:03,041 - INFO - Starting Round 69/100 with algorithm fedavg and model cnn
+2025-08-25 14:20:03,042 - INFO - Selected clients for Round 69: [3, 37, 30, 32, 33]
+2025-08-25 14:20:05,722 - INFO - Client 3 Train Loss: 0.0543
+2025-08-25 14:20:08,006 - INFO - Client 37 Train Loss: 0.0143
+2025-08-25 14:20:09,997 - INFO - Client 30 Train Loss: 0.0214
+2025-08-25 14:20:10,442 - INFO - Client 32 Train Loss: 0.2382
+2025-08-25 14:20:12,632 - INFO - Client 33 Train Loss: 0.0758
+2025-08-25 14:20:12,632 - INFO - Global Average Train Loss: 0.0808
+2025-08-25 14:20:12,656 - INFO - Aggregated using FedAvg
+2025-08-25 14:20:16,532 - INFO - Global Model Validation Loss: 0.7022, Top1_Accuracy: 79.50%, Top5_Accuracy: 99.58%
+2025-08-25 14:20:16,532 - INFO - Precision: 0.8553, Recall: 0.7950, F1-Score: 0.7618
+2025-08-25 14:20:16,532 - INFO - Confusion Matrix:
+[[980   2   6   3   5   2   0   1   1   0]
+ [  3 996   0   1   0   0   0   0   0   0]
+ [ 41   1 873   2  83   0   0   0   0   0]
+ [183 113  25 585  94   0   0   0   0   0]
+ [ 10   3  74   1 911   0   0   0   1   0]
+ [  2   0   0   0   0 958   0  39   0   1]
+ [427   4 135   4 400   0  29   0   1   0]
+ [  0   0   0   0   0  13   0 986   0   1]
+ [ 83   7   6   1   3   4   0   7 889   0]
+ [  2   0   0   0   0  17   0 238   0 743]]
+2025-08-25 14:20:16,532 - INFO - Starting Round 70/100 with algorithm fedavg and model cnn
+2025-08-25 14:20:16,532 - INFO - Selected clients for Round 70: [10, 3, 32, 5, 11]
+2025-08-25 14:20:17,833 - INFO - Client 10 Train Loss: 0.3101
+2025-08-25 14:20:20,582 - INFO - Client 3 Train Loss: 0.0494
+2025-08-25 14:20:20,997 - INFO - Client 32 Train Loss: 0.2335
+2025-08-25 14:20:21,791 - INFO - Client 5 Train Loss: 0.1513
+2025-08-25 14:20:24,101 - INFO - Client 11 Train Loss: 0.1711
+2025-08-25 14:20:24,102 - INFO - Global Average Train Loss: 0.1831
+2025-08-25 14:20:24,120 - INFO - Aggregated using FedAvg
+2025-08-25 14:20:27,917 - INFO - Global Model Validation Loss: 0.3943, Top1_Accuracy: 85.84%, Top5_Accuracy: 99.82%
+2025-08-25 14:20:27,917 - INFO - Precision: 0.8708, Recall: 0.8584, F1-Score: 0.8561
+2025-08-25 14:20:27,918 - INFO - Confusion Matrix:
+[[821   0  51  51   2   1  69   1   3   1]
+ [  1 959   1  34   2   0   1   0   2   0]
+ [  8   1 952  10  18   0  11   0   0   0]
+ [  8   0  22 949   8   0  12   0   1   0]
+ [  0   1 270  58 618   0  51   0   2   0]
+ [  0   0   0   2   0 815   0 120   2  61]
+ [122   1 170  45  59   0 592   0  11   0]
+ [  0   0   0   0   0   0   0 924   0  76]
+ [  1   0   7   4   2   1   1   3 977   4]
+ [  0   0   1   0   0   0   0  22   0 977]]
+2025-08-25 14:20:27,919 - INFO - Starting Round 71/100 with algorithm fedavg and model cnn
+2025-08-25 14:20:27,920 - INFO - Selected clients for Round 71: [4, 38, 43, 15, 25]
+2025-08-25 14:20:30,006 - INFO - Client 4 Train Loss: 0.1271
+2025-08-25 14:20:31,854 - INFO - Client 38 Train Loss: 0.0820
+2025-08-25 14:20:33,646 - INFO - Client 43 Train Loss: 0.0786
+2025-08-25 14:20:34,179 - INFO - Client 15 Train Loss: 0.2446
+2025-08-25 14:20:37,544 - INFO - Client 25 Train Loss: 0.0670
+2025-08-25 14:20:37,545 - INFO - Global Average Train Loss: 0.1199
+2025-08-25 14:20:37,564 - INFO - Aggregated using FedAvg
+2025-08-25 14:20:41,482 - INFO - Global Model Validation Loss: 0.6276, Top1_Accuracy: 76.94%, Top5_Accuracy: 99.86%
+2025-08-25 14:20:41,482 - INFO - Precision: 0.8810, Recall: 0.7694, F1-Score: 0.7745
+2025-08-25 14:20:41,483 - INFO - Confusion Matrix:
+[[462   1   1   7   0   6 518   1   4   0]
+ [  0 978   0   7   2   0  12   0   1   0]
+ [  2   1 272   3 107   0 615   0   0   0]
+ [  3   7   2 792  22   0 173   0   1   0]
+ [  0   1   0   9 425   1 563   0   1   0]
+ [  0   0   0   0   0 985   0  14   0   1]
+ [  8   0   1   7   5   0 975   0   4   0]
+ [  0   0   0   0   0  36   0 958   0   6]
+ [  0   1   0   2   0   6  25   5 961   0]
+ [  0   0   0   0   0  17   0  97   0 886]]
+2025-08-25 14:20:41,483 - INFO - Starting Round 72/100 with algorithm fedavg and model cnn
+2025-08-25 14:20:41,483 - INFO - Selected clients for Round 72: [7, 36, 15, 37, 38]
+2025-08-25 14:20:44,686 - INFO - Client 7 Train Loss: 0.0992
+2025-08-25 14:20:49,601 - INFO - Client 36 Train Loss: 0.0642
+2025-08-25 14:20:50,102 - INFO - Client 15 Train Loss: 0.4254
+2025-08-25 14:20:52,437 - INFO - Client 37 Train Loss: 0.0307
+2025-08-25 14:20:53,945 - INFO - Client 38 Train Loss: 0.1133
+2025-08-25 14:20:53,945 - INFO - Global Average Train Loss: 0.1466
+2025-08-25 14:20:53,967 - INFO - Aggregated using FedAvg
+2025-08-25 14:20:57,845 - INFO - Global Model Validation Loss: 0.7728, Top1_Accuracy: 76.85%, Top5_Accuracy: 99.50%
+2025-08-25 14:20:57,845 - INFO - Precision: 0.8486, Recall: 0.7685, F1-Score: 0.7323
+2025-08-25 14:20:57,846 - INFO - Confusion Matrix:
+[[980   1   7   7   0   2   0   2   1   0]
+ [  4 994   0   2   0   0   0   0   0   0]
+ [ 42   1 947   8   2   0   0   0   0   0]
+ [ 97  30  16 844  12   0   0   1   0   0]
+ [ 27   6 652  51 264   0   0   0   0   0]
+ [  0   0   0   0   0 938   0  59   0   3]
+ [446   3 461  14  40   1  34   0   1   0]
+ [  0   0   0   0   0   3   0 995   0   2]
+ [ 51   3   6   2   0   7   0  26 904   1]
+ [  0   0   0   0   0   7   0 208   0 785]]
+2025-08-25 14:20:57,846 - INFO - Starting Round 73/100 with algorithm fedavg and model cnn
+2025-08-25 14:20:57,846 - INFO - Selected clients for Round 73: [2, 39, 5, 26, 42]
+2025-08-25 14:20:58,727 - INFO - Client 2 Train Loss: 0.3782
+2025-08-25 14:21:01,003 - INFO - Client 39 Train Loss: 0.1699
+2025-08-25 14:21:01,824 - INFO - Client 5 Train Loss: 0.1626
+2025-08-25 14:21:02,604 - INFO - Client 26 Train Loss: 0.0710
+2025-08-25 14:21:04,873 - INFO - Client 42 Train Loss: 0.0747
+2025-08-25 14:21:04,873 - INFO - Global Average Train Loss: 0.1713
+2025-08-25 14:21:04,893 - INFO - Aggregated using FedAvg
+2025-08-25 14:21:08,712 - INFO - Global Model Validation Loss: 0.5900, Top1_Accuracy: 73.83%, Top5_Accuracy: 99.81%
+2025-08-25 14:21:08,712 - INFO - Precision: 0.8702, Recall: 0.7383, F1-Score: 0.7196
+2025-08-25 14:21:08,712 - INFO - Confusion Matrix:
+[[293   0   0  34   0   2 665   1   4   1]
+ [  0 974   0  17   2   0   5   0   1   1]
+ [  0   1  40  16 128   0 815   0   0   0]
+ [  0   1   0 911  10   0  78   0   0   0]
+ [  0   1   0  51 421   1 525   0   0   1]
+ [  0   0   0   0   0 905   0  56   0  39]
+ [  2   1   0  24   9   0 960   0   4   0]
+ [  0   0   0   0   0   0   0 944   0  56]
+ [  0   1   0   7   0   3  17   5 957  10]
+ [  0   0   0   0   0   1   0  21   0 978]]
+2025-08-25 14:21:08,713 - INFO - Starting Round 74/100 with algorithm fedavg and model cnn
+2025-08-25 14:21:08,713 - INFO - Selected clients for Round 74: [37, 36, 33, 20, 16]
+2025-08-25 14:21:11,060 - INFO - Client 37 Train Loss: 0.0327
+2025-08-25 14:21:16,057 - INFO - Client 36 Train Loss: 0.0527
+2025-08-25 14:21:18,098 - INFO - Client 33 Train Loss: 0.1093
+2025-08-25 14:21:20,289 - INFO - Client 20 Train Loss: 0.1613
+2025-08-25 14:21:22,114 - INFO - Client 16 Train Loss: 0.1253
+2025-08-25 14:21:22,114 - INFO - Global Average Train Loss: 0.0963
+2025-08-25 14:21:22,136 - INFO - Aggregated using FedAvg
+2025-08-25 14:21:26,089 - INFO - Global Model Validation Loss: 0.5429, Top1_Accuracy: 80.35%, Top5_Accuracy: 99.72%
+2025-08-25 14:21:26,089 - INFO - Precision: 0.8498, Recall: 0.8035, F1-Score: 0.7829
+2025-08-25 14:21:26,090 - INFO - Confusion Matrix:
+[[935   5  43   6   3   3   2   3   0   0]
+ [  0 998   0   1   0   0   0   0   1   0]
+ [ 16   2 963   5  13   0   0   1   0   0]
+ [ 50  85  42 778  41   0   3   1   0   0]
+ [  4   4 329  15 646   1   1   0   0   0]
+ [  0   0   0   0   0 892   0 101   0   7]
+ [349   5 333  11 161   1 135   0   5   0]
+ [  0   0   0   0   0   0   0 999   0   1]
+ [ 11   4  14   0   1   5   0  35 929   1]
+ [  0   0   0   0   0   5   0 235   0 760]]
+2025-08-25 14:21:26,090 - INFO - Starting Round 75/100 with algorithm fedavg and model cnn
+2025-08-25 14:21:26,091 - INFO - Selected clients for Round 75: [13, 42, 45, 20, 15]
+2025-08-25 14:21:29,112 - INFO - Client 13 Train Loss: 0.0416
+2025-08-25 14:21:31,448 - INFO - Client 42 Train Loss: 0.0693
+2025-08-25 14:21:32,555 - INFO - Client 45 Train Loss: 0.1637
+2025-08-25 14:21:34,768 - INFO - Client 20 Train Loss: 0.1556
+2025-08-25 14:21:35,298 - INFO - Client 15 Train Loss: 0.3444
+2025-08-25 14:21:35,298 - INFO - Global Average Train Loss: 0.1549
+2025-08-25 14:21:35,320 - INFO - Aggregated using FedAvg
+2025-08-25 14:21:39,249 - INFO - Global Model Validation Loss: 0.5021, Top1_Accuracy: 82.45%, Top5_Accuracy: 99.82%
+2025-08-25 14:21:39,250 - INFO - Precision: 0.8535, Recall: 0.8245, F1-Score: 0.8199
+2025-08-25 14:21:39,250 - INFO - Confusion Matrix:
+[[851   0   7 120   0   1  18   2   1   0]
+ [  0 967   0  32   0   0   0   0   1   0]
+ [ 15   1 865  76  23   0  20   0   0   0]
+ [  5   1   0 994   0   0   0   0   0   0]
+ [  2   2 214 210 514   0  58   0   0   0]
+ [  0   0   0  14   0 822   0 149   0  15]
+ [231   0  94 172  36   0 462   0   5   0]
+ [  0   0   0   0   0   0   0 998   0   2]
+ [  4   0   1  32   0   2   4  18 939   0]
+ [  0   0   0   4   0   0   1 162   0 833]]
+2025-08-25 14:21:39,250 - INFO - Starting Round 76/100 with algorithm fedavg and model cnn
+2025-08-25 14:21:39,251 - INFO - Selected clients for Round 76: [16, 25, 8, 42, 41]
+2025-08-25 14:21:41,129 - INFO - Client 16 Train Loss: 0.0803
+2025-08-25 14:21:44,508 - INFO - Client 25 Train Loss: 0.0698
+2025-08-25 14:21:45,899 - INFO - Client 8 Train Loss: 0.1897
+2025-08-25 14:21:48,100 - INFO - Client 42 Train Loss: 0.0539
+2025-08-25 14:21:49,874 - INFO - Client 41 Train Loss: 0.2115
+2025-08-25 14:21:49,874 - INFO - Global Average Train Loss: 0.1210
+2025-08-25 14:21:49,893 - INFO - Aggregated using FedAvg
+2025-08-25 14:21:53,810 - INFO - Global Model Validation Loss: 0.3574, Top1_Accuracy: 85.61%, Top5_Accuracy: 99.88%
+2025-08-25 14:21:53,810 - INFO - Precision: 0.8895, Recall: 0.8561, F1-Score: 0.8581
+2025-08-25 14:21:53,811 - INFO - Confusion Matrix:
+[[591   0  15  24   0   3 360   1   5   1]
+ [  0 975   0  19   2   0   2   0   2   0]
+ [  4   1 845   6  24   0 120   0   0   0]
+ [  3   1  10 903  13   0  69   0   1   0]
+ [  0   1 121  39 523   1 314   0   1   0]
+ [  0   0   0   0   0 954   0  34   0  12]
+ [ 24   2  46  27  14   1 880   0   6   0]
+ [  0   0   0   0   0   8   0 967   0  25]
+ [  0   0   1   3   0   4  15   6 968   3]
+ [  0   0   0   0   0   5   0  40   0 955]]
+2025-08-25 14:21:53,811 - INFO - Starting Round 77/100 with algorithm fedavg and model cnn
+2025-08-25 14:21:53,811 - INFO - Selected clients for Round 77: [19, 29, 20, 48, 4]
+2025-08-25 14:21:55,942 - INFO - Client 19 Train Loss: 0.1017
+2025-08-25 14:21:56,990 - INFO - Client 29 Train Loss: 0.1840
+2025-08-25 14:21:59,205 - INFO - Client 20 Train Loss: 0.1174
+2025-08-25 14:22:01,423 - INFO - Client 48 Train Loss: 0.0802
+2025-08-25 14:22:03,535 - INFO - Client 4 Train Loss: 0.1433
+2025-08-25 14:22:03,536 - INFO - Global Average Train Loss: 0.1253
+2025-08-25 14:22:03,556 - INFO - Aggregated using FedAvg
+2025-08-25 14:22:07,426 - INFO - Global Model Validation Loss: 0.3814, Top1_Accuracy: 85.57%, Top5_Accuracy: 99.81%
+2025-08-25 14:22:07,427 - INFO - Precision: 0.8756, Recall: 0.8557, F1-Score: 0.8510
+2025-08-25 14:22:07,427 - INFO - Confusion Matrix:
+[[896   3   7  12  13   3  57   1   7   1]
+ [  0 990   0   5   3   0   0   0   2   0]
+ [ 14   2 603  11 319   0  50   0   1   0]
+ [ 25  12   4 879  53   0  26   0   1   0]
+ [  1   1   6  17 967   0   7   0   1   0]
+ [  0   0   0   0   0 941   0  46   0  13]
+ [180   2  28  23 368   1 390   0   8   0]
+ [  0   0   0   0   0   4   0 973   0  23]
+ [  0   3   0   3  10   3   3   6 969   3]
+ [  0   0   0   0   0   5   0  46   0 949]]
+2025-08-25 14:22:07,427 - INFO - Starting Round 78/100 with algorithm fedavg and model cnn
+2025-08-25 14:22:07,428 - INFO - Selected clients for Round 78: [0, 29, 39, 36, 6]
+2025-08-25 14:22:10,315 - INFO - Client 0 Train Loss: 0.0786
+2025-08-25 14:22:11,390 - INFO - Client 29 Train Loss: 0.1889
+2025-08-25 14:22:13,590 - INFO - Client 39 Train Loss: 0.0856
+2025-08-25 14:22:19,057 - INFO - Client 36 Train Loss: 0.0396
+2025-08-25 14:22:19,840 - INFO - Client 6 Train Loss: 0.0990
+2025-08-25 14:22:19,840 - INFO - Global Average Train Loss: 0.0984
+2025-08-25 14:22:19,870 - INFO - Aggregated using FedAvg
+2025-08-25 14:22:24,507 - INFO - Global Model Validation Loss: 0.3305, Top1_Accuracy: 87.88%, Top5_Accuracy: 99.87%
+2025-08-25 14:22:24,507 - INFO - Precision: 0.8820, Recall: 0.8788, F1-Score: 0.8784
+2025-08-25 14:22:24,507 - INFO - Confusion Matrix:
+[[881   0  18  19   1   5  73   1   2   0]
+ [  0 977   0  16   3   0   2   0   2   0]
+ [ 14   1 854  12  50   0  69   0   0   0]
+ [ 20   1   7 930  12   0  29   0   1   0]
+ [  1   1  86  56 719   1 136   0   0   0]
+ [  0   0   0   0   0 991   0   8   0   1]
+ [149   2  53  32  49   1 708   0   6   0]
+ [  0   0   0   0   0  50   0 947   0   3]
+ [  1   1   3   6   2  30  14   4 939   0]
+ [  0   0   0   0   0  38   0 120   0 842]]
+2025-08-25 14:22:24,508 - INFO - Starting Round 79/100 with algorithm fedavg and model cnn
+2025-08-25 14:22:24,508 - INFO - Selected clients for Round 79: [4, 34, 13, 32, 16]
+2025-08-25 14:22:26,694 - INFO - Client 4 Train Loss: 0.1375
+2025-08-25 14:22:28,547 - INFO - Client 34 Train Loss: 0.0377
+2025-08-25 14:22:32,288 - INFO - Client 13 Train Loss: 0.0221
+2025-08-25 14:22:32,722 - INFO - Client 32 Train Loss: 0.1848
+2025-08-25 14:22:34,675 - INFO - Client 16 Train Loss: 0.0662
+2025-08-25 14:22:34,675 - INFO - Global Average Train Loss: 0.0897
+2025-08-25 14:22:34,698 - INFO - Aggregated using FedAvg
+2025-08-25 14:22:38,670 - INFO - Global Model Validation Loss: 0.3355, Top1_Accuracy: 87.91%, Top5_Accuracy: 99.79%
+2025-08-25 14:22:38,671 - INFO - Precision: 0.8833, Recall: 0.8791, F1-Score: 0.8740
+2025-08-25 14:22:38,671 - INFO - Confusion Matrix:
+[[909   1  23  38   2   3  15   0   8   1]
+ [  0 981   0  17   0   0   0   0   2   0]
+ [ 15   2 905  23  30   0  23   0   2   0]
+ [ 16   1   9 969   1   0   4   0   0   0]
+ [  1   2 163  91 674   1  64   0   4   0]
+ [  0   0   0   0   0 980   0  11   0   9]
+ [232   3 114  60  59   1 513   0  18   0]
+ [  0   0   0   0   0  48   0 919   0  33]
+ [  0   1   3   6   0   4   2   1 981   2]
+ [  0   0   0   0   0   9   0  31   0 960]]
+2025-08-25 14:22:38,673 - INFO - Starting Round 80/100 with algorithm fedavg and model cnn
+2025-08-25 14:22:38,674 - INFO - Selected clients for Round 80: [8, 22, 4, 15, 23]
+2025-08-25 14:22:40,084 - INFO - Client 8 Train Loss: 0.1867
+2025-08-25 14:22:40,775 - INFO - Client 22 Train Loss: 0.1441
+2025-08-25 14:22:42,938 - INFO - Client 4 Train Loss: 0.1005
+2025-08-25 14:22:43,458 - INFO - Client 15 Train Loss: 0.3013
+2025-08-25 14:22:44,268 - INFO - Client 23 Train Loss: 0.0259
+2025-08-25 14:22:44,268 - INFO - Global Average Train Loss: 0.1517
+2025-08-25 14:22:44,289 - INFO - Aggregated using FedAvg
+2025-08-25 14:22:48,235 - INFO - Global Model Validation Loss: 0.3842, Top1_Accuracy: 85.74%, Top5_Accuracy: 99.87%
+2025-08-25 14:22:48,235 - INFO - Precision: 0.8772, Recall: 0.8574, F1-Score: 0.8601
+2025-08-25 14:22:48,236 - INFO - Confusion Matrix:
+[[761   1   8   6   1   2 207   0  13   1]
+ [  1 994   0   2   0   0   1   0   2   0]
+ [ 10   1 799   5  52   0 130   0   3   0]
+ [ 31  29  11 802  34   0  87   0   3   3]
+ [  0   2  79  14 720   1 182   0   2   0]
+ [  0   0   0   0   0 928   0   9   6  57]
+ [ 70   3  32  10  33   0 834   0  18   0]
+ [  0   0   0   0   0  15   0 753   3 229]
+ [  1   1   0   1   0   1   6   0 986   4]
+ [  0   0   0   0   0   1   0   0   2 997]]
+2025-08-25 14:22:48,236 - INFO - Starting Round 81/100 with algorithm fedavg and model cnn
+2025-08-25 14:22:48,236 - INFO - Selected clients for Round 81: [18, 10, 28, 34, 45]
+2025-08-25 14:22:49,899 - INFO - Client 18 Train Loss: 0.0653
+2025-08-25 14:22:51,193 - INFO - Client 10 Train Loss: 0.1529
+2025-08-25 14:22:52,987 - INFO - Client 28 Train Loss: 0.0805
+2025-08-25 14:22:54,692 - INFO - Client 34 Train Loss: 0.0270
+2025-08-25 14:22:55,791 - INFO - Client 45 Train Loss: 0.1108
+2025-08-25 14:22:55,791 - INFO - Global Average Train Loss: 0.0873
+2025-08-25 14:22:55,811 - INFO - Aggregated using FedAvg
+2025-08-25 14:22:59,697 - INFO - Global Model Validation Loss: 0.3362, Top1_Accuracy: 87.71%, Top5_Accuracy: 99.83%
+2025-08-25 14:22:59,697 - INFO - Precision: 0.8832, Recall: 0.8771, F1-Score: 0.8721
+2025-08-25 14:22:59,698 - INFO - Confusion Matrix:
+[[849   0  11  46   9   3  60   0  22   0]
+ [  0 975   0  18   3   0   1   0   3   0]
+ [ 19   1 755  19 165   0  33   0   8   0]
+ [ 10   1   5 946  24   0  12   0   2   0]
+ [  1   1  17  44 926   1   5   0   5   0]
+ [  0   0   0   1   0 971   0  13   2  13]
+ [140   2  53  43 267   1 458   0  36   0]
+ [  0   0   0   0   0  18   0 932   1  49]
+ [  0   1   0   3   2   1   0   0 992   1]
+ [  0   0   0   0   0   3   0  27   3 967]]
+2025-08-25 14:22:59,698 - INFO - Starting Round 82/100 with algorithm fedavg and model cnn
+2025-08-25 14:22:59,698 - INFO - Selected clients for Round 82: [19, 39, 41, 33, 0]
+2025-08-25 14:23:01,707 - INFO - Client 19 Train Loss: 0.0828
+2025-08-25 14:23:03,926 - INFO - Client 39 Train Loss: 0.0669
+2025-08-25 14:23:05,679 - INFO - Client 41 Train Loss: 0.1790
+2025-08-25 14:23:07,731 - INFO - Client 33 Train Loss: 0.0769
+2025-08-25 14:23:10,685 - INFO - Client 0 Train Loss: 0.0740
+2025-08-25 14:23:10,688 - INFO - Global Average Train Loss: 0.0959
+2025-08-25 14:23:10,708 - INFO - Aggregated using FedAvg
+2025-08-25 14:23:14,928 - INFO - Global Model Validation Loss: 0.3007, Top1_Accuracy: 88.81%, Top5_Accuracy: 99.91%
+2025-08-25 14:23:14,928 - INFO - Precision: 0.8899, Recall: 0.8881, F1-Score: 0.8856
+2025-08-25 14:23:14,929 - INFO - Confusion Matrix:
+[[895   0  16  22   6   4  54   0   2   1]
+ [  0 980   0  14   3   0   1   0   2   0]
+ [ 15   1 857  12  81   0  34   0   0   0]
+ [ 18   1  10 921  32   0  18   0   0   0]
+ [  1   1  59  30 886   0  22   0   1   0]
+ [  0   0   0   0   0 983   0   5   0  12]
+ [165   2  73  34 136   1 583   0   6   0]
+ [  0   0   0   0   0  85   0 831   0  84]
+ [  1   2   6   4   4   9   2   2 967   3]
+ [  0   0   0   0   0   7   0  15   0 978]]
+2025-08-25 14:23:14,934 - INFO - Starting Round 83/100 with algorithm fedavg and model cnn
+2025-08-25 14:23:14,934 - INFO - Selected clients for Round 83: [42, 35, 19, 6, 8]
+2025-08-25 14:23:17,230 - INFO - Client 42 Train Loss: 0.0555
+2025-08-25 14:23:18,300 - INFO - Client 35 Train Loss: 0.1590
+2025-08-25 14:23:20,326 - INFO - Client 19 Train Loss: 0.0589
+2025-08-25 14:23:20,960 - INFO - Client 6 Train Loss: 0.1152
+2025-08-25 14:23:22,290 - INFO - Client 8 Train Loss: 0.1237
+2025-08-25 14:23:22,291 - INFO - Global Average Train Loss: 0.1024
+2025-08-25 14:23:22,311 - INFO - Aggregated using FedAvg
+2025-08-25 14:23:26,794 - INFO - Global Model Validation Loss: 0.3684, Top1_Accuracy: 86.99%, Top5_Accuracy: 99.82%
+2025-08-25 14:23:26,794 - INFO - Precision: 0.8827, Recall: 0.8699, F1-Score: 0.8648
+2025-08-25 14:23:26,796 - INFO - Confusion Matrix:
+[[866   2  26  68   1   2  29   0   5   1]
+ [  0 989   0   9   0   0   0   0   2   0]
+ [ 11   2 942  21  14   0  10   0   0   0]
+ [  8   3   7 978   1   0   3   0   0   0]
+ [  2   3 273  99 599   0  22   0   2   0]
+ [  0   0   0   4   0 926   0  44   0  26]
+ [165   5 166  72  68   1 514   0   9   0]
+ [  0   0   0   0   0   4   0 929   0  67]
+ [  0   3   4   9   0   1   1   4 974   4]
+ [  0   0   0   0   0   2   0  16   0 982]]
+2025-08-25 14:23:26,796 - INFO - Starting Round 84/100 with algorithm fedavg and model cnn
+2025-08-25 14:23:26,796 - INFO - Selected clients for Round 84: [16, 7, 6, 47, 35]
+2025-08-25 14:23:29,702 - INFO - Client 16 Train Loss: 0.0444
+2025-08-25 14:23:34,566 - INFO - Client 7 Train Loss: 0.0770
+2025-08-25 14:23:35,830 - INFO - Client 6 Train Loss: 0.1907
+2025-08-25 14:23:40,195 - INFO - Client 47 Train Loss: 0.3296
+2025-08-25 14:23:41,788 - INFO - Client 35 Train Loss: 0.1325
+2025-08-25 14:23:41,788 - INFO - Global Average Train Loss: 0.1548
+2025-08-25 14:23:41,821 - INFO - Aggregated using FedAvg
+2025-08-25 14:23:46,810 - INFO - Global Model Validation Loss: 0.3502, Top1_Accuracy: 87.20%, Top5_Accuracy: 99.83%
+2025-08-25 14:23:46,810 - INFO - Precision: 0.8839, Recall: 0.8720, F1-Score: 0.8708
+2025-08-25 14:23:46,811 - INFO - Confusion Matrix:
+[[836   2  68  12   2   3  74   1   1   1]
+ [  0 992   1   4   1   0   1   0   1   0]
+ [  7   1 953   6  24   0   9   0   0   0]
+ [ 19  14  44 864  37   0  22   0   0   0]
+ [  1   1 241   9 738   0   9   0   1   0]
+ [  0   0   0   0   0 962   0  24   0  14]
+ [111   3 207  22 130   0 522   0   5   0]
+ [  0   0   0   0   0  10   0 920   0  70]
+ [  0   3  22   2   1   5   4   3 955   5]
+ [  0   0   1   0   0   4   0  17   0 978]]
+2025-08-25 14:23:46,811 - INFO - Starting Round 85/100 with algorithm fedavg and model cnn
+2025-08-25 14:23:46,811 - INFO - Selected clients for Round 85: [9, 17, 18, 38, 13]
+2025-08-25 14:23:49,234 - INFO - Client 9 Train Loss: 0.0531
+2025-08-25 14:23:52,679 - INFO - Client 17 Train Loss: 0.0943
+2025-08-25 14:23:54,621 - INFO - Client 18 Train Loss: 0.0578
+2025-08-25 14:23:56,285 - INFO - Client 38 Train Loss: 0.0629
+2025-08-25 14:23:59,373 - INFO - Client 13 Train Loss: 0.0284
+2025-08-25 14:23:59,373 - INFO - Global Average Train Loss: 0.0593
+2025-08-25 14:23:59,396 - INFO - Aggregated using FedAvg
+2025-08-25 14:24:04,536 - INFO - Global Model Validation Loss: 0.3449, Top1_Accuracy: 87.73%, Top5_Accuracy: 99.80%
+2025-08-25 14:24:04,536 - INFO - Precision: 0.8827, Recall: 0.8773, F1-Score: 0.8732
+2025-08-25 14:24:04,538 - INFO - Confusion Matrix:
+[[883   1  14  59   0   2  27   0  13   1]
+ [  0 978   0  19   0   0   1   0   2   0]
+ [ 19   1 885  32  35   0  25   0   3   0]
+ [  8   1   5 981   0   0   3   0   2   0]
+ [  1   2 123 115 702   0  46   0  11   0]
+ [  0   0   0   6   0 961   0  11   2  20]
+ [180   3  94  79  68   1 551   0  24   0]
+ [  0   0   0   0   0  19   0 852   1 128]
+ [  0   1   0   5   0   1   0   0 991   2]
+ [  0   0   0   0   0   2   0   7   2 989]]
+2025-08-25 14:24:04,538 - INFO - Starting Round 86/100 with algorithm fedavg and model cnn
+2025-08-25 14:24:04,538 - INFO - Selected clients for Round 86: [45, 21, 13, 43, 40]
+2025-08-25 14:24:06,221 - INFO - Client 45 Train Loss: 0.0589
+2025-08-25 14:24:10,912 - INFO - Client 21 Train Loss: 0.2756
+2025-08-25 14:24:14,098 - INFO - Client 13 Train Loss: 0.0121
+2025-08-25 14:24:16,231 - INFO - Client 43 Train Loss: 0.0638
+2025-08-25 14:24:18,130 - INFO - Client 40 Train Loss: 0.1310
+2025-08-25 14:24:18,130 - INFO - Global Average Train Loss: 0.1083
+2025-08-25 14:24:18,157 - INFO - Aggregated using FedAvg
+2025-08-25 14:24:22,311 - INFO - Global Model Validation Loss: 0.4864, Top1_Accuracy: 83.21%, Top5_Accuracy: 99.85%
+2025-08-25 14:24:22,313 - INFO - Precision: 0.8707, Recall: 0.8321, F1-Score: 0.8199
+2025-08-25 14:24:22,313 - INFO - Confusion Matrix:
+[[700   0  10 110   0   1 173   0   5   1]
+ [  0 954   0  42   0   0   3   0   1   0]
+ [  8   0 843  35   3   0 111   0   0   0]
+ [  1   0   4 987   0   0   8   0   0   0]
+ [  0   1 209 186 226   0 378   0   0   0]
+ [  0   0   0  18   0 950   0  14   1  17]
+ [ 50   0  32  81   3   0 829   0   5   0]
+ [  0   0   0   2   0  18   0 893   1  86]
+ [  1   0   1  20   0   1  12   2 961   2]
+ [  0   0   0   6   0   1   1  14   0 978]]
+2025-08-25 14:24:22,314 - INFO - Starting Round 87/100 with algorithm fedavg and model cnn
+2025-08-25 14:24:22,314 - INFO - Selected clients for Round 87: [16, 32, 31, 3, 5]
+2025-08-25 14:24:24,312 - INFO - Client 16 Train Loss: 0.0782
+2025-08-25 14:24:24,768 - INFO - Client 32 Train Loss: 0.3208
+2025-08-25 14:24:29,657 - INFO - Client 31 Train Loss: 0.0399
+2025-08-25 14:24:32,545 - INFO - Client 3 Train Loss: 0.1052
+2025-08-25 14:24:33,489 - INFO - Client 5 Train Loss: 0.1103
+2025-08-25 14:24:33,489 - INFO - Global Average Train Loss: 0.1309
+2025-08-25 14:24:33,508 - INFO - Aggregated using FedAvg
+2025-08-25 14:24:37,602 - INFO - Global Model Validation Loss: 0.6464, Top1_Accuracy: 80.99%, Top5_Accuracy: 99.76%
+2025-08-25 14:24:37,602 - INFO - Precision: 0.8684, Recall: 0.8099, F1-Score: 0.7920
+2025-08-25 14:24:37,603 - INFO - Confusion Matrix:
+[[922   0  64   7   0   3   1   1   1   1]
+ [  3 978   1  15   1   0   0   0   0   2]
+ [ 10   1 984   4   1   0   0   0   0   0]
+ [ 62   1  68 851  14   0   2   0   1   1]
+ [  1   1 562  35 395   0   4   0   2   0]
+ [  0   0   0   0   0 930   0  50   0  20]
+ [344   2 408  15  59   0 168   0   4   0]
+ [  0   0   0   0   0   4   0 949   0  47]
+ [  3   1  26   1   0   3   0   6 954   6]
+ [  0   0   1   0   0   3   0  28   0 968]]
+2025-08-25 14:24:37,603 - INFO - Starting Round 88/100 with algorithm fedavg and model cnn
+2025-08-25 14:24:37,603 - INFO - Selected clients for Round 88: [40, 27, 17, 2, 0]
+2025-08-25 14:24:39,349 - INFO - Client 40 Train Loss: 0.1970
+2025-08-25 14:24:41,713 - INFO - Client 27 Train Loss: 0.0973
+2025-08-25 14:24:44,523 - INFO - Client 17 Train Loss: 0.0924
+2025-08-25 14:24:45,386 - INFO - Client 2 Train Loss: 0.2593
+2025-08-25 14:24:48,228 - INFO - Client 0 Train Loss: 0.0953
+2025-08-25 14:24:48,229 - INFO - Global Average Train Loss: 0.1482
+2025-08-25 14:24:48,249 - INFO - Aggregated using FedAvg
+2025-08-25 14:24:52,265 - INFO - Global Model Validation Loss: 0.3183, Top1_Accuracy: 88.54%, Top5_Accuracy: 99.83%
+2025-08-25 14:24:52,265 - INFO - Precision: 0.8910, Recall: 0.8854, F1-Score: 0.8835
+2025-08-25 14:24:52,267 - INFO - Confusion Matrix:
+[[869   2   9  30   1   2  80   0   7   0]
+ [  0 990   0   8   0   0   0   0   2   0]
+ [ 20   1 853  17  30   0  76   0   3   0]
+ [ 15   5   5 954   1   0  19   0   1   0]
+ [  1   4 106  85 574   1 228   0   1   0]
+ [  0   0   0   0   0 987   0   8   1   4]
+ [126   3  48  38  21   1 754   0   9   0]
+ [  0   0   0   0   0  38   0 933   1  28]
+ [  2   1   0   4   0   3   4   0 986   0]
+ [  0   0   0   0   0   6   0  39   1 954]]
+2025-08-25 14:24:52,268 - INFO - Starting Round 89/100 with algorithm fedavg and model cnn
+2025-08-25 14:24:52,268 - INFO - Selected clients for Round 89: [21, 49, 8, 40, 16]
+2025-08-25 14:24:56,447 - INFO - Client 21 Train Loss: 0.2557
+2025-08-25 14:24:59,491 - INFO - Client 49 Train Loss: 0.0635
+2025-08-25 14:25:00,918 - INFO - Client 8 Train Loss: 0.1505
+2025-08-25 14:25:02,645 - INFO - Client 40 Train Loss: 0.1111
+2025-08-25 14:25:04,461 - INFO - Client 16 Train Loss: 0.0457
+2025-08-25 14:25:04,462 - INFO - Global Average Train Loss: 0.1253
+2025-08-25 14:25:04,482 - INFO - Aggregated using FedAvg
+2025-08-25 14:25:08,349 - INFO - Global Model Validation Loss: 0.5050, Top1_Accuracy: 82.02%, Top5_Accuracy: 99.84%
+2025-08-25 14:25:08,350 - INFO - Precision: 0.8653, Recall: 0.8202, F1-Score: 0.8111
+2025-08-25 14:25:08,350 - INFO - Confusion Matrix:
+[[665   0 114  41   0   4 174   0   2   0]
+ [  0 965   5  26   1   0   2   0   1   0]
+ [  4   1 982   5   1   0   7   0   0   0]
+ [  3   1  44 935   2   0  14   0   1   0]
+ [  0   0 582  68 241   0 108   0   1   0]
+ [  0   0   0   1   0 987   0   5   1   6]
+ [ 41   0 253  33  15   0 653   0   5   0]
+ [  0   0   0   0   0  97   0 835   0  68]
+ [  0   0  19   6   0   4   4   0 966   1]
+ [  0   0   1   0   0   6   0  20   0 973]]
+2025-08-25 14:25:08,352 - INFO - Starting Round 90/100 with algorithm fedavg and model cnn
+2025-08-25 14:25:08,352 - INFO - Selected clients for Round 90: [10, 47, 28, 35, 45]
+2025-08-25 14:25:09,765 - INFO - Client 10 Train Loss: 0.1458
+2025-08-25 14:25:12,024 - INFO - Client 47 Train Loss: 0.3401
+2025-08-25 14:25:13,743 - INFO - Client 28 Train Loss: 0.1102
+2025-08-25 14:25:14,756 - INFO - Client 35 Train Loss: 0.1196
+2025-08-25 14:25:15,815 - INFO - Client 45 Train Loss: 0.0576
+2025-08-25 14:25:15,815 - INFO - Global Average Train Loss: 0.1547
+2025-08-25 14:25:15,835 - INFO - Aggregated using FedAvg
+2025-08-25 14:25:19,629 - INFO - Global Model Validation Loss: 0.5309, Top1_Accuracy: 81.30%, Top5_Accuracy: 99.73%
+2025-08-25 14:25:19,629 - INFO - Precision: 0.8694, Recall: 0.8130, F1-Score: 0.7998
+2025-08-25 14:25:19,630 - INFO - Confusion Matrix:
+[[466   0   0  67  13   4 440   0   9   1]
+ [  0 967   0  22   8   0   1   0   2   0]
+ [  1   1 233  19 541   0 205   0   0   0]
+ [  0   1   0 939  30   0  30   0   0   0]
+ [  0   0   0  27 946   0  25   0   2   0]
+ [  0   0   0   2   0 979   0   5   2  12]
+ [  9   0   0  37 164   0 785   0   5   0]
+ [  0   0   0   0   0  65   0 865   2  68]
+ [  0   0   0   6   7   3   7   0 976   1]
+ [  0   0   0   0   0   5   0  20   1 974]]
+2025-08-25 14:25:19,630 - INFO - Starting Round 91/100 with algorithm fedavg and model cnn
+2025-08-25 14:25:19,630 - INFO - Selected clients for Round 91: [27, 35, 0, 7, 4]
+2025-08-25 14:25:22,049 - INFO - Client 27 Train Loss: 0.0977
+2025-08-25 14:25:23,069 - INFO - Client 35 Train Loss: 0.0881
+2025-08-25 14:25:25,855 - INFO - Client 0 Train Loss: 0.0692
+2025-08-25 14:25:28,851 - INFO - Client 7 Train Loss: 0.1111
+2025-08-25 14:25:30,949 - INFO - Client 4 Train Loss: 0.1202
+2025-08-25 14:25:30,949 - INFO - Global Average Train Loss: 0.0973
+2025-08-25 14:25:30,969 - INFO - Aggregated using FedAvg
+2025-08-25 14:25:34,907 - INFO - Global Model Validation Loss: 0.7108, Top1_Accuracy: 77.23%, Top5_Accuracy: 99.39%
+2025-08-25 14:25:34,907 - INFO - Precision: 0.8491, Recall: 0.7723, F1-Score: 0.7390
+2025-08-25 14:25:34,910 - INFO - Confusion Matrix:
+[[984   2   7   4   0   1   0   0   2   0]
+ [  4 994   0   2   0   0   0   0   0   0]
+ [ 58   1 935   5   1   0   0   0   0   0]
+ [166  32  14 785   2   0   0   0   1   0]
+ [ 51  23 712  60 150   0   3   0   1   0]
+ [  1   0   0   0   0 987   0   8   0   4]
+ [489   3 334  11  22   1 139   0   1   0]
+ [  0   0   0   0   0  70   0 860   0  70]
+ [ 60   3   2   2   0   5   0   2 925   1]
+ [  2   0   0   0   0  11   0  23   0 964]]
+2025-08-25 14:25:34,910 - INFO - Starting Round 92/100 with algorithm fedavg and model cnn
+2025-08-25 14:25:34,910 - INFO - Selected clients for Round 92: [44, 9, 34, 2, 23]
+2025-08-25 14:25:37,683 - INFO - Client 44 Train Loss: 0.0809
+2025-08-25 14:25:39,855 - INFO - Client 9 Train Loss: 0.0395
+2025-08-25 14:25:41,451 - INFO - Client 34 Train Loss: 0.0464
+2025-08-25 14:25:42,321 - INFO - Client 2 Train Loss: 0.3200
+2025-08-25 14:25:43,081 - INFO - Client 23 Train Loss: 0.0284
+2025-08-25 14:25:43,081 - INFO - Global Average Train Loss: 0.1030
+2025-08-25 14:25:43,101 - INFO - Aggregated using FedAvg
+2025-08-25 14:25:46,926 - INFO - Global Model Validation Loss: 0.4124, Top1_Accuracy: 84.84%, Top5_Accuracy: 99.72%
+2025-08-25 14:25:46,926 - INFO - Precision: 0.8629, Recall: 0.8484, F1-Score: 0.8408
+2025-08-25 14:25:46,927 - INFO - Confusion Matrix:
+[[857   0   6  49   5   4  27   0  52   0]
+ [  0 977   0  15   1   0   1   0   6   0]
+ [ 14   1 652  15 249   0  26   0  43   0]
+ [ 11   1   2 931  30   0   4   0  21   0]
+ [  0   1  12  30 917   1   6   0  33   0]
+ [  0   0   0   0   0 979   0   5  11   5]
+ [225   1  48  39 165   2 425   0  95   0]
+ [  0   0   0   0   0  83   0 782  30 105]
+ [  0   1   0   2   1   2   0   0 994   0]
+ [  0   0   0   0   0   8   0   9  13 970]]
+2025-08-25 14:25:46,927 - INFO - Starting Round 93/100 with algorithm fedavg and model cnn
+2025-08-25 14:25:46,927 - INFO - Selected clients for Round 93: [37, 35, 9, 27, 8]
+2025-08-25 14:25:49,259 - INFO - Client 37 Train Loss: 0.0238
+2025-08-25 14:25:50,312 - INFO - Client 35 Train Loss: 0.1208
+2025-08-25 14:25:52,447 - INFO - Client 9 Train Loss: 0.0248
+2025-08-25 14:25:54,721 - INFO - Client 27 Train Loss: 0.0799
+2025-08-25 14:25:56,106 - INFO - Client 8 Train Loss: 0.1417
+2025-08-25 14:25:56,106 - INFO - Global Average Train Loss: 0.0782
+2025-08-25 14:25:56,129 - INFO - Aggregated using FedAvg
+2025-08-25 14:25:59,889 - INFO - Global Model Validation Loss: 0.4142, Top1_Accuracy: 85.64%, Top5_Accuracy: 99.80%
+2025-08-25 14:25:59,889 - INFO - Precision: 0.8709, Recall: 0.8564, F1-Score: 0.8502
+2025-08-25 14:25:59,890 - INFO - Confusion Matrix:
+[[975   1   3  11   2   4   3   0   1   0]
+ [  2 990   0   7   0   0   0   0   1   0]
+ [ 75   2 740  21 132   0  30   0   0   0]
+ [ 44  10   1 941   1   0   2   0   1   0]
+ [ 13   5  35  94 805   2  45   0   1   0]
+ [  0   0   0   0   0 987   0   6   0   7]
+ [394   2  53  33  76   1 432   0   9   0]
+ [  0   0   0   0   0 100   0 746   0 154]
+ [ 23   3   0   5   0   7   1   2 957   2]
+ [  0   0   0   0   0   7   0   2   0 991]]
+2025-08-25 14:25:59,891 - INFO - Starting Round 94/100 with algorithm fedavg and model cnn
+2025-08-25 14:25:59,891 - INFO - Selected clients for Round 94: [2, 19, 23, 22, 13]
+2025-08-25 14:26:00,758 - INFO - Client 2 Train Loss: 0.1774
+2025-08-25 14:26:02,756 - INFO - Client 19 Train Loss: 0.0835
+2025-08-25 14:26:03,544 - INFO - Client 23 Train Loss: 0.0146
+2025-08-25 14:26:04,199 - INFO - Client 22 Train Loss: 0.1685
+2025-08-25 14:26:07,147 - INFO - Client 13 Train Loss: 0.0204
+2025-08-25 14:26:07,147 - INFO - Global Average Train Loss: 0.0929
+2025-08-25 14:26:07,169 - INFO - Aggregated using FedAvg
+2025-08-25 14:26:10,991 - INFO - Global Model Validation Loss: 0.4521, Top1_Accuracy: 85.34%, Top5_Accuracy: 99.76%
+2025-08-25 14:26:10,991 - INFO - Precision: 0.8722, Recall: 0.8534, F1-Score: 0.8459
+2025-08-25 14:26:10,992 - INFO - Confusion Matrix:
+[[909   0   6  78   0   2   3   0   1   1]
+ [  1 982   0  16   0   0   0   0   1   0]
+ [ 33   1 871  53  30   0  12   0   0   0]
+ [  5   1   1 993   0   0   0   0   0   0]
+ [  6   3 152 184 614   0  41   0   0   0]
+ [  1   0   0  17   0 915   0  43   1  23]
+ [310   3 103 139  42   0 396   0   7   0]
+ [  0   0   0   0   0   4   0 923   0  73]
+ [ 11   2   0  24   0   1   0   4 956   2]
+ [  0   0   0   5   0   1   0  19   0 975]]
+2025-08-25 14:26:10,992 - INFO - Starting Round 95/100 with algorithm fedavg and model cnn
+2025-08-25 14:26:10,994 - INFO - Selected clients for Round 95: [43, 15, 42, 6, 22]
+2025-08-25 14:26:12,694 - INFO - Client 43 Train Loss: 0.0708
+2025-08-25 14:26:13,229 - INFO - Client 15 Train Loss: 0.3139
+2025-08-25 14:26:15,513 - INFO - Client 42 Train Loss: 0.0521
+2025-08-25 14:26:16,180 - INFO - Client 6 Train Loss: 0.2084
+2025-08-25 14:26:16,885 - INFO - Client 22 Train Loss: 0.1460
+2025-08-25 14:26:16,885 - INFO - Global Average Train Loss: 0.1582
+2025-08-25 14:26:16,906 - INFO - Aggregated using FedAvg
+2025-08-25 14:26:21,041 - INFO - Global Model Validation Loss: 0.3114, Top1_Accuracy: 88.89%, Top5_Accuracy: 99.82%
+2025-08-25 14:26:21,041 - INFO - Precision: 0.8946, Recall: 0.8889, F1-Score: 0.8823
+2025-08-25 14:26:21,042 - INFO - Confusion Matrix:
+[[927   0  15  25   3   3  20   0   6   1]
+ [  0 987   0  10   0   0   1   0   2   0]
+ [ 23   1 871  13  76   0  13   0   3   0]
+ [ 22   3   5 932  32   0   5   0   1   0]
+ [  3   2  74  36 869   1  13   0   2   0]
+ [  0   0   0   1   0 963   0  24   0  12]
+ [281   2  97  35 133   1 434   0  17   0]
+ [  0   0   0   0   0  11   0 958   0  31]
+ [  1   1   0   3   1   2   0   4 987   1]
+ [  0   0   0   0   0   4   0  35   0 961]]
+2025-08-25 14:26:21,042 - INFO - Starting Round 96/100 with algorithm fedavg and model cnn
+2025-08-25 14:26:21,042 - INFO - Selected clients for Round 96: [49, 35, 26, 39, 47]
+2025-08-25 14:26:24,003 - INFO - Client 49 Train Loss: 0.0505
+2025-08-25 14:26:24,986 - INFO - Client 35 Train Loss: 0.1305
+2025-08-25 14:26:25,781 - INFO - Client 26 Train Loss: 0.0296
+2025-08-25 14:26:27,899 - INFO - Client 39 Train Loss: 0.0748
+2025-08-25 14:26:30,189 - INFO - Client 47 Train Loss: 0.2589
+2025-08-25 14:26:30,189 - INFO - Global Average Train Loss: 0.1089
+2025-08-25 14:26:30,209 - INFO - Aggregated using FedAvg
+2025-08-25 14:26:33,923 - INFO - Global Model Validation Loss: 0.4422, Top1_Accuracy: 83.78%, Top5_Accuracy: 99.77%
+2025-08-25 14:26:33,923 - INFO - Precision: 0.8773, Recall: 0.8378, F1-Score: 0.8344
+2025-08-25 14:26:33,924 - INFO - Confusion Matrix:
+[[355   0  14  62   4   6 555   0   3   1]
+ [  0 961   0  29   5   0   4   0   1   0]
+ [  0   1 737  15 129   1 117   0   0   0]
+ [  0   0   6 944  15   0  35   0   0   0]
+ [  0   0  22  42 840   1  95   0   0   0]
+ [  0   0   0   0   0 997   0   2   0   1]
+ [  1   0  27  33  63   2 871   0   3   0]
+ [  0   0   0   0   0 175   0 796   0  29]
+ [  0   0   2   9   1  27  21   3 936   1]
+ [  0   0   0   0   0  32   0  27   0 941]]
+2025-08-25 14:26:33,926 - INFO - Starting Round 97/100 with algorithm fedavg and model cnn
+2025-08-25 14:26:33,926 - INFO - Selected clients for Round 97: [9, 15, 10, 11, 26]
+2025-08-25 14:26:36,153 - INFO - Client 9 Train Loss: 0.0305
+2025-08-25 14:26:36,657 - INFO - Client 15 Train Loss: 0.1967
+2025-08-25 14:26:37,969 - INFO - Client 10 Train Loss: 0.1533
+2025-08-25 14:26:40,259 - INFO - Client 11 Train Loss: 0.1268
+2025-08-25 14:26:41,005 - INFO - Client 26 Train Loss: 0.0257
+2025-08-25 14:26:41,006 - INFO - Global Average Train Loss: 0.1066
+2025-08-25 14:26:41,028 - INFO - Aggregated using FedAvg
+2025-08-25 14:26:44,916 - INFO - Global Model Validation Loss: 0.4374, Top1_Accuracy: 84.76%, Top5_Accuracy: 99.55%
+2025-08-25 14:26:44,916 - INFO - Precision: 0.8611, Recall: 0.8476, F1-Score: 0.8425
+2025-08-25 14:26:44,918 - INFO - Confusion Matrix:
+[[534   0  28 173   4   6 223   0  31   1]
+ [  0 960   1  35   1   0   1   0   2   0]
+ [  2   1 889  36  50   0  19   0   3   0]
+ [  1   0   5 989   1   0   3   0   1   0]
+ [  0   1  84 103 792   1   9   0  10   0]
+ [  0   0   0   0   0 974   0   5   2  19]
+ [ 15   0 107 131 140   1 572   0  34   0]
+ [  0   0   0   0   0  89   0 788   0 123]
+ [  0   0   0   6   0   3   0   1 988   2]
+ [  0   0   0   0   0   3   0   7   0 990]]
+2025-08-25 14:26:44,918 - INFO - Starting Round 98/100 with algorithm fedavg and model cnn
+2025-08-25 14:26:44,918 - INFO - Selected clients for Round 98: [1, 11, 47, 21, 26]
+2025-08-25 14:26:45,593 - INFO - Client 1 Train Loss: 0.1331
+2025-08-25 14:26:47,948 - INFO - Client 11 Train Loss: 0.0940
+2025-08-25 14:26:50,257 - INFO - Client 47 Train Loss: 0.2470
+2025-08-25 14:26:54,339 - INFO - Client 21 Train Loss: 0.2483
+2025-08-25 14:26:55,099 - INFO - Client 26 Train Loss: 0.0267
+2025-08-25 14:26:55,099 - INFO - Global Average Train Loss: 0.1498
+2025-08-25 14:26:55,119 - INFO - Aggregated using FedAvg
+2025-08-25 14:26:58,881 - INFO - Global Model Validation Loss: 0.3652, Top1_Accuracy: 86.60%, Top5_Accuracy: 99.82%
+2025-08-25 14:26:58,881 - INFO - Precision: 0.8870, Recall: 0.8660, F1-Score: 0.8665
+2025-08-25 14:26:58,882 - INFO - Confusion Matrix:
+[[569   0  17  46   2   4 359   0   2   1]
+ [  0 963   1  27   5   0   3   0   1   0]
+ [  3   1 855  15  45   0  81   0   0   0]
+ [  1   0   6 963   6   0  24   0   0   0]
+ [  0   1  87  52 729   0 130   0   1   0]
+ [  0   0   0   3   0 976   0   6   0  15]
+ [ 21   0  43  39  40   0 854   0   3   0]
+ [  0   0   0   0   0  73   0 821   0 106]
+ [  0   0   2  10   1   3  35   3 943   3]
+ [  0   0   0   0   0   4   0   9   0 987]]
+2025-08-25 14:26:58,882 - INFO - Starting Round 99/100 with algorithm fedavg and model cnn
+2025-08-25 14:26:58,883 - INFO - Selected clients for Round 99: [42, 47, 15, 17, 10]
+2025-08-25 14:27:01,180 - INFO - Client 42 Train Loss: 0.0564
+2025-08-25 14:27:03,595 - INFO - Client 47 Train Loss: 0.1938
+2025-08-25 14:27:04,118 - INFO - Client 15 Train Loss: 0.1959
+2025-08-25 14:27:06,944 - INFO - Client 17 Train Loss: 0.0887
+2025-08-25 14:27:08,273 - INFO - Client 10 Train Loss: 0.1212
+2025-08-25 14:27:08,273 - INFO - Global Average Train Loss: 0.1312
+2025-08-25 14:27:08,295 - INFO - Aggregated using FedAvg
+2025-08-25 14:27:12,287 - INFO - Global Model Validation Loss: 0.3668, Top1_Accuracy: 86.36%, Top5_Accuracy: 99.88%
+2025-08-25 14:27:12,287 - INFO - Precision: 0.8826, Recall: 0.8636, F1-Score: 0.8625
+2025-08-25 14:27:12,287 - INFO - Confusion Matrix:
+[[675   0  21  20   0   1 272   0  11   0]
+ [  0 986   0  11   0   0   1   0   2   0]
+ [  6   1 892  10  17   0  72   0   2   0]
+ [  5   3   8 940   4   0  39   0   1   0]
+ [  0   2 204  52 540   0 199   0   3   0]
+ [  0   0   0   2   0 894   0  37  30  37]
+ [ 42   2  56  21  23   0 844   0  12   0]
+ [  0   0   0   0   0   4   0 892   9  95]
+ [  0   1   1   4   0   1   2   0 991   0]
+ [  0   0   0   0   0   0   0  13   5 982]]
+2025-08-25 14:27:12,289 - INFO - Starting Round 100/100 with algorithm fedavg and model cnn
+2025-08-25 14:27:12,289 - INFO - Selected clients for Round 100: [44, 6, 24, 2, 30]
+2025-08-25 14:27:15,024 - INFO - Client 44 Train Loss: 0.0795
+2025-08-25 14:27:15,692 - INFO - Client 6 Train Loss: 0.1694
+2025-08-25 14:27:16,824 - INFO - Client 24 Train Loss: 0.0562
+2025-08-25 14:27:17,704 - INFO - Client 2 Train Loss: 0.0691
+2025-08-25 14:27:19,660 - INFO - Client 30 Train Loss: 0.0265
+2025-08-25 14:27:19,660 - INFO - Global Average Train Loss: 0.0801
+2025-08-25 14:27:19,680 - INFO - Aggregated using FedAvg
+2025-08-25 14:27:23,544 - INFO - Global Model Validation Loss: 0.3984, Top1_Accuracy: 85.56%, Top5_Accuracy: 99.81%
+2025-08-25 14:27:23,544 - INFO - Precision: 0.8816, Recall: 0.8556, F1-Score: 0.8418
+2025-08-25 14:27:23,545 - INFO - Confusion Matrix:
+[[916   1  26  12  16   4  21   0   4   0]
+ [  0 989   0   6   4   0   0   0   1   0]
+ [ 23   1 778   3 193   0   2   0   0   0]
+ [ 25   9   9 846 104   0   6   0   1   0]
+ [  1   1  17   3 977   0   0   0   1   0]
+ [  0   0   0   0   0 981   0  13   0   6]
+ [254   1  83  17 421   2 216   0   6   0]
+ [  0   0   0   0   0  34   0 943   0  23]
+ [  2   1   2   2   8   8   1   4 971   1]
+ [  0   0   0   0   0  10   0  51   0 939]]
+2025-08-25 14:27:23,800 - INFO - Metrics saved to outcomes/metrics_cnn_fedavg_dong_clients50_rounds100_clientsperround5.csv
+2025-08-25 14:27:25,042 - INFO - Loss plot saved to outcomes/Loss_cnn_fedavg_clients50_rounds100_clientsperround5.png
+2025-08-25 14:27:25,253 - INFO - Accuracy plot saved to outcomes/Accuracy_cnn_fedavg_clients50_rounds100_clientsperround5.png

@@ -1,0 +1,1155 @@
+2025-08-24 07:45:11,187 - INFO - Starting federated learning with model: lenet5, algorithm: fedentropy, clients: 50, rounds: 50
+2025-08-24 07:45:11,351 - INFO - Initial data proportions assigned to clients: [0.014433333333333333, 0.048216666666666665, 0.039683333333333334, 0.03675, 0.020883333333333334, 0.0010666666666666667, 0.0062833333333333335, 0.0148, 0.0033666666666666667, 0.026466666666666666, 0.014266666666666667, 0.023783333333333333, 0.0201, 0.012966666666666666, 0.024633333333333333, 0.0012833333333333334, 0.012816666666666667, 0.016366666666666668, 0.00765, 0.007966666666666667, 0.029916666666666668, 0.0006, 0.05553333333333333, 0.0422, 0.0104, 0.008116666666666666, 0.013116666666666667, 0.02125, 0.018933333333333333, 0.01625, 0.00065, 0.006483333333333333, 0.013016666666666666, 0.017383333333333334, 0.029416666666666667, 0.009066666666666667, 0.0082, 0.0058, 0.0499, 0.02033333333333333, 0.05361666666666667, 0.06661666666666667, 0.004383333333333334, 0.019216666666666667, 0.024483333333333333, 0.024083333333333335, 0.021583333333333333, 0.025583333333333333, 0.0005333333333333334, 0.02955]
+2025-08-24 07:45:11,528 - INFO - Starting Round 1/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:45:11,529 - INFO - Selected clients for Round 1: [40, 7, 1, 47, 17]
+2025-08-24 07:45:15,127 - INFO - Client 40 Train Loss: 0.2505
+2025-08-24 07:45:16,080 - INFO - Client 7 Train Loss: 0.6361
+2025-08-24 07:45:19,752 - INFO - Client 1 Train Loss: 0.0432
+2025-08-24 07:45:21,455 - INFO - Client 47 Train Loss: 0.2360
+2025-08-24 07:45:22,478 - INFO - Client 17 Train Loss: 0.6058
+2025-08-24 07:45:22,478 - INFO - Global Average Train Loss: 0.3543
+2025-08-24 07:45:22,931 - INFO - FedEntropy weights: [0.19946314 0.20050765 0.19971698 0.19999296 0.20031926]
+2025-08-24 07:45:22,952 - INFO - Aggregated using FedEntropy
+2025-08-24 07:45:25,592 - INFO - Global Model Validation Loss: 2.2786, Top1_Accuracy: 13.54%, Top5_Accuracy: 59.78%
+2025-08-24 07:45:25,592 - INFO - Precision: 0.8965, Recall: 0.1354, F1-Score: 0.0682
+2025-08-24 07:45:25,593 - INFO - Confusion Matrix:
+[[   0    0    0  980    0    0    0    0    0    0]
+ [   0    0    0 1135    0    0    0    0    0    0]
+ [   0    0    0 1032    0    0    0    0    0    0]
+ [   0    0    0 1010    0    0    0    0    0    0]
+ [   0    0    0  638  344    0    0    0    0    0]
+ [   0    0    0  892    0    0    0    0    0    0]
+ [   0    0    0  954    4    0    0    0    0    0]
+ [   0    0    0 1026    2    0    0    0    0    0]
+ [   0    0    0  974    0    0    0    0    0    0]
+ [   0    0    0  962   47    0    0    0    0    0]]
+2025-08-24 07:45:25,594 - INFO - Starting Round 2/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:45:25,594 - INFO - Selected clients for Round 2: [15, 14, 8, 47, 6]
+2025-08-24 07:45:25,683 - INFO - Client 15 Train Loss: 2.5175
+2025-08-24 07:45:27,241 - INFO - Client 14 Train Loss: 0.3743
+2025-08-24 07:45:27,444 - INFO - Client 8 Train Loss: 1.5608
+2025-08-24 07:45:29,142 - INFO - Client 47 Train Loss: 0.1151
+2025-08-24 07:45:29,561 - INFO - Client 6 Train Loss: 0.3153
+2025-08-24 07:45:29,562 - INFO - Global Average Train Loss: 0.9766
+2025-08-24 07:45:29,947 - INFO - FedEntropy weights: [0.20032098 0.19942173 0.20021169 0.1998321  0.20021349]
+2025-08-24 07:45:29,969 - INFO - Aggregated using FedEntropy
+2025-08-24 07:45:32,768 - INFO - Global Model Validation Loss: 1.7728, Top1_Accuracy: 32.68%, Top5_Accuracy: 83.61%
+2025-08-24 07:45:32,768 - INFO - Precision: 0.7097, Recall: 0.3268, F1-Score: 0.2378
+2025-08-24 07:45:32,769 - INFO - Confusion Matrix:
+[[   0    0   20    0    4    0  405  551    0    0]
+ [   0  278    0    0   49    0    7  801    0    0]
+ [   0    0  313    0  178    0   55  486    0    0]
+ [   0    0   59    3   75    0  315  461   97    0]
+ [   0    0    0    0  978    0    1    3    0    0]
+ [   0    0    1    0  182    0  269  349   91    0]
+ [   0    0    3    0  400    0  544   11    0    0]
+ [   0    0    0    0   15    0    0 1013    0    0]
+ [   0    0   13    0  128    0  218  476  139    0]
+ [   0    0    0    0  792    0    3  213    1    0]]
+2025-08-24 07:45:32,771 - INFO - Starting Round 3/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:45:32,771 - INFO - Selected clients for Round 3: [43, 47, 34, 5, 37]
+2025-08-24 07:45:34,003 - INFO - Client 43 Train Loss: 0.4435
+2025-08-24 07:45:35,644 - INFO - Client 47 Train Loss: 0.0509
+2025-08-24 07:45:37,411 - INFO - Client 34 Train Loss: 0.1320
+2025-08-24 07:45:37,491 - INFO - Client 5 Train Loss: 0.8000
+2025-08-24 07:45:37,871 - INFO - Client 37 Train Loss: 0.6139
+2025-08-24 07:45:37,872 - INFO - Global Average Train Loss: 0.4081
+2025-08-24 07:45:38,248 - INFO - FedEntropy weights: [0.19952577 0.20014351 0.19994902 0.20031702 0.20006468]
+2025-08-24 07:45:38,268 - INFO - Aggregated using FedEntropy
+2025-08-24 07:45:40,861 - INFO - Global Model Validation Loss: 1.5163, Top1_Accuracy: 47.75%, Top5_Accuracy: 87.36%
+2025-08-24 07:45:40,862 - INFO - Precision: 0.7967, Recall: 0.4775, F1-Score: 0.4184
+2025-08-24 07:45:40,863 - INFO - Confusion Matrix:
+[[  0   0   0   0   0 769 208   3   0   0]
+ [  0  24   1   3   1 593  48 450  15   0]
+ [  0   0 514  65   8 164 116 151  14   0]
+ [  0   0   0 318   0 675   0  17   0   0]
+ [  0   0   0   0 868  65  48   1   0   0]
+ [  0   0   0   0   0 888   3   1   0   0]
+ [  0   0   0   0   6  78 874   0   0   0]
+ [  0   0   5   2   0  27   0 994   0   0]
+ [  0   0   0   0   2 664   2  11 295   0]
+ [  0   0   1   0 330 570   5 103   0   0]]
+2025-08-24 07:45:40,863 - INFO - Starting Round 4/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:45:40,863 - INFO - Selected clients for Round 4: [27, 2, 1, 5, 13]
+2025-08-24 07:45:42,197 - INFO - Client 27 Train Loss: 0.1227
+2025-08-24 07:45:44,618 - INFO - Client 2 Train Loss: 0.0086
+2025-08-24 07:45:47,614 - INFO - Client 1 Train Loss: 0.0144
+2025-08-24 07:45:47,692 - INFO - Client 5 Train Loss: 0.7627
+2025-08-24 07:45:48,531 - INFO - Client 13 Train Loss: 0.3951
+2025-08-24 07:45:48,531 - INFO - Global Average Train Loss: 0.2607
+2025-08-24 07:45:48,919 - INFO - FedEntropy weights: [0.19999766 0.20003984 0.19988112 0.20022665 0.19985472]
+2025-08-24 07:45:48,936 - INFO - Aggregated using FedEntropy
+2025-08-24 07:45:51,649 - INFO - Global Model Validation Loss: 2.1749, Top1_Accuracy: 38.66%, Top5_Accuracy: 87.72%
+2025-08-24 07:45:51,649 - INFO - Precision: 0.8327, Recall: 0.3866, F1-Score: 0.2771
+2025-08-24 07:45:51,650 - INFO - Confusion Matrix:
+[[   0    0    0  769  209    0    0    2    0    0]
+ [   0 1113    0   10   12    0    0    0    0    0]
+ [   0   71   31  598  317    0    0   15    0    0]
+ [   0    0    0  976   32    0    0    2    0    0]
+ [   0    0    0    0  982    0    0    0    0    0]
+ [   0    1    0  625  266    0    0    0    0    0]
+ [   0   14    0   27  916    0    1    0    0    0]
+ [   0   40    0   22  207    0    0  759    0    0]
+ [   0   26    0  627  313    0    0    4    4    0]
+ [   0    4    0   11  988    0    0    6    0    0]]
+2025-08-24 07:45:51,651 - INFO - Starting Round 5/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:45:51,651 - INFO - Selected clients for Round 5: [14, 32, 38, 1, 35]
+2025-08-24 07:45:53,220 - INFO - Client 14 Train Loss: 0.1654
+2025-08-24 07:45:53,992 - INFO - Client 32 Train Loss: 0.3744
+2025-08-24 07:45:57,324 - INFO - Client 38 Train Loss: 0.0444
+2025-08-24 07:46:00,353 - INFO - Client 1 Train Loss: 0.0028
+2025-08-24 07:46:00,923 - INFO - Client 35 Train Loss: 0.1577
+2025-08-24 07:46:00,924 - INFO - Global Average Train Loss: 0.1489
+2025-08-24 07:46:01,309 - INFO - FedEntropy weights: [0.19984201 0.19986617 0.1999507  0.20010506 0.20023606]
+2025-08-24 07:46:01,330 - INFO - Aggregated using FedEntropy
+2025-08-24 07:46:03,914 - INFO - Global Model Validation Loss: 1.3789, Top1_Accuracy: 46.27%, Top5_Accuracy: 97.46%
+2025-08-24 07:46:03,915 - INFO - Precision: 0.7285, Recall: 0.4627, F1-Score: 0.4050
+2025-08-24 07:46:03,916 - INFO - Confusion Matrix:
+[[ 978    0    0    0    0    0    2    0    0    0]
+ [   7 1127    0    0    0    0    1    0    0    0]
+ [ 981   27    0    0    0    0   18    6    0    0]
+ [ 613    7    0  380    0    0    0   10    0    0]
+ [ 461   25    0    0  342    1  117   31    0    5]
+ [ 884    5    0    0    0    1    2    0    0    0]
+ [  61    4    0    0    0    0  893    0    0    0]
+ [  84   39    0    0    0    0    0  905    0    0]
+ [ 916   25    0    0    0    0   21   12    0    0]
+ [ 609   21    0    0    1    0    1  376    0    1]]
+2025-08-24 07:46:03,916 - INFO - Starting Round 6/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:46:03,916 - INFO - Selected clients for Round 6: [12, 45, 41, 44, 34]
+2025-08-24 07:46:05,257 - INFO - Client 12 Train Loss: 0.0747
+2025-08-24 07:46:06,930 - INFO - Client 45 Train Loss: 0.0810
+2025-08-24 07:46:11,246 - INFO - Client 41 Train Loss: 0.0281
+2025-08-24 07:46:12,719 - INFO - Client 44 Train Loss: 0.1019
+2025-08-24 07:46:14,593 - INFO - Client 34 Train Loss: 0.0439
+2025-08-24 07:46:14,594 - INFO - Global Average Train Loss: 0.0659
+2025-08-24 07:46:14,976 - INFO - FedEntropy weights: [0.20009343 0.20005233 0.19961479 0.20006896 0.20017048]
+2025-08-24 07:46:14,995 - INFO - Aggregated using FedEntropy
+2025-08-24 07:46:17,544 - INFO - Global Model Validation Loss: 1.3492, Top1_Accuracy: 64.55%, Top5_Accuracy: 89.08%
+2025-08-24 07:46:17,544 - INFO - Precision: 0.8213, Recall: 0.6455, F1-Score: 0.5829
+2025-08-24 07:46:17,545 - INFO - Confusion Matrix:
+[[   0    2  251    0   12  422  291    1    1    0]
+ [   0 1122    5    1    3    1    3    0    0    0]
+ [   0    1  933   15   42   23    6   10    2    0]
+ [   0    0   13  554    3  434    0    6    0    0]
+ [   0    0    1    0  980    0    1    0    0    0]
+ [   0    1    2    0   17  870    2    0    0    0]
+ [   0    2    4    0   61   13  878    0    0    0]
+ [   0    9   58    1  100    6    0  854    0    0]
+ [   0   15   11   10   79  575   13    7  264    0]
+ [   0    5    9    0  944   42    0    9    0    0]]
+2025-08-24 07:46:17,545 - INFO - Starting Round 7/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:46:17,545 - INFO - Selected clients for Round 7: [26, 14, 28, 37, 17]
+2025-08-24 07:46:18,380 - INFO - Client 26 Train Loss: 0.3507
+2025-08-24 07:46:19,948 - INFO - Client 14 Train Loss: 0.0940
+2025-08-24 07:46:21,155 - INFO - Client 28 Train Loss: 0.2893
+2025-08-24 07:46:21,548 - INFO - Client 37 Train Loss: 0.1307
+2025-08-24 07:46:22,603 - INFO - Client 17 Train Loss: 0.3478
+2025-08-24 07:46:22,603 - INFO - Global Average Train Loss: 0.2425
+2025-08-24 07:46:22,966 - INFO - FedEntropy weights: [0.19994712 0.20007566 0.19998854 0.20016073 0.19982796]
+2025-08-24 07:46:22,985 - INFO - Aggregated using FedEntropy
+2025-08-24 07:46:25,666 - INFO - Global Model Validation Loss: 0.9999, Top1_Accuracy: 65.60%, Top5_Accuracy: 99.21%
+2025-08-24 07:46:25,666 - INFO - Precision: 0.8055, Recall: 0.6560, F1-Score: 0.5681
+2025-08-24 07:46:25,667 - INFO - Confusion Matrix:
+[[  34    0  782    6    0    0  148    2    7    1]
+ [   0 1118    8    5    0    0    1    0    2    1]
+ [   0    2 1010   12    0    0    2    3    0    3]
+ [   0    0   13  992    0    0    0    4    1    0]
+ [   0   12   18    0    0    0   19    0    2  931]
+ [   0    1    5  695    0    6    4    0  170   11]
+ [   0    2   24    1    0    0  920    0    6    5]
+ [   0    3  139   35    0    0    0  729    0  122]
+ [   0    4   55   69    0    0   14    4  807   21]
+ [   0    5   16   34    0    0    0   10    0  944]]
+2025-08-24 07:46:25,667 - INFO - Starting Round 8/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:46:25,668 - INFO - Selected clients for Round 8: [0, 48, 10, 44, 27]
+2025-08-24 07:46:26,814 - INFO - Client 0 Train Loss: 0.1394
+2025-08-24 07:46:26,853 - INFO - Client 48 Train Loss: 1.1381
+2025-08-24 07:46:27,832 - INFO - Client 10 Train Loss: 0.1858
+2025-08-24 07:46:29,364 - INFO - Client 44 Train Loss: 0.0694
+2025-08-24 07:46:30,762 - INFO - Client 27 Train Loss: 0.1640
+2025-08-24 07:46:30,762 - INFO - Global Average Train Loss: 0.3393
+2025-08-24 07:46:31,159 - INFO - FedEntropy weights: [0.2000167  0.2001313  0.19993824 0.20000883 0.19990492]
+2025-08-24 07:46:31,183 - INFO - Aggregated using FedEntropy
+2025-08-24 07:46:33,875 - INFO - Global Model Validation Loss: 0.7923, Top1_Accuracy: 74.84%, Top5_Accuracy: 99.09%
+2025-08-24 07:46:33,875 - INFO - Precision: 0.8417, Recall: 0.7484, F1-Score: 0.7024
+2025-08-24 07:46:33,876 - INFO - Confusion Matrix:
+[[ 717    4    0    0   20   91  110   30    8    0]
+ [   0 1129    0    0    0    1    2    3    0    0]
+ [  14  168  257    5   35   12   42  436   63    0]
+ [   1    1    0  729    1  211    0   53   14    0]
+ [   0    4    0    0  957    0    8   11    2    0]
+ [   1    1    0    1    0  873    3    7    6    0]
+ [   1    2    0    0   31   11  911    0    2    0]
+ [   0    5    0    0    0    0    0 1022    1    0]
+ [   0    8    0    0    5   34   11   31  885    0]
+ [   3    3    0    0  319   27    0  652    1    4]]
+2025-08-24 07:46:33,876 - INFO - Starting Round 9/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:46:33,876 - INFO - Selected clients for Round 9: [21, 17, 9, 13, 48]
+2025-08-24 07:46:33,932 - INFO - Client 21 Train Loss: 0.5970
+2025-08-24 07:46:34,958 - INFO - Client 17 Train Loss: 0.1580
+2025-08-24 07:46:36,600 - INFO - Client 9 Train Loss: 0.0288
+2025-08-24 07:46:37,434 - INFO - Client 13 Train Loss: 0.1440
+2025-08-24 07:46:37,474 - INFO - Client 48 Train Loss: 0.3298
+2025-08-24 07:46:37,475 - INFO - Global Average Train Loss: 0.2515
+2025-08-24 07:46:37,855 - INFO - FedEntropy weights: [0.20004279 0.19995127 0.19998239 0.19997233 0.20005122]
+2025-08-24 07:46:37,874 - INFO - Aggregated using FedEntropy
+2025-08-24 07:46:40,443 - INFO - Global Model Validation Loss: 0.8048, Top1_Accuracy: 71.08%, Top5_Accuracy: 99.41%
+2025-08-24 07:46:40,444 - INFO - Precision: 0.8035, Recall: 0.7108, F1-Score: 0.6699
+2025-08-24 07:46:40,445 - INFO - Confusion Matrix:
+[[ 968    6    0    0    0    0    2    1    3    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [ 106  627  138    2   10    0    3   90   43   13]
+ [  37   58    0  859    0    2    0   15   36    3]
+ [   2   52    0    0  166    0    3    0    2  757]
+ [  56   24    0   11    0  314    0    4  448   35]
+ [  63   34    0    0   31    0  809    0   19    2]
+ [   2  107    0    0    0    0    0  882    0   37]
+ [  19   67    0    0    0    0    0    1  883    4]
+ [   9   31    0    1    1    0    0    8    5  954]]
+2025-08-24 07:46:40,445 - INFO - Starting Round 10/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:46:40,445 - INFO - Selected clients for Round 10: [21, 6, 5, 24, 22]
+2025-08-24 07:46:40,495 - INFO - Client 21 Train Loss: 0.1052
+2025-08-24 07:46:40,885 - INFO - Client 6 Train Loss: 0.1816
+2025-08-24 07:46:40,963 - INFO - Client 5 Train Loss: 0.4061
+2025-08-24 07:46:41,608 - INFO - Client 24 Train Loss: 0.3133
+2025-08-24 07:46:45,136 - INFO - Client 22 Train Loss: 0.0382
+2025-08-24 07:46:45,137 - INFO - Global Average Train Loss: 0.2089
+2025-08-24 07:46:45,501 - INFO - FedEntropy weights: [0.2000964  0.19999151 0.20009626 0.19987759 0.19993824]
+2025-08-24 07:46:45,519 - INFO - Aggregated using FedEntropy
+2025-08-24 07:46:48,087 - INFO - Global Model Validation Loss: 0.8297, Top1_Accuracy: 78.01%, Top5_Accuracy: 98.66%
+2025-08-24 07:46:48,087 - INFO - Precision: 0.8631, Recall: 0.7801, F1-Score: 0.7466
+2025-08-24 07:46:48,088 - INFO - Confusion Matrix:
+[[ 829    0   21    0   65    5   42   18    0    0]
+ [   0 1105    2    1    3    1    5   18    0    0]
+ [   1    0  813    6   26    3    5  178    0    0]
+ [   1    0    5  913    2   41    1   47    0    0]
+ [   0    0    0    0  981    0    0    1    0    0]
+ [   1    1    1    3   14  863    4    5    0    0]
+ [   1    2    3    0  121    7  824    0    0    0]
+ [   0    0    2    0   10    0    0 1016    0    0]
+ [  11   12   26    3   84  211  114   56  457    0]
+ [   3    0    1    3  835   11    0  156    0    0]]
+2025-08-24 07:46:48,088 - INFO - Starting Round 11/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:46:48,088 - INFO - Selected clients for Round 11: [22, 38, 16, 2, 46]
+2025-08-24 07:46:51,662 - INFO - Client 22 Train Loss: 0.0181
+2025-08-24 07:46:54,702 - INFO - Client 38 Train Loss: 0.0118
+2025-08-24 07:46:55,505 - INFO - Client 16 Train Loss: 0.0754
+2025-08-24 07:46:57,901 - INFO - Client 2 Train Loss: 0.0028
+2025-08-24 07:46:59,350 - INFO - Client 46 Train Loss: 0.0987
+2025-08-24 07:46:59,351 - INFO - Global Average Train Loss: 0.0414
+2025-08-24 07:46:59,711 - INFO - FedEntropy weights: [0.19988237 0.19992192 0.20011605 0.19999705 0.20008261]
+2025-08-24 07:46:59,730 - INFO - Aggregated using FedEntropy
+2025-08-24 07:47:02,385 - INFO - Global Model Validation Loss: 0.6379, Top1_Accuracy: 80.80%, Top5_Accuracy: 98.70%
+2025-08-24 07:47:02,385 - INFO - Precision: 0.8671, Recall: 0.8080, F1-Score: 0.7628
+2025-08-24 07:47:02,386 - INFO - Confusion Matrix:
+[[ 976    0    0    0    0    0    3    1    0    0]
+ [   1 1112    5    5    0    3    4    5    0    0]
+ [  54    0  942    5    1    0    4   26    0    0]
+ [  11    0    2  968    0   19    0   10    0    0]
+ [   6    0    1    0  957    0   18    0    0    0]
+ [   8    1    0    9    0  873    0    1    0    0]
+ [  44    1    0    0    1    8  904    0    0    0]
+ [   6    2   19    5   12    0    0  984    0    0]
+ [ 184   10   34   25   26  239   73   19  364    0]
+ [  58    4    1   10  828   36    1   71    0    0]]
+2025-08-24 07:47:02,386 - INFO - Starting Round 12/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:47:02,386 - INFO - Selected clients for Round 12: [29, 34, 7, 24, 5]
+2025-08-24 07:47:03,401 - INFO - Client 29 Train Loss: 0.0743
+2025-08-24 07:47:05,215 - INFO - Client 34 Train Loss: 0.0324
+2025-08-24 07:47:06,252 - INFO - Client 7 Train Loss: 0.0815
+2025-08-24 07:47:07,039 - INFO - Client 24 Train Loss: 0.0782
+2025-08-24 07:47:07,108 - INFO - Client 5 Train Loss: 0.2466
+2025-08-24 07:47:07,108 - INFO - Global Average Train Loss: 0.1026
+2025-08-24 07:47:07,488 - INFO - FedEntropy weights: [0.20000971 0.19995766 0.20002683 0.19998335 0.20002245]
+2025-08-24 07:47:07,507 - INFO - Aggregated using FedEntropy
+2025-08-24 07:47:10,102 - INFO - Global Model Validation Loss: 0.7033, Top1_Accuracy: 82.25%, Top5_Accuracy: 99.15%
+2025-08-24 07:47:10,102 - INFO - Precision: 0.8874, Recall: 0.8225, F1-Score: 0.7852
+2025-08-24 07:47:10,103 - INFO - Confusion Matrix:
+[[ 939    0    4    0    2    4   30    1    0    0]
+ [   0 1119    1    5    2    3    4    1    0    0]
+ [  10    3  962   14   11    3    7   22    0    0]
+ [   0    0    1  982    0   19    0    8    0    0]
+ [   0    0    0    0  980    0    2    0    0    0]
+ [   1    0    0    5    0  883    2    1    0    0]
+ [   3    2    0    1   20    7  925    0    0    0]
+ [   2    2   18    9   39    2    0  956    0    0]
+ [  21   15   19   26   69  213  117   15  479    0]
+ [  11    2    0    5  930   35    0   26    0    0]]
+2025-08-24 07:47:10,105 - INFO - Starting Round 13/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:47:10,105 - INFO - Selected clients for Round 13: [35, 18, 40, 39, 23]
+2025-08-24 07:47:10,648 - INFO - Client 35 Train Loss: 0.0646
+2025-08-24 07:47:11,124 - INFO - Client 18 Train Loss: 0.1789
+2025-08-24 07:47:14,584 - INFO - Client 40 Train Loss: 0.1468
+2025-08-24 07:47:15,860 - INFO - Client 39 Train Loss: 0.0467
+2025-08-24 07:47:18,585 - INFO - Client 23 Train Loss: 0.0112
+2025-08-24 07:47:18,585 - INFO - Global Average Train Loss: 0.0897
+2025-08-24 07:47:18,966 - INFO - FedEntropy weights: [0.20015248 0.20012122 0.19956241 0.20013302 0.20003087]
+2025-08-24 07:47:18,984 - INFO - Aggregated using FedEntropy
+2025-08-24 07:47:21,518 - INFO - Global Model Validation Loss: 0.3179, Top1_Accuracy: 91.66%, Top5_Accuracy: 99.90%
+2025-08-24 07:47:21,518 - INFO - Precision: 0.9254, Recall: 0.9166, F1-Score: 0.9158
+2025-08-24 07:47:21,519 - INFO - Confusion Matrix:
+[[ 963    3    2    0    0    0    5    1    5    1]
+ [   0 1134    0    1    0    0    0    0    0    0]
+ [   7  122  792   14    2    0    4   47   39    5]
+ [   1    1    1  989    0    2    0    8    5    3]
+ [   1   55    1    0  852    0   23    0    2   48]
+ [   5    6    0   50    0  666    3    1  153    8]
+ [  12   11    1    0    2    1  917    0   14    0]
+ [   2   37    7    4    0    0    0  952    1   25]
+ [   3   14    0    3    1    0    1    4  943    5]
+ [   7   15    0    8    3    5    0    7    6  958]]
+2025-08-24 07:47:21,519 - INFO - Starting Round 14/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:47:21,520 - INFO - Selected clients for Round 14: [36, 12, 45, 4, 2]
+2025-08-24 07:47:22,037 - INFO - Client 36 Train Loss: 0.1787
+2025-08-24 07:47:23,310 - INFO - Client 12 Train Loss: 0.0401
+2025-08-24 07:47:24,819 - INFO - Client 45 Train Loss: 0.0410
+2025-08-24 07:47:26,139 - INFO - Client 4 Train Loss: 0.0748
+2025-08-24 07:47:28,547 - INFO - Client 2 Train Loss: 0.0138
+2025-08-24 07:47:28,547 - INFO - Global Average Train Loss: 0.0697
+2025-08-24 07:47:28,902 - INFO - FedEntropy weights: [0.20000636 0.19999836 0.20001913 0.2000156  0.19996055]
+2025-08-24 07:47:28,922 - INFO - Aggregated using FedEntropy
+2025-08-24 07:47:31,446 - INFO - Global Model Validation Loss: 1.1510, Top1_Accuracy: 64.99%, Top5_Accuracy: 98.88%
+2025-08-24 07:47:31,446 - INFO - Precision: 0.7543, Recall: 0.6499, F1-Score: 0.6328
+2025-08-24 07:47:31,447 - INFO - Confusion Matrix:
+[[ 735    1    0    0   69  171    3    1    0    0]
+ [   0 1118    0    1   14    1    1    0    0    0]
+ [  12  126  596   23  203   14   10   30   14    4]
+ [   0    1    0  741    8  253    0    3    0    4]
+ [   0    0    0    0  982    0    0    0    0    0]
+ [   0    0    0    0   13  879    0    0    0    0]
+ [   0    3    0    0  410   41  504    0    0    0]
+ [   2   28    2    0  166    1    0  750    0   79]
+ [   1   20    0    5  166  573   12    2  185   10]
+ [   0    3    0    0  986   11    0    0    0    9]]
+2025-08-24 07:47:31,448 - INFO - Starting Round 15/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:47:31,448 - INFO - Selected clients for Round 15: [42, 14, 49, 18, 5]
+2025-08-24 07:47:31,735 - INFO - Client 42 Train Loss: 0.2582
+2025-08-24 07:47:33,332 - INFO - Client 14 Train Loss: 0.0858
+2025-08-24 07:47:35,127 - INFO - Client 49 Train Loss: 0.1009
+2025-08-24 07:47:35,625 - INFO - Client 18 Train Loss: 0.2277
+2025-08-24 07:47:35,703 - INFO - Client 5 Train Loss: 0.1208
+2025-08-24 07:47:35,703 - INFO - Global Average Train Loss: 0.1587
+2025-08-24 07:47:36,075 - INFO - FedEntropy weights: [0.20011078 0.19997597 0.19970478 0.20005044 0.20015803]
+2025-08-24 07:47:36,093 - INFO - Aggregated using FedEntropy
+2025-08-24 07:47:38,670 - INFO - Global Model Validation Loss: 0.5560, Top1_Accuracy: 82.43%, Top5_Accuracy: 99.61%
+2025-08-24 07:47:38,671 - INFO - Precision: 0.8767, Recall: 0.8243, F1-Score: 0.7901
+2025-08-24 07:47:38,672 - INFO - Confusion Matrix:
+[[ 930    1    5    0    0    0   31    1   12    0]
+ [   0 1132    0    0    0    0    3    0    0    0]
+ [   3   86  858    3    4    0   10   24   44    0]
+ [   0    1    9  970    0    0    0    9   21    0]
+ [   0   14    1    0  939    0   25    0    3    0]
+ [   4    7    1  131    1    1   11    2  734    0]
+ [   5    6    0    0    1    0  933    0   13    0]
+ [   1   50   11    3    2    0    0  959    1    1]
+ [   2    7    0    0    1    0    2    4  958    0]
+ [  10   16    3    4  320    0    1   43   49  563]]
+2025-08-24 07:47:38,672 - INFO - Starting Round 16/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:47:38,672 - INFO - Selected clients for Round 16: [14, 6, 24, 17, 29]
+2025-08-24 07:47:40,218 - INFO - Client 14 Train Loss: 0.0518
+2025-08-24 07:47:40,623 - INFO - Client 6 Train Loss: 0.0855
+2025-08-24 07:47:41,258 - INFO - Client 24 Train Loss: 0.2460
+2025-08-24 07:47:42,324 - INFO - Client 17 Train Loss: 0.0940
+2025-08-24 07:47:43,361 - INFO - Client 29 Train Loss: 0.0638
+2025-08-24 07:47:43,361 - INFO - Global Average Train Loss: 0.1082
+2025-08-24 07:47:43,721 - INFO - FedEntropy weights: [0.20001997 0.20003219 0.19995958 0.19998279 0.20000546]
+2025-08-24 07:47:43,737 - INFO - Aggregated using FedEntropy
+2025-08-24 07:47:46,318 - INFO - Global Model Validation Loss: 0.2819, Top1_Accuracy: 90.78%, Top5_Accuracy: 99.74%
+2025-08-24 07:47:46,318 - INFO - Precision: 0.9218, Recall: 0.9078, F1-Score: 0.9059
+2025-08-24 07:47:46,319 - INFO - Confusion Matrix:
+[[ 974    0    4    0    0    0    1    1    0    0]
+ [   0 1127    3    3    0    1    1    0    0    0]
+ [  12    1  970   15   10    0    1   23    0    0]
+ [   0    0    0 1003    0    0    0    7    0    0]
+ [   1    0    1    0  978    0    1    0    0    1]
+ [   6    1    1  203    1  672    1    2    3    2]
+ [  31    3    1    1   15    2  904    0    1    0]
+ [   2    2   18   11    2    0    0  990    0    3]
+ [  40    2   42   36   11    1    5   18  812    7]
+ [  10    4    0   17  267    4    0   59    0  648]]
+2025-08-24 07:47:46,319 - INFO - Starting Round 17/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:47:46,319 - INFO - Selected clients for Round 17: [40, 23, 10, 22, 13]
+2025-08-24 07:47:49,615 - INFO - Client 40 Train Loss: 0.0556
+2025-08-24 07:47:52,251 - INFO - Client 23 Train Loss: 0.0091
+2025-08-24 07:47:53,156 - INFO - Client 10 Train Loss: 0.0655
+2025-08-24 07:47:56,488 - INFO - Client 22 Train Loss: 0.0179
+2025-08-24 07:47:57,325 - INFO - Client 13 Train Loss: 0.1190
+2025-08-24 07:47:57,325 - INFO - Global Average Train Loss: 0.0534
+2025-08-24 07:47:57,690 - INFO - FedEntropy weights: [0.1999453  0.20002534 0.20006822 0.19994837 0.20001277]
+2025-08-24 07:47:57,710 - INFO - Aggregated using FedEntropy
+2025-08-24 07:48:00,341 - INFO - Global Model Validation Loss: 0.2300, Top1_Accuracy: 92.77%, Top5_Accuracy: 99.92%
+2025-08-24 07:48:00,341 - INFO - Precision: 0.9331, Recall: 0.9277, F1-Score: 0.9246
+2025-08-24 07:48:00,342 - INFO - Confusion Matrix:
+[[ 929    1    0    0    0    4   33    1    6    6]
+ [   0 1132    0    0    0    1    2    0    0    0]
+ [   8  194  635   28   11    2   12   82   51    9]
+ [   1    1    0  968    0   27    0    5    2    6]
+ [   0    4    0    0  953    0   11    0    2   12]
+ [   0    1    0    6    0  861    6    1   16    1]
+ [   2    4    0    0    3    2  944    0    3    0]
+ [   0   21    2    4    0    0    0  945    1   55]
+ [   1    5    0    1    1    3   11    3  942    7]
+ [   5    5    0    3   12   10    0    5    1  968]]
+2025-08-24 07:48:00,342 - INFO - Starting Round 18/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:48:00,342 - INFO - Selected clients for Round 18: [42, 17, 44, 43, 41]
+2025-08-24 07:48:00,626 - INFO - Client 42 Train Loss: 0.1003
+2025-08-24 07:48:01,697 - INFO - Client 17 Train Loss: 0.0657
+2025-08-24 07:48:03,220 - INFO - Client 44 Train Loss: 0.0336
+2025-08-24 07:48:04,425 - INFO - Client 43 Train Loss: 0.0877
+2025-08-24 07:48:08,551 - INFO - Client 41 Train Loss: 0.0221
+2025-08-24 07:48:08,551 - INFO - Global Average Train Loss: 0.0619
+2025-08-24 07:48:08,927 - INFO - FedEntropy weights: [0.20005059 0.20004578 0.20003629 0.20003628 0.19983106]
+2025-08-24 07:48:08,948 - INFO - Aggregated using FedEntropy
+2025-08-24 07:48:11,608 - INFO - Global Model Validation Loss: 0.2234, Top1_Accuracy: 94.97%, Top5_Accuracy: 99.87%
+2025-08-24 07:48:11,608 - INFO - Precision: 0.9520, Recall: 0.9497, F1-Score: 0.9496
+2025-08-24 07:48:11,609 - INFO - Confusion Matrix:
+[[ 959    0    7    0    0    0    9    1    4    0]
+ [   0 1052   15    2    0    1   12    5   48    0]
+ [   3    0 1020    3    0    0    2    2    2    0]
+ [   0    0    6  996    0    2    0    4    2    0]
+ [   0    0    6    0  929    0   29    3    3   12]
+ [   4    0    2   35    0  803    4    2   42    0]
+ [   7    0    2    0    1    1  942    0    5    0]
+ [   0    1   50    6    0    0    0  968    1    2]
+ [   3    0    9    2    1    0    4    2  953    0]
+ [   9    0    9   14   13   12    1   65   11  875]]
+2025-08-24 07:48:11,610 - INFO - Starting Round 19/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:48:11,610 - INFO - Selected clients for Round 19: [4, 38, 40, 10, 34]
+2025-08-24 07:48:12,885 - INFO - Client 4 Train Loss: 0.0849
+2025-08-24 07:48:16,099 - INFO - Client 38 Train Loss: 0.0038
+2025-08-24 07:48:19,482 - INFO - Client 40 Train Loss: 0.0477
+2025-08-24 07:48:20,413 - INFO - Client 10 Train Loss: 0.1033
+2025-08-24 07:48:22,268 - INFO - Client 34 Train Loss: 0.0305
+2025-08-24 07:48:22,268 - INFO - Global Average Train Loss: 0.0541
+2025-08-24 07:48:22,623 - INFO - FedEntropy weights: [0.20002857 0.19997185 0.19995595 0.20000985 0.20003378]
+2025-08-24 07:48:22,642 - INFO - Aggregated using FedEntropy
+2025-08-24 07:48:25,318 - INFO - Global Model Validation Loss: 0.2493, Top1_Accuracy: 91.74%, Top5_Accuracy: 99.81%
+2025-08-24 07:48:25,319 - INFO - Precision: 0.9270, Recall: 0.9174, F1-Score: 0.9159
+2025-08-24 07:48:25,320 - INFO - Confusion Matrix:
+[[ 976    0    0    0    0    0    1    0    2    1]
+ [   0 1130    0    2    0    2    1    0    0    0]
+ [ 110   92  694   11    8    1    8   41   52   15]
+ [   4    1    0  945    0   38    0    2    2   18]
+ [   4    2    0    0  889    0   12    0    2   73]
+ [   6    0    0    2    0  873    1    0    1    9]
+ [  34    5    0    1    2    3  911    0    2    0]
+ [   2   14    4    5    0    0    0  823    2  178]
+ [  16    2    0    1    1    1    1    2  940   10]
+ [   6    1    0    1    2    5    0    1    0  993]]
+2025-08-24 07:48:25,320 - INFO - Starting Round 20/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:48:25,320 - INFO - Selected clients for Round 20: [46, 15, 10, 29, 24]
+2025-08-24 07:48:26,638 - INFO - Client 46 Train Loss: 0.1066
+2025-08-24 07:48:26,732 - INFO - Client 15 Train Loss: 0.3513
+2025-08-24 07:48:27,623 - INFO - Client 10 Train Loss: 0.0345
+2025-08-24 07:48:28,662 - INFO - Client 29 Train Loss: 0.0313
+2025-08-24 07:48:29,343 - INFO - Client 24 Train Loss: 0.0988
+2025-08-24 07:48:29,343 - INFO - Global Average Train Loss: 0.1245
+2025-08-24 07:48:29,712 - INFO - FedEntropy weights: [0.1999633  0.2000271  0.20000779 0.1999965  0.20000532]
+2025-08-24 07:48:29,729 - INFO - Aggregated using FedEntropy
+2025-08-24 07:48:32,435 - INFO - Global Model Validation Loss: 0.2622, Top1_Accuracy: 91.75%, Top5_Accuracy: 99.91%
+2025-08-24 07:48:32,435 - INFO - Precision: 0.9384, Recall: 0.9175, F1-Score: 0.9206
+2025-08-24 07:48:32,436 - INFO - Confusion Matrix:
+[[ 872    0  105    0    0    0    1    1    1    0]
+ [   0 1127    5    1    0    2    0    0    0    0]
+ [   0    0 1031    1    0    0    0    0    0    0]
+ [   0    0   12  993    0    3    0    1    1    0]
+ [   0    5   22    0  932    0    4    0    2   17]
+ [   2    1    2   40    0  843    1    1    1    1]
+ [  15    5   38    0    1    5  893    0    1    0]
+ [   0    7  215    7    0    0    0  773    0   26]
+ [   3    2  177    6    2    5    3    2  768    6]
+ [   5    4   16   10   18    8    0    5    0  943]]
+2025-08-24 07:48:32,436 - INFO - Starting Round 21/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:48:32,436 - INFO - Selected clients for Round 21: [17, 40, 44, 35, 14]
+2025-08-24 07:48:33,467 - INFO - Client 17 Train Loss: 0.0748
+2025-08-24 07:48:36,719 - INFO - Client 40 Train Loss: 0.0343
+2025-08-24 07:48:38,316 - INFO - Client 44 Train Loss: 0.0461
+2025-08-24 07:48:38,870 - INFO - Client 35 Train Loss: 0.0585
+2025-08-24 07:48:40,389 - INFO - Client 14 Train Loss: 0.0291
+2025-08-24 07:48:40,389 - INFO - Global Average Train Loss: 0.0486
+2025-08-24 07:48:40,751 - INFO - FedEntropy weights: [0.19997898 0.19994197 0.20000482 0.20005171 0.20002251]
+2025-08-24 07:48:40,771 - INFO - Aggregated using FedEntropy
+2025-08-24 07:48:43,351 - INFO - Global Model Validation Loss: 0.2745, Top1_Accuracy: 91.42%, Top5_Accuracy: 99.85%
+2025-08-24 07:48:43,351 - INFO - Precision: 0.9260, Recall: 0.9142, F1-Score: 0.9096
+2025-08-24 07:48:43,352 - INFO - Confusion Matrix:
+[[ 932    1    0    0    1    1   38    1    5    1]
+ [   0 1131    0    1    0    1    2    0    0    0]
+ [  12   62  538    3   17    0   28  156  209    7]
+ [   1    1    0  941    0   25    0   19   17    6]
+ [   0    4    0    0  951    0   11    1    2   13]
+ [   2    2    0    4    0  785    6    3   81    9]
+ [   3    3    0    0    3    1  943    0    5    0]
+ [   0    9    0    0    0    0    0 1004    4   11]
+ [   2    1    0    0    1    0    5    5  955    5]
+ [   5    2    0    0   10    5    1   19    5  962]]
+2025-08-24 07:48:43,354 - INFO - Starting Round 22/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:48:43,354 - INFO - Selected clients for Round 22: [43, 20, 49, 3, 14]
+2025-08-24 07:48:44,563 - INFO - Client 43 Train Loss: 0.0659
+2025-08-24 07:48:46,397 - INFO - Client 20 Train Loss: 0.0362
+2025-08-24 07:48:48,255 - INFO - Client 49 Train Loss: 0.0132
+2025-08-24 07:48:50,523 - INFO - Client 3 Train Loss: 0.0576
+2025-08-24 07:48:52,080 - INFO - Client 14 Train Loss: 0.0408
+2025-08-24 07:48:52,080 - INFO - Global Average Train Loss: 0.0428
+2025-08-24 07:48:52,443 - INFO - FedEntropy weights: [0.19998796 0.19999196 0.20003141 0.19999354 0.19999513]
+2025-08-24 07:48:52,461 - INFO - Aggregated using FedEntropy
+2025-08-24 07:48:55,096 - INFO - Global Model Validation Loss: 0.1699, Top1_Accuracy: 94.85%, Top5_Accuracy: 99.94%
+2025-08-24 07:48:55,096 - INFO - Precision: 0.9509, Recall: 0.9485, F1-Score: 0.9483
+2025-08-24 07:48:55,097 - INFO - Confusion Matrix:
+[[ 906    1    3    0    0   21   44    1    4    0]
+ [   0 1129    0    3    0    3    0    0    0    0]
+ [   4   10  967   19    4    1    7    9   11    0]
+ [   0    0    0  998    0   12    0    0    0    0]
+ [   0    5    1    0  967    0    6    0    2    1]
+ [   0    0    0   10    0  880    1    0    1    0]
+ [   1    3    0    1    5   13  935    0    0    0]
+ [   2   30   16   54    3    1    0  900    4   18]
+ [   2    6    1   10    2   25    7    0  918    3]
+ [   4    9    0   10   57   40    0    4    0  885]]
+2025-08-24 07:48:55,097 - INFO - Starting Round 23/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:48:55,098 - INFO - Selected clients for Round 23: [2, 20, 25, 17, 4]
+2025-08-24 07:48:57,562 - INFO - Client 2 Train Loss: 0.0048
+2025-08-24 07:48:59,499 - INFO - Client 20 Train Loss: 0.0254
+2025-08-24 07:49:00,040 - INFO - Client 25 Train Loss: 0.0800
+2025-08-24 07:49:01,049 - INFO - Client 17 Train Loss: 0.0510
+2025-08-24 07:49:02,315 - INFO - Client 4 Train Loss: 0.0817
+2025-08-24 07:49:02,316 - INFO - Global Average Train Loss: 0.0486
+2025-08-24 07:49:02,682 - INFO - FedEntropy weights: [0.20001337 0.19999076 0.20002875 0.20001009 0.19995703]
+2025-08-24 07:49:02,702 - INFO - Aggregated using FedEntropy
+2025-08-24 07:49:05,315 - INFO - Global Model Validation Loss: 0.1798, Top1_Accuracy: 94.38%, Top5_Accuracy: 99.96%
+2025-08-24 07:49:05,315 - INFO - Precision: 0.9498, Recall: 0.9438, F1-Score: 0.9439
+2025-08-24 07:49:05,316 - INFO - Confusion Matrix:
+[[ 959    1    1    0    1    3    5    0    6    4]
+ [   0 1131    1    1    0    2    0    0    0    0]
+ [   7   12  974    0    8    0    3   11   11    6]
+ [   1    0    4  867    0   75    0    3    5   55]
+ [   0    3    0    0  966    0    0    0    0   13]
+ [   1    1    0    0    0  866    1    0    3   20]
+ [  12    5    0    0   17    6  913    0    5    0]
+ [   1   16   20    0    0    0    0  817    3  171]
+ [   6    2    0    0    1    0    3    3  950    9]
+ [   3    1    0    0    9    0    0    0    1  995]]
+2025-08-24 07:49:05,317 - INFO - Starting Round 24/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:49:05,317 - INFO - Selected clients for Round 24: [13, 36, 45, 20, 41]
+2025-08-24 07:49:06,120 - INFO - Client 13 Train Loss: 0.0339
+2025-08-24 07:49:06,622 - INFO - Client 36 Train Loss: 0.0590
+2025-08-24 07:49:08,090 - INFO - Client 45 Train Loss: 0.0210
+2025-08-24 07:49:09,958 - INFO - Client 20 Train Loss: 0.0230
+2025-08-24 07:49:14,125 - INFO - Client 41 Train Loss: 0.0061
+2025-08-24 07:49:14,126 - INFO - Global Average Train Loss: 0.0286
+2025-08-24 07:49:14,536 - INFO - FedEntropy weights: [0.20003386 0.2000521  0.20000566 0.20002697 0.19988141]
+2025-08-24 07:49:14,554 - INFO - Aggregated using FedEntropy
+2025-08-24 07:49:17,184 - INFO - Global Model Validation Loss: 0.2454, Top1_Accuracy: 91.76%, Top5_Accuracy: 99.92%
+2025-08-24 07:49:17,184 - INFO - Precision: 0.9285, Recall: 0.9176, F1-Score: 0.9172
+2025-08-24 07:49:17,185 - INFO - Confusion Matrix:
+[[ 920    0   47    0    2    4    5    1    1    0]
+ [   0 1130    2    1    0    2    0    0    0    0]
+ [   0    4 1026    0    2    0    0    0    0    0]
+ [   1    0   14  947    0   46    0    1    0    1]
+ [   0    5    2    0  975    0    0    0    0    0]
+ [   1    0    1    1    0  888    1    0    0    0]
+ [   7    6    6    0   19   36  884    0    0    0]
+ [   0   53  125    2   12    2    0  790    0   44]
+ [   7    8   51    3    7   44    3    1  850    0]
+ [   5   10    5    3  205   13    0    2    0  766]]
+2025-08-24 07:49:17,185 - INFO - Starting Round 25/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:49:17,186 - INFO - Selected clients for Round 25: [31, 25, 41, 29, 9]
+2025-08-24 07:49:17,578 - INFO - Client 31 Train Loss: 0.1251
+2025-08-24 07:49:18,068 - INFO - Client 25 Train Loss: 0.0577
+2025-08-24 07:49:22,299 - INFO - Client 41 Train Loss: 0.0026
+2025-08-24 07:49:23,308 - INFO - Client 29 Train Loss: 0.0543
+2025-08-24 07:49:25,044 - INFO - Client 9 Train Loss: 0.0162
+2025-08-24 07:49:25,044 - INFO - Global Average Train Loss: 0.0512
+2025-08-24 07:49:25,407 - INFO - FedEntropy weights: [0.20002558 0.20003999 0.199905   0.20002584 0.20000359]
+2025-08-24 07:49:25,426 - INFO - Aggregated using FedEntropy
+2025-08-24 07:49:28,083 - INFO - Global Model Validation Loss: 0.1932, Top1_Accuracy: 94.03%, Top5_Accuracy: 99.94%
+2025-08-24 07:49:28,084 - INFO - Precision: 0.9450, Recall: 0.9403, F1-Score: 0.9397
+2025-08-24 07:49:28,085 - INFO - Confusion Matrix:
+[[ 976    0    0    0    0    0    1    0    2    1]
+ [   0 1134    0    0    0    1    0    0    0    0]
+ [  13   57  947    0    2    0    2    1    9    1]
+ [   2    1    6  959    0   24    0    2    9    7]
+ [   2   15    0    0  945    0    1    0    2   17]
+ [  10    2    0    2    0  844    1    0   29    4]
+ [  50    7    0    0   11    6  879    0    5    0]
+ [   4   88   39    0    0    0    0  783    3  111]
+ [  12    4    0    0    1    0    1    0  955    1]
+ [   7    8    0    0    7    1    0    1    4  981]]
+2025-08-24 07:49:28,085 - INFO - Starting Round 26/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:49:28,085 - INFO - Selected clients for Round 26: [16, 8, 15, 47, 35]
+2025-08-24 07:49:28,892 - INFO - Client 16 Train Loss: 0.0537
+2025-08-24 07:49:29,112 - INFO - Client 8 Train Loss: 0.1267
+2025-08-24 07:49:29,197 - INFO - Client 15 Train Loss: 0.0763
+2025-08-24 07:49:30,792 - INFO - Client 47 Train Loss: 0.0385
+2025-08-24 07:49:31,466 - INFO - Client 35 Train Loss: 0.0980
+2025-08-24 07:49:31,466 - INFO - Global Average Train Loss: 0.0786
+2025-08-24 07:49:31,856 - INFO - FedEntropy weights: [0.20001743 0.19999689 0.20002302 0.19999109 0.19997157]
+2025-08-24 07:49:31,875 - INFO - Aggregated using FedEntropy
+2025-08-24 07:49:34,640 - INFO - Global Model Validation Loss: 0.1672, Top1_Accuracy: 94.89%, Top5_Accuracy: 99.90%
+2025-08-24 07:49:34,641 - INFO - Precision: 0.9536, Recall: 0.9489, F1-Score: 0.9489
+2025-08-24 07:49:34,642 - INFO - Confusion Matrix:
+[[ 903    0    9    0    0    1   64    2    1    0]
+ [   0 1127    3    1    0    2    2    0    0    0]
+ [   0    2  999    0    0    0    4   27    0    0]
+ [   1    0    6  977    0   11    0   14    1    0]
+ [   0    5    2    0  957    0   15    1    0    2]
+ [   1    0    0    8    0  876    5    1    1    0]
+ [   0    3    0    0    1    1  953    0    0    0]
+ [   0    5   17    0    0    0    0 1006    0    0]
+ [   3    2   30    1    2    2   42   20  869    3]
+ [   4    7    1    4   21    8    2  140    0  822]]
+2025-08-24 07:49:34,642 - INFO - Starting Round 27/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:49:34,642 - INFO - Selected clients for Round 27: [34, 16, 47, 37, 27]
+2025-08-24 07:49:36,441 - INFO - Client 34 Train Loss: 0.0219
+2025-08-24 07:49:37,266 - INFO - Client 16 Train Loss: 0.0214
+2025-08-24 07:49:38,886 - INFO - Client 47 Train Loss: 0.0126
+2025-08-24 07:49:39,231 - INFO - Client 37 Train Loss: 0.0446
+2025-08-24 07:49:40,529 - INFO - Client 27 Train Loss: 0.0265
+2025-08-24 07:49:40,529 - INFO - Global Average Train Loss: 0.0254
+2025-08-24 07:49:40,969 - INFO - FedEntropy weights: [0.19997439 0.20000283 0.19999052 0.20002645 0.20000581]
+2025-08-24 07:49:40,989 - INFO - Aggregated using FedEntropy
+2025-08-24 07:49:43,592 - INFO - Global Model Validation Loss: 0.2586, Top1_Accuracy: 90.91%, Top5_Accuracy: 99.87%
+2025-08-24 07:49:43,592 - INFO - Precision: 0.9263, Recall: 0.9091, F1-Score: 0.9080
+2025-08-24 07:49:43,593 - INFO - Confusion Matrix:
+[[ 859    0    6    0    0    1  112    2    0    0]
+ [   0 1120    2    2    0    3    5    3    0    0]
+ [   3    2  958    0    1    0    5   63    0    0]
+ [   1    0    1  917    0   76    0   14    0    1]
+ [   0    0    1    0  969    0   10    2    0    0]
+ [   0    0    0    1    0  887    3    1    0    0]
+ [   0    1    0    0    1    3  953    0    0    0]
+ [   0    1    5    0    0    1    0 1021    0    0]
+ [   2    3   25    1    7   29  104   28  775    0]
+ [   4    0    0    1   70   23    3  276    0  632]]
+2025-08-24 07:49:43,593 - INFO - Starting Round 28/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:49:43,594 - INFO - Selected clients for Round 28: [37, 25, 23, 14, 8]
+2025-08-24 07:49:43,956 - INFO - Client 37 Train Loss: 0.0306
+2025-08-24 07:49:44,511 - INFO - Client 25 Train Loss: 0.0891
+2025-08-24 07:49:47,110 - INFO - Client 23 Train Loss: 0.0048
+2025-08-24 07:49:48,715 - INFO - Client 14 Train Loss: 0.0262
+2025-08-24 07:49:48,924 - INFO - Client 8 Train Loss: 0.2323
+2025-08-24 07:49:48,924 - INFO - Global Average Train Loss: 0.0766
+2025-08-24 07:49:49,285 - INFO - FedEntropy weights: [0.20001345 0.19998926 0.19995407 0.20002941 0.20001382]
+2025-08-24 07:49:49,304 - INFO - Aggregated using FedEntropy
+2025-08-24 07:49:52,003 - INFO - Global Model Validation Loss: 0.1847, Top1_Accuracy: 93.96%, Top5_Accuracy: 99.97%
+2025-08-24 07:49:52,003 - INFO - Precision: 0.9475, Recall: 0.9396, F1-Score: 0.9394
+2025-08-24 07:49:52,004 - INFO - Confusion Matrix:
+[[ 727    0   65    0    0    0  185    1    1    1]
+ [   0 1130    3    1    0    0    1    0    0    0]
+ [   0    1 1028    0    0    0    2    0    1    0]
+ [   0    0    8  991    0    4    1    2    3    1]
+ [   0    2    4    0  946    0   15    0    0   15]
+ [   0    1    0   11    0  853   19    0    3    5]
+ [   0    3    0    0    1    1  953    0    0    0]
+ [   0    8   69    4    0    0    0  881    0   66]
+ [   1    1   22    0    1    0   30    1  913    5]
+ [   3    3    0    2   15    3    4    4    1  974]]
+2025-08-24 07:49:52,004 - INFO - Starting Round 29/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:49:52,004 - INFO - Selected clients for Round 29: [32, 31, 5, 48, 3]
+2025-08-24 07:49:52,851 - INFO - Client 32 Train Loss: 0.0392
+2025-08-24 07:49:53,275 - INFO - Client 31 Train Loss: 0.0808
+2025-08-24 07:49:53,353 - INFO - Client 5 Train Loss: 0.1853
+2025-08-24 07:49:53,394 - INFO - Client 48 Train Loss: 0.1361
+2025-08-24 07:49:55,680 - INFO - Client 3 Train Loss: 0.0474
+2025-08-24 07:49:55,681 - INFO - Global Average Train Loss: 0.0978
+2025-08-24 07:49:56,044 - INFO - FedEntropy weights: [0.20000064 0.19999171 0.20002422 0.20003062 0.19995281]
+2025-08-24 07:49:56,060 - INFO - Aggregated using FedEntropy
+2025-08-24 07:49:58,600 - INFO - Global Model Validation Loss: 0.1502, Top1_Accuracy: 95.17%, Top5_Accuracy: 99.95%
+2025-08-24 07:49:58,601 - INFO - Precision: 0.9558, Recall: 0.9517, F1-Score: 0.9515
+2025-08-24 07:49:58,602 - INFO - Confusion Matrix:
+[[ 856    0    9    0    1    5   96    0    6    7]
+ [   0 1130    1    2    0    2    0    0    0    0]
+ [   1    3  997    0    2    0    5    5   18    1]
+ [   0    0    3  968    0   24    0    0    7    8]
+ [   0    1    1    0  949    0   15    0    1   15]
+ [   0    0    0    2    0  881    6    0    1    2]
+ [   0    4    0    0    1    1  952    0    0    0]
+ [   0   10   27    3    0    0    0  839    3  146]
+ [   1    1    1    0    1    0    7    0  957    6]
+ [   1    1    0    1   12    4    2    0    0  988]]
+2025-08-24 07:49:58,602 - INFO - Starting Round 30/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:49:58,602 - INFO - Selected clients for Round 30: [7, 9, 40, 10, 43]
+2025-08-24 07:49:59,532 - INFO - Client 7 Train Loss: 0.0499
+2025-08-24 07:50:01,132 - INFO - Client 9 Train Loss: 0.0179
+2025-08-24 07:50:04,470 - INFO - Client 40 Train Loss: 0.0226
+2025-08-24 07:50:05,373 - INFO - Client 10 Train Loss: 0.0567
+2025-08-24 07:50:06,558 - INFO - Client 43 Train Loss: 0.0566
+2025-08-24 07:50:06,558 - INFO - Global Average Train Loss: 0.0407
+2025-08-24 07:50:06,957 - INFO - FedEntropy weights: [0.2000245  0.2000126  0.19994262 0.20003088 0.1999894 ]
+2025-08-24 07:50:06,973 - INFO - Aggregated using FedEntropy
+2025-08-24 07:50:09,547 - INFO - Global Model Validation Loss: 0.2785, Top1_Accuracy: 90.82%, Top5_Accuracy: 99.97%
+2025-08-24 07:50:09,547 - INFO - Precision: 0.9282, Recall: 0.9082, F1-Score: 0.9074
+2025-08-24 07:50:09,548 - INFO - Confusion Matrix:
+[[ 974    2    0    0    1    0    1    0    1    1]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [  21  351  610   14    6    0    2   14   14    0]
+ [   1    3    0  993    0   10    0    1    1    1]
+ [   0   25    0    0  956    0    0    0    0    1]
+ [   8    5    0    2    0  874    1    0    1    1]
+ [  29   14    0    0   20    4  890    0    1    0]
+ [   4  124    4   13    3    1    0  793    1   85]
+ [  24   40    0    0    3    0    3    0  902    2]
+ [   7   15    0    2   25    3    0    2    0  955]]
+2025-08-24 07:50:09,548 - INFO - Starting Round 31/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:50:09,549 - INFO - Selected clients for Round 31: [27, 38, 4, 24, 29]
+2025-08-24 07:50:10,869 - INFO - Client 27 Train Loss: 0.0256
+2025-08-24 07:50:14,046 - INFO - Client 38 Train Loss: 0.0023
+2025-08-24 07:50:15,390 - INFO - Client 4 Train Loss: 0.0294
+2025-08-24 07:50:16,066 - INFO - Client 24 Train Loss: 0.0803
+2025-08-24 07:50:17,056 - INFO - Client 29 Train Loss: 0.0184
+2025-08-24 07:50:17,056 - INFO - Global Average Train Loss: 0.0312
+2025-08-24 07:50:17,422 - INFO - FedEntropy weights: [0.20005025 0.19991221 0.20002448 0.20001085 0.20000221]
+2025-08-24 07:50:17,442 - INFO - Aggregated using FedEntropy
+2025-08-24 07:50:20,053 - INFO - Global Model Validation Loss: 0.1172, Top1_Accuracy: 96.45%, Top5_Accuracy: 99.99%
+2025-08-24 07:50:20,054 - INFO - Precision: 0.9663, Recall: 0.9645, F1-Score: 0.9646
+2025-08-24 07:50:20,054 - INFO - Confusion Matrix:
+[[ 977    0    0    0    0    1    0    1    1    0]
+ [   0 1128    2    2    0    3    0    0    0    0]
+ [  22    0  980    6    4    0    0   15    5    0]
+ [   1    0    0  985    0   17    0    5    1    1]
+ [   2    0    0    0  973    0    0    0    0    7]
+ [   4    0    0    2    0  885    1    0    0    0]
+ [  69    2    0    1   18   14  854    0    0    0]
+ [   5    5   16    6    0    1    0  970    2   23]
+ [  23    0    2    0    1    7    0    4  933    4]
+ [   8    1    0    2   14   18    0    6    0  960]]
+2025-08-24 07:50:20,055 - INFO - Starting Round 32/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:50:20,055 - INFO - Selected clients for Round 32: [33, 16, 35, 0, 43]
+2025-08-24 07:50:21,141 - INFO - Client 33 Train Loss: 0.0180
+2025-08-24 07:50:21,917 - INFO - Client 16 Train Loss: 0.0330
+2025-08-24 07:50:22,525 - INFO - Client 35 Train Loss: 0.0335
+2025-08-24 07:50:23,479 - INFO - Client 0 Train Loss: 0.0425
+2025-08-24 07:50:24,678 - INFO - Client 43 Train Loss: 0.0322
+2025-08-24 07:50:24,678 - INFO - Global Average Train Loss: 0.0319
+2025-08-24 07:50:25,048 - INFO - FedEntropy weights: [0.1999898  0.20000425 0.20001069 0.20001946 0.19997581]
+2025-08-24 07:50:25,064 - INFO - Aggregated using FedEntropy
+2025-08-24 07:50:27,733 - INFO - Global Model Validation Loss: 0.1075, Top1_Accuracy: 96.68%, Top5_Accuracy: 99.95%
+2025-08-24 07:50:27,733 - INFO - Precision: 0.9681, Recall: 0.9668, F1-Score: 0.9666
+2025-08-24 07:50:27,734 - INFO - Confusion Matrix:
+[[ 965    0    2    0    0    1    7    1    4    0]
+ [   0 1130    0    3    0    1    1    0    0    0]
+ [   4    6  912   24    2    0    4   61   19    0]
+ [   0    0    0 1000    0    2    0    6    2    0]
+ [   0    4    0    0  970    0    4    0    2    2]
+ [   2    0    0   14    0  873    1    1    1    0]
+ [   6    3    0    1    1    3  943    0    1    0]
+ [   0    5    3    6    0    0    0 1011    1    2]
+ [   3    0    1    1    1    1    2    5  959    1]
+ [   6    4    0    8   23   17    0   40    6  905]]
+2025-08-24 07:50:27,734 - INFO - Starting Round 33/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:50:27,735 - INFO - Selected clients for Round 33: [46, 7, 43, 34, 48]
+2025-08-24 07:50:29,097 - INFO - Client 46 Train Loss: 0.0538
+2025-08-24 07:50:29,979 - INFO - Client 7 Train Loss: 0.0363
+2025-08-24 07:50:31,224 - INFO - Client 43 Train Loss: 0.0247
+2025-08-24 07:50:33,080 - INFO - Client 34 Train Loss: 0.0200
+2025-08-24 07:50:33,121 - INFO - Client 48 Train Loss: 0.0321
+2025-08-24 07:50:33,121 - INFO - Global Average Train Loss: 0.0334
+2025-08-24 07:50:33,494 - INFO - FedEntropy weights: [0.19996467 0.20001234 0.19998828 0.19999123 0.20004348]
+2025-08-24 07:50:33,511 - INFO - Aggregated using FedEntropy
+2025-08-24 07:50:36,095 - INFO - Global Model Validation Loss: 0.1127, Top1_Accuracy: 96.53%, Top5_Accuracy: 99.98%
+2025-08-24 07:50:36,095 - INFO - Precision: 0.9666, Recall: 0.9653, F1-Score: 0.9652
+2025-08-24 07:50:36,096 - INFO - Confusion Matrix:
+[[ 964    0    1    0    0    1    9    1    4    0]
+ [   0 1125    0    4    0    3    3    0    0    0]
+ [   3    1  965   33    1    1    4   11   13    0]
+ [   0    0    0 1000    0    8    0    1    1    0]
+ [   0    1    1    0  975    0    3    0    1    1]
+ [   1    0    0    6    0  884    1    0    0    0]
+ [   4    1    0    1    1    8  943    0    0    0]
+ [   2    4    8   60    0    1    0  937    5   11]
+ [   5    0    2    3    1    7    2    1  952    1]
+ [   6    2    0    5   23   48    0   11    6  908]]
+2025-08-24 07:50:36,097 - INFO - Starting Round 34/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:50:36,097 - INFO - Selected clients for Round 34: [17, 49, 41, 21, 7]
+2025-08-24 07:50:37,162 - INFO - Client 17 Train Loss: 0.0518
+2025-08-24 07:50:39,033 - INFO - Client 49 Train Loss: 0.0209
+2025-08-24 07:50:43,360 - INFO - Client 41 Train Loss: 0.0030
+2025-08-24 07:50:43,409 - INFO - Client 21 Train Loss: 0.2095
+2025-08-24 07:50:44,327 - INFO - Client 7 Train Loss: 0.0234
+2025-08-24 07:50:44,328 - INFO - Global Average Train Loss: 0.0617
+2025-08-24 07:50:44,701 - INFO - FedEntropy weights: [0.20004687 0.19998318 0.19985674 0.20005887 0.20005434]
+2025-08-24 07:50:44,717 - INFO - Aggregated using FedEntropy
+2025-08-24 07:50:47,278 - INFO - Global Model Validation Loss: 0.0886, Top1_Accuracy: 97.33%, Top5_Accuracy: 99.95%
+2025-08-24 07:50:47,278 - INFO - Precision: 0.9736, Recall: 0.9733, F1-Score: 0.9732
+2025-08-24 07:50:47,279 - INFO - Confusion Matrix:
+[[ 967    0    5    0    0    0    2    1    5    0]
+ [   0 1133    1    1    0    0    0    0    0    0]
+ [   2    2 1008    0    0    0    0    4   16    0]
+ [   1    0    4  986    0   10    0    5    3    1]
+ [   0    5    3    0  963    0    1    0    2    8]
+ [   2    1    0    3    0  876    3    1    6    0]
+ [  12    5    3    0   11    2  919    0    6    0]
+ [   2   14   27    4    0    0    0  950    5   26]
+ [   5    0    2    0    1    0    0    0  965    1]
+ [   7    2    0    1   13    2    0    6   12  966]]
+2025-08-24 07:50:47,279 - INFO - Starting Round 35/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:50:47,280 - INFO - Selected clients for Round 35: [18, 27, 10, 29, 0]
+2025-08-24 07:50:47,768 - INFO - Client 18 Train Loss: 0.0578
+2025-08-24 07:50:49,099 - INFO - Client 27 Train Loss: 0.0217
+2025-08-24 07:50:49,976 - INFO - Client 10 Train Loss: 0.0301
+2025-08-24 07:50:51,007 - INFO - Client 29 Train Loss: 0.0177
+2025-08-24 07:50:51,899 - INFO - Client 0 Train Loss: 0.0488
+2025-08-24 07:50:51,899 - INFO - Global Average Train Loss: 0.0352
+2025-08-24 07:50:52,292 - INFO - FedEntropy weights: [0.20000462 0.20000006 0.19997252 0.20001095 0.20001186]
+2025-08-24 07:50:52,311 - INFO - Aggregated using FedEntropy
+2025-08-24 07:50:54,855 - INFO - Global Model Validation Loss: 0.1413, Top1_Accuracy: 95.62%, Top5_Accuracy: 99.97%
+2025-08-24 07:50:54,855 - INFO - Precision: 0.9591, Recall: 0.9562, F1-Score: 0.9555
+2025-08-24 07:50:54,856 - INFO - Confusion Matrix:
+[[ 975    0    0    0    0    0    1    1    3    0]
+ [   0 1133    0    2    0    0    0    0    0    0]
+ [  17   20  821   13   10    0    1   91   59    0]
+ [   1    0    0  995    0    4    0    7    3    0]
+ [   0    1    0    0  979    0    0    0    2    0]
+ [   4    0    0    7    0  874    1    2    4    0]
+ [  30    5    0    0   17    5  893    0    8    0]
+ [   2    6    1    1    1    0    0 1012    3    2]
+ [   6    0    0    0    2    0    0    5  961    0]
+ [   7    3    0    2   32    6    0   31    9  919]]
+2025-08-24 07:50:54,856 - INFO - Starting Round 36/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:50:54,857 - INFO - Selected clients for Round 36: [46, 16, 32, 48, 11]
+2025-08-24 07:50:56,219 - INFO - Client 46 Train Loss: 0.0849
+2025-08-24 07:50:57,051 - INFO - Client 16 Train Loss: 0.0287
+2025-08-24 07:50:57,869 - INFO - Client 32 Train Loss: 0.0391
+2025-08-24 07:50:57,908 - INFO - Client 48 Train Loss: 0.0202
+2025-08-24 07:50:59,371 - INFO - Client 11 Train Loss: 0.0167
+2025-08-24 07:50:59,371 - INFO - Global Average Train Loss: 0.0379
+2025-08-24 07:50:59,729 - INFO - FedEntropy weights: [0.19991969 0.19997999 0.20003476 0.2000816  0.19998395]
+2025-08-24 07:50:59,745 - INFO - Aggregated using FedEntropy
+2025-08-24 07:51:02,336 - INFO - Global Model Validation Loss: 0.1466, Top1_Accuracy: 95.49%, Top5_Accuracy: 99.93%
+2025-08-24 07:51:02,336 - INFO - Precision: 0.9571, Recall: 0.9549, F1-Score: 0.9546
+2025-08-24 07:51:02,337 - INFO - Confusion Matrix:
+[[ 968    2    0    0    0    1    8    1    0    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [   7   24  990    0    1    0    3    7    0    0]
+ [   1    2    2  980    0   17    0    7    1    0]
+ [   0    8    1    0  961    0   12    0    0    0]
+ [   2    2    0    3    0  880    4    1    0    0]
+ [   6    5    0    0    1    1  945    0    0    0]
+ [   2   37   14    2    4    0    0  967    0    2]
+ [  18   20   13    0    5    9   49    4  854    2]
+ [   8    9    0    2   83   18    0   20    0  869]]
+2025-08-24 07:51:02,337 - INFO - Starting Round 37/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:51:02,337 - INFO - Selected clients for Round 37: [32, 6, 40, 19, 38]
+2025-08-24 07:51:03,142 - INFO - Client 32 Train Loss: 0.0239
+2025-08-24 07:51:03,525 - INFO - Client 6 Train Loss: 0.0550
+2025-08-24 07:51:06,694 - INFO - Client 40 Train Loss: 0.0242
+2025-08-24 07:51:07,172 - INFO - Client 19 Train Loss: 0.0896
+2025-08-24 07:51:10,154 - INFO - Client 38 Train Loss: 0.0031
+2025-08-24 07:51:10,154 - INFO - Global Average Train Loss: 0.0392
+2025-08-24 07:51:10,524 - INFO - FedEntropy weights: [0.20005348 0.20004554 0.19994707 0.20001937 0.19993453]
+2025-08-24 07:51:10,540 - INFO - Aggregated using FedEntropy
+2025-08-24 07:51:13,164 - INFO - Global Model Validation Loss: 0.0937, Top1_Accuracy: 97.09%, Top5_Accuracy: 100.00%
+2025-08-24 07:51:13,164 - INFO - Precision: 0.9715, Recall: 0.9709, F1-Score: 0.9709
+2025-08-24 07:51:13,165 - INFO - Confusion Matrix:
+[[ 976    0    0    0    0    1    1    1    1    0]
+ [   0 1133    0    1    0    1    0    0    0    0]
+ [  17    8  960    0    7    0    1   32    6    1]
+ [   2    0    0  976    0   22    0    7    1    2]
+ [   1    1    0    0  971    0    0    0    0    9]
+ [   3    0    0    2    0  883    1    1    1    1]
+ [  23    5    0    0   14    1  915    0    0    0]
+ [   2    9    9    1    0    0    0  986    0   21]
+ [  16    4    3    1    1    2    5    5  929    8]
+ [   6    1    0    1   12    3    0    6    0  980]]
+2025-08-24 07:51:13,165 - INFO - Starting Round 38/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:51:13,165 - INFO - Selected clients for Round 38: [12, 9, 23, 48, 10]
+2025-08-24 07:51:14,413 - INFO - Client 12 Train Loss: 0.0133
+2025-08-24 07:51:16,065 - INFO - Client 9 Train Loss: 0.0115
+2025-08-24 07:51:18,649 - INFO - Client 23 Train Loss: 0.0115
+2025-08-24 07:51:18,681 - INFO - Client 48 Train Loss: 0.0446
+2025-08-24 07:51:19,548 - INFO - Client 10 Train Loss: 0.0267
+2025-08-24 07:51:19,548 - INFO - Global Average Train Loss: 0.0215
+2025-08-24 07:51:19,915 - INFO - FedEntropy weights: [0.20001222 0.19997642 0.19994022 0.20006955 0.2000016 ]
+2025-08-24 07:51:19,931 - INFO - Aggregated using FedEntropy
+2025-08-24 07:51:22,566 - INFO - Global Model Validation Loss: 0.1861, Top1_Accuracy: 93.58%, Top5_Accuracy: 99.98%
+2025-08-24 07:51:22,566 - INFO - Precision: 0.9438, Recall: 0.9358, F1-Score: 0.9359
+2025-08-24 07:51:22,567 - INFO - Confusion Matrix:
+[[ 971    1    0    0    0    0    6    1    1    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [  16  177  809    1    8    0    4   12    5    0]
+ [   2    6    2  931    0   62    0    4    1    2]
+ [   0    7    0    0  971    0    4    0    0    0]
+ [   2    2    0    0    0  883    3    1    1    0]
+ [   8    5    0    0    1    1  943    0    0    0]
+ [   2   93    7    1    7    0    0  904    0   14]
+ [  11   16    1    0    4    0   14    1  926    1]
+ [   6   10    0    0   94   10    0    4    0  885]]
+2025-08-24 07:51:22,567 - INFO - Starting Round 39/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:51:22,567 - INFO - Selected clients for Round 39: [34, 49, 33, 0, 38]
+2025-08-24 07:51:24,344 - INFO - Client 34 Train Loss: 0.0138
+2025-08-24 07:51:26,129 - INFO - Client 49 Train Loss: 0.0281
+2025-08-24 07:51:27,229 - INFO - Client 33 Train Loss: 0.0165
+2025-08-24 07:51:28,118 - INFO - Client 0 Train Loss: 0.0583
+2025-08-24 07:51:31,235 - INFO - Client 38 Train Loss: 0.0030
+2025-08-24 07:51:31,235 - INFO - Global Average Train Loss: 0.0240
+2025-08-24 07:51:31,658 - INFO - FedEntropy weights: [0.20001058 0.20000424 0.20004691 0.2000072  0.19993108]
+2025-08-24 07:51:31,675 - INFO - Aggregated using FedEntropy
+2025-08-24 07:51:34,184 - INFO - Global Model Validation Loss: 0.1199, Top1_Accuracy: 96.73%, Top5_Accuracy: 99.99%
+2025-08-24 07:51:34,185 - INFO - Precision: 0.9688, Recall: 0.9673, F1-Score: 0.9672
+2025-08-24 07:51:34,185 - INFO - Confusion Matrix:
+[[ 978    0    0    0    0    0    0    1    1    0]
+ [   0 1132    0    2    0    1    0    0    0    0]
+ [  37   10  904    8    3    0    2   43   25    0]
+ [   3    0    0  991    0    8    0    7    1    0]
+ [   2    1    0    0  973    0    3    0    2    1]
+ [   6    0    0    6    0  875    2    1    2    0]
+ [  27    2    0    1    1    3  922    0    2    0]
+ [   2    7    3    1    0    0    0 1012    1    2]
+ [  13    0    1    0    1    0    0    5  953    1]
+ [  15    0    0    2   21   11    0   23    4  933]]
+2025-08-24 07:51:34,186 - INFO - Starting Round 40/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:51:34,186 - INFO - Selected clients for Round 40: [20, 31, 1, 7, 23]
+2025-08-24 07:51:36,037 - INFO - Client 20 Train Loss: 0.0175
+2025-08-24 07:51:36,435 - INFO - Client 31 Train Loss: 0.0478
+2025-08-24 07:51:39,398 - INFO - Client 1 Train Loss: 0.0040
+2025-08-24 07:51:40,341 - INFO - Client 7 Train Loss: 0.0272
+2025-08-24 07:51:42,914 - INFO - Client 23 Train Loss: 0.0056
+2025-08-24 07:51:42,914 - INFO - Global Average Train Loss: 0.0204
+2025-08-24 07:51:43,278 - INFO - FedEntropy weights: [0.20002496 0.20002307 0.19994853 0.20004534 0.1999581 ]
+2025-08-24 07:51:43,296 - INFO - Aggregated using FedEntropy
+2025-08-24 07:51:45,830 - INFO - Global Model Validation Loss: 0.1021, Top1_Accuracy: 97.05%, Top5_Accuracy: 99.97%
+2025-08-24 07:51:45,830 - INFO - Precision: 0.9712, Recall: 0.9705, F1-Score: 0.9704
+2025-08-24 07:51:45,831 - INFO - Confusion Matrix:
+[[ 967    0    0    0    0    1   10    1    1    0]
+ [   0 1127    0    5    0    2    1    0    0    0]
+ [   6    6  959   30    3    0    4   11   13    0]
+ [   0    0    0 1006    0    2    0    1    1    0]
+ [   0    0    0    0  977    0    3    0    0    2]
+ [   1    0    0   12    0  878    1    0    0    0]
+ [   2    2    0    1    1    9  943    0    0    0]
+ [   2    7    9   36    1    0    0  952    2   19]
+ [   4    1    2    7    1    9    5    2  938    5]
+ [   6    0    0    4   21   15    0    5    0  958]]
+2025-08-24 07:51:45,831 - INFO - Starting Round 41/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:51:45,832 - INFO - Selected clients for Round 41: [19, 15, 3, 36, 5]
+2025-08-24 07:51:46,312 - INFO - Client 19 Train Loss: 0.0369
+2025-08-24 07:51:46,398 - INFO - Client 15 Train Loss: 0.0848
+2025-08-24 07:51:48,630 - INFO - Client 3 Train Loss: 0.0359
+2025-08-24 07:51:49,186 - INFO - Client 36 Train Loss: 0.0270
+2025-08-24 07:51:49,250 - INFO - Client 5 Train Loss: 0.1406
+2025-08-24 07:51:49,250 - INFO - Global Average Train Loss: 0.0651
+2025-08-24 07:51:49,603 - INFO - FedEntropy weights: [0.20000419 0.2000059  0.19996245 0.20001529 0.20001217]
+2025-08-24 07:51:49,619 - INFO - Aggregated using FedEntropy
+2025-08-24 07:51:52,101 - INFO - Global Model Validation Loss: 0.0803, Top1_Accuracy: 97.53%, Top5_Accuracy: 99.99%
+2025-08-24 07:51:52,101 - INFO - Precision: 0.9756, Recall: 0.9753, F1-Score: 0.9753
+2025-08-24 07:51:52,104 - INFO - Confusion Matrix:
+[[ 942    0    5    0    4    4   14    1    4    6]
+ [   0 1130    1    2    0    2    0    0    0    0]
+ [   1    4 1009    1    3    0    2    8    3    1]
+ [   0    0    0  994    0    9    0    4    1    2]
+ [   0    0    0    0  974    0    1    0    0    7]
+ [   1    0    0    3    0  885    1    0    1    1]
+ [   0    4    0    0   11    4  938    0    1    0]
+ [   0    8   22    3    0    0    0  950    0   45]
+ [   2    2    4    3    1    2    6    3  943    8]
+ [   1    1    0    1   13    2    0    3    0  988]]
+2025-08-24 07:51:52,104 - INFO - Starting Round 42/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:51:52,104 - INFO - Selected clients for Round 42: [5, 46, 31, 4, 48]
+2025-08-24 07:51:52,175 - INFO - Client 5 Train Loss: 0.1054
+2025-08-24 07:51:53,551 - INFO - Client 46 Train Loss: 0.0488
+2025-08-24 07:51:53,980 - INFO - Client 31 Train Loss: 0.0651
+2025-08-24 07:51:55,225 - INFO - Client 4 Train Loss: 0.0248
+2025-08-24 07:51:55,262 - INFO - Client 48 Train Loss: 0.0721
+2025-08-24 07:51:55,262 - INFO - Global Average Train Loss: 0.0632
+2025-08-24 07:51:55,625 - INFO - FedEntropy weights: [0.20003186 0.19998611 0.19995317 0.1999744  0.20005447]
+2025-08-24 07:51:55,643 - INFO - Aggregated using FedEntropy
+2025-08-24 07:51:58,164 - INFO - Global Model Validation Loss: 0.1009, Top1_Accuracy: 97.01%, Top5_Accuracy: 99.98%
+2025-08-24 07:51:58,165 - INFO - Precision: 0.9712, Recall: 0.9701, F1-Score: 0.9700
+2025-08-24 07:51:58,166 - INFO - Confusion Matrix:
+[[ 918    0    6    0    2    0   40    1    6    7]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [   1   13  996    0    2    0    3    4   13    0]
+ [   0    1    3  982    0   14    0    2    3    5]
+ [   0    3    0    0  963    0    2    0    2   12]
+ [   0    0    0    2    0  881    6    0    1    2]
+ [   0    4    0    0    2    1  949    0    2    0]
+ [   0   16   21    2    0    0    0  918    2   69]
+ [   1    2    1    0    1    0    4    0  962    3]
+ [   0    2    0    1    5    2    0    1    1  997]]
+2025-08-24 07:51:58,166 - INFO - Starting Round 43/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:51:58,166 - INFO - Selected clients for Round 43: [34, 49, 8, 42, 30]
+2025-08-24 07:51:59,964 - INFO - Client 34 Train Loss: 0.0143
+2025-08-24 07:52:01,736 - INFO - Client 49 Train Loss: 0.0133
+2025-08-24 07:52:01,943 - INFO - Client 8 Train Loss: 0.1011
+2025-08-24 07:52:02,210 - INFO - Client 42 Train Loss: 0.0618
+2025-08-24 07:52:02,254 - INFO - Client 30 Train Loss: 0.0111
+2025-08-24 07:52:02,254 - INFO - Global Average Train Loss: 0.0403
+2025-08-24 07:52:02,612 - INFO - FedEntropy weights: [0.19996897 0.19995569 0.2000159  0.20000236 0.20005708]
+2025-08-24 07:52:02,626 - INFO - Aggregated using FedEntropy
+2025-08-24 07:52:05,167 - INFO - Global Model Validation Loss: 0.1030, Top1_Accuracy: 96.90%, Top5_Accuracy: 99.98%
+2025-08-24 07:52:05,167 - INFO - Precision: 0.9700, Recall: 0.9690, F1-Score: 0.9690
+2025-08-24 07:52:05,168 - INFO - Confusion Matrix:
+[[ 917    0    6    0    1    0   42    1   10    3]
+ [   0 1133    0    0    0    2    0    0    0    0]
+ [   0    7  990    1    0    0    4    8   22    0]
+ [   0    1    0  983    0   14    0    4    7    1]
+ [   0    5    2    0  936    0   14    0    5   20]
+ [   0    0    0    2    0  872    5    0   11    2]
+ [   0    4    0    0    1    1  949    0    3    0]
+ [   0   11   24    3    0    1    0  951    5   33]
+ [   0    0    2    0    0    0    0    0  971    1]
+ [   1    1    0    1    1    4    3    3    7  988]]
+2025-08-24 07:52:05,168 - INFO - Starting Round 44/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:52:05,168 - INFO - Selected clients for Round 44: [35, 10, 16, 33, 38]
+2025-08-24 07:52:05,704 - INFO - Client 35 Train Loss: 0.0434
+2025-08-24 07:52:06,655 - INFO - Client 10 Train Loss: 0.0380
+2025-08-24 07:52:07,537 - INFO - Client 16 Train Loss: 0.0155
+2025-08-24 07:52:08,616 - INFO - Client 33 Train Loss: 0.0208
+2025-08-24 07:52:11,643 - INFO - Client 38 Train Loss: 0.0051
+2025-08-24 07:52:11,644 - INFO - Global Average Train Loss: 0.0246
+2025-08-24 07:52:12,003 - INFO - FedEntropy weights: [0.2000217  0.20002048 0.20003286 0.19998845 0.19993651]
+2025-08-24 07:52:12,018 - INFO - Aggregated using FedEntropy
+2025-08-24 07:52:14,553 - INFO - Global Model Validation Loss: 0.1833, Top1_Accuracy: 94.53%, Top5_Accuracy: 99.95%
+2025-08-24 07:52:14,553 - INFO - Precision: 0.9512, Recall: 0.9453, F1-Score: 0.9455
+2025-08-24 07:52:14,554 - INFO - Confusion Matrix:
+[[ 979    0    0    0    0    0    0    1    0    0]
+ [   0 1135    0    0    0    0    0    0    0    0]
+ [  56   41  877    7    1    0    0   49    0    1]
+ [   2    0    0 1001    0    0    0    7    0    0]
+ [   8   14    0    0  931    0    4    1    2   22]
+ [  11    0    0   16    0  863    0    1    0    1]
+ [  65    4    0    1    1    1  886    0    0    0]
+ [   2   11    2    3    0    0    0 1007    0    3]
+ [  97   13   12    4    1    6   11   14  809    7]
+ [   9    6    0    5    4    3    0   17    0  965]]
+2025-08-24 07:52:14,554 - INFO - Starting Round 45/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:52:14,555 - INFO - Selected clients for Round 45: [27, 13, 34, 48, 46]
+2025-08-24 07:52:15,851 - INFO - Client 27 Train Loss: 0.0219
+2025-08-24 07:52:16,604 - INFO - Client 13 Train Loss: 0.0496
+2025-08-24 07:52:18,407 - INFO - Client 34 Train Loss: 0.0175
+2025-08-24 07:52:18,443 - INFO - Client 48 Train Loss: 0.2157
+2025-08-24 07:52:19,768 - INFO - Client 46 Train Loss: 0.0646
+2025-08-24 07:52:19,769 - INFO - Global Average Train Loss: 0.0738
+2025-08-24 07:52:20,123 - INFO - FedEntropy weights: [0.19999842 0.20000695 0.19998329 0.20004789 0.19996346]
+2025-08-24 07:52:20,138 - INFO - Aggregated using FedEntropy
+2025-08-24 07:52:22,717 - INFO - Global Model Validation Loss: 0.0857, Top1_Accuracy: 97.45%, Top5_Accuracy: 100.00%
+2025-08-24 07:52:22,717 - INFO - Precision: 0.9749, Recall: 0.9745, F1-Score: 0.9745
+2025-08-24 07:52:22,718 - INFO - Confusion Matrix:
+[[ 960    1    0    0    1    1   15    1    1    0]
+ [   0 1134    0    0    0    1    0    0    0    0]
+ [   1   16  994    1    2    0    4   14    0    0]
+ [   1    0    0  985    0   16    0    7    1    0]
+ [   0    5    0    0  965    0    9    0    1    2]
+ [   1    0    0    2    0  887    1    1    0    0]
+ [   1    4    0    0    1    1  951    0    0    0]
+ [   0   14   14    3    0    1    0  991    0    5]
+ [   7    4    4    2    1    4   22    5  920    5]
+ [   3    5    0    3   17   12    1   10    0  958]]
+2025-08-24 07:52:22,718 - INFO - Starting Round 46/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:52:22,718 - INFO - Selected clients for Round 46: [44, 12, 45, 19, 25]
+2025-08-24 07:52:24,234 - INFO - Client 44 Train Loss: 0.0284
+2025-08-24 07:52:25,509 - INFO - Client 12 Train Loss: 0.0113
+2025-08-24 07:52:26,990 - INFO - Client 45 Train Loss: 0.0184
+2025-08-24 07:52:27,445 - INFO - Client 19 Train Loss: 0.0425
+2025-08-24 07:52:27,940 - INFO - Client 25 Train Loss: 0.0319
+2025-08-24 07:52:27,940 - INFO - Global Average Train Loss: 0.0265
+2025-08-24 07:52:28,302 - INFO - FedEntropy weights: [0.19996861 0.19999926 0.1999981  0.20003512 0.19999891]
+2025-08-24 07:52:28,317 - INFO - Aggregated using FedEntropy
+2025-08-24 07:52:30,908 - INFO - Global Model Validation Loss: 0.0944, Top1_Accuracy: 97.01%, Top5_Accuracy: 99.98%
+2025-08-24 07:52:30,908 - INFO - Precision: 0.9707, Recall: 0.9701, F1-Score: 0.9700
+2025-08-24 07:52:30,909 - INFO - Confusion Matrix:
+[[ 934    0    0    0    7   10   18    1    4    6]
+ [   0 1133    0    0    0    2    0    0    0    0]
+ [   1   13  956    1   10    0    7   22   21    1]
+ [   0    0    0  966    0   33    0    5    3    3]
+ [   0    0    0    0  980    0    0    0    1    1]
+ [   0    0    0    1    0  888    1    1    1    0]
+ [   0    4    0    0   12    5  936    0    1    0]
+ [   0   10   10    1    2    0    0  984    1   20]
+ [   1    2    1    0    1    0    4    2  959    4]
+ [   1    2    0    1   27    7    0    6    0  965]]
+2025-08-24 07:52:30,910 - INFO - Starting Round 47/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:52:30,910 - INFO - Selected clients for Round 47: [42, 41, 23, 28, 33]
+2025-08-24 07:52:31,243 - INFO - Client 42 Train Loss: 0.0345
+2025-08-24 07:52:35,251 - INFO - Client 41 Train Loss: 0.0046
+2025-08-24 07:52:37,916 - INFO - Client 23 Train Loss: 0.0042
+2025-08-24 07:52:39,080 - INFO - Client 28 Train Loss: 0.0519
+2025-08-24 07:52:40,161 - INFO - Client 33 Train Loss: 0.0201
+2025-08-24 07:52:40,161 - INFO - Global Average Train Loss: 0.0231
+2025-08-24 07:52:40,512 - INFO - FedEntropy weights: [0.20006841 0.19990433 0.19999083 0.20001012 0.20002631]
+2025-08-24 07:52:40,530 - INFO - Aggregated using FedEntropy
+2025-08-24 07:52:43,072 - INFO - Global Model Validation Loss: 0.0922, Top1_Accuracy: 97.30%, Top5_Accuracy: 99.98%
+2025-08-24 07:52:43,072 - INFO - Precision: 0.9737, Recall: 0.9730, F1-Score: 0.9730
+2025-08-24 07:52:43,073 - INFO - Confusion Matrix:
+[[ 973    0    4    0    0    0    2    1    0    0]
+ [   0 1130    1    2    0    0    2    0    0    0]
+ [   2    2 1026    0    0    0    0    1    1    0]
+ [   1    0    2 1004    0    0    0    2    1    0]
+ [   1    4    4    0  961    0    7    0    2    3]
+ [   4    0    0   28    0  852    4    1    2    1]
+ [   8    3    1    1    1    1  943    0    0    0]
+ [   2    7   49   10    1    0    0  953    0    6]
+ [  12    1   16    3    1    0    4    3  932    2]
+ [   8    3    4    7   19    1    0   10    1  956]]
+2025-08-24 07:52:43,073 - INFO - Starting Round 48/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:52:43,074 - INFO - Selected clients for Round 48: [28, 7, 15, 14, 4]
+2025-08-24 07:52:44,233 - INFO - Client 28 Train Loss: 0.0254
+2025-08-24 07:52:45,131 - INFO - Client 7 Train Loss: 0.0283
+2025-08-24 07:52:45,229 - INFO - Client 15 Train Loss: 0.0392
+2025-08-24 07:52:46,706 - INFO - Client 14 Train Loss: 0.0238
+2025-08-24 07:52:47,975 - INFO - Client 4 Train Loss: 0.0307
+2025-08-24 07:52:47,976 - INFO - Global Average Train Loss: 0.0295
+2025-08-24 07:52:48,344 - INFO - FedEntropy weights: [0.19998079 0.20000213 0.20003592 0.19999673 0.19998443]
+2025-08-24 07:52:48,359 - INFO - Aggregated using FedEntropy
+2025-08-24 07:52:50,855 - INFO - Global Model Validation Loss: 0.0930, Top1_Accuracy: 97.09%, Top5_Accuracy: 100.00%
+2025-08-24 07:52:50,855 - INFO - Precision: 0.9718, Recall: 0.9709, F1-Score: 0.9707
+2025-08-24 07:52:50,856 - INFO - Confusion Matrix:
+[[ 974    0    3    0    0    0    2    1    0    0]
+ [   0 1131    1    3    0    0    0    0    0    0]
+ [   2    2 1026    0    0    0    0    1    1    0]
+ [   0    0    1 1009    0    0    0    0    0    0]
+ [   1    1    1    0  972    0    2    0    0    5]
+ [   3    0    0   23    0  864    2    0    0    0]
+ [  10    4    0    0    2    1  941    0    0    0]
+ [   4   13   51   34    0    0    0  897    0   29]
+ [  14    1   12    6    1    0    6    2  925    7]
+ [   6    2    0    6   17    3    0    5    0  970]]
+2025-08-24 07:52:50,856 - INFO - Starting Round 49/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:52:50,856 - INFO - Selected clients for Round 49: [21, 1, 37, 35, 14]
+2025-08-24 07:52:50,910 - INFO - Client 21 Train Loss: 0.1165
+2025-08-24 07:52:53,924 - INFO - Client 1 Train Loss: 0.0022
+2025-08-24 07:52:54,314 - INFO - Client 37 Train Loss: 0.0462
+2025-08-24 07:52:54,870 - INFO - Client 35 Train Loss: 0.0536
+2025-08-24 07:52:56,438 - INFO - Client 14 Train Loss: 0.0133
+2025-08-24 07:52:56,438 - INFO - Global Average Train Loss: 0.0463
+2025-08-24 07:52:56,824 - INFO - FedEntropy weights: [0.20001196 0.19993997 0.20003151 0.19999932 0.20001725]
+2025-08-24 07:52:56,842 - INFO - Aggregated using FedEntropy
+2025-08-24 07:52:59,325 - INFO - Global Model Validation Loss: 0.1151, Top1_Accuracy: 96.56%, Top5_Accuracy: 99.95%
+2025-08-24 07:52:59,325 - INFO - Precision: 0.9666, Recall: 0.9656, F1-Score: 0.9653
+2025-08-24 07:52:59,326 - INFO - Confusion Matrix:
+[[ 964    1    5    0    1    0    8    1    0    0]
+ [   0 1133    0    2    0    0    0    0    0    0]
+ [   1   13  989    3    2    0    2   22    0    0]
+ [   0    0    0 1007    0    0    0    3    0    0]
+ [   0    4    1    0  976    0    0    0    0    1]
+ [   2    3    0   29    0  853    5    0    0    0]
+ [   1    5    0    0    2    1  949    0    0    0]
+ [   1   16    9    7    0    0    0  989    0    6]
+ [  13   19   19   16    4    4   31    8  853    7]
+ [   5    5    0    8   31    3    0   14    0  943]]
+2025-08-24 07:52:59,327 - INFO - Starting Round 50/50 with algorithm fedentropy and model lenet5
+2025-08-24 07:52:59,327 - INFO - Selected clients for Round 50: [37, 14, 0, 4, 45]
+2025-08-24 07:52:59,682 - INFO - Client 37 Train Loss: 0.0367
+2025-08-24 07:53:01,220 - INFO - Client 14 Train Loss: 0.0209
+2025-08-24 07:53:02,070 - INFO - Client 0 Train Loss: 0.0410
+2025-08-24 07:53:03,383 - INFO - Client 4 Train Loss: 0.0403
+2025-08-24 07:53:04,806 - INFO - Client 45 Train Loss: 0.0151
+2025-08-24 07:53:04,807 - INFO - Global Average Train Loss: 0.0308
+2025-08-24 07:53:05,170 - INFO - FedEntropy weights: [0.20003273 0.20001548 0.19998228 0.19994225 0.20002727]
+2025-08-24 07:53:05,187 - INFO - Aggregated using FedEntropy
+2025-08-24 07:53:07,822 - INFO - Global Model Validation Loss: 0.0937, Top1_Accuracy: 96.91%, Top5_Accuracy: 99.95%
+2025-08-24 07:53:07,822 - INFO - Precision: 0.9705, Recall: 0.9691, F1-Score: 0.9690
+2025-08-24 07:53:07,823 - INFO - Confusion Matrix:
+[[ 933    0   15    0    5    0   25    1    1    0]
+ [   0 1133    1    1    0    0    0    0    0    0]
+ [   0    2 1011    0    4    0    1   13    1    0]
+ [   0    1    1  999    0    5    0    3    1    0]
+ [   0    1    1    0  980    0    0    0    0    0]
+ [   2    0    0    6    0  877    5    1    1    0]
+ [   0    4    0    0   10    1  943    0    0    0]
+ [   0    8   13    4    3    1    0  996    0    3]
+ [   4    3    4    2    2    1   14    4  939    1]
+ [   2    5    1    5   94   12    1    9    0  880]]
+2025-08-24 07:53:07,871 - INFO - Metrics saved to outcomes/metrics_lenet5_fedentropy_dong_clients50_rounds50_clientsperround5.csv
+2025-08-24 07:53:08,494 - INFO - Loss plot saved to outcomes/Loss_lenet5_fedentropy_clients50_rounds50_clientsperround5.png
+2025-08-24 07:53:08,694 - INFO - Accuracy plot saved to outcomes/Accuracy_lenet5_fedentropy_clients50_rounds50_clientsperround5.png
